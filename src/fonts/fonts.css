@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Upheaval';
+    src: url('./upheavtt.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Tempesta';
+    src: url('./pf_tempesta_seven_condensed_bold.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'IsaacGame';
+    src: url('./IsaacGame.ttf') format(truetype);
+}

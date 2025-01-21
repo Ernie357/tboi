@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('./fonts/fonts.css');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.slidable > div > div {
+  transform: rotate(180deg); 
+}

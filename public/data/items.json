@@ -1,0 +1,6880 @@
+{
+	"items": {
+		"passive": [
+			{
+				"_cache": "firedelay",
+				"_description": "#THE_SAD_ONION_DESCRIPTION",
+				"_gfx": "Collectibles_001_TheSadOnion.png",
+				"_id": "1",
+				"_name": "#THE_SAD_ONION_NAME"
+			},
+			{
+				"_cache": "firedelay damage",
+				"_description": "#THE_INNER_EYE_DESCRIPTION",
+				"_gfx": "Collectibles_002_TheInnerEye.png",
+				"_id": "2",
+				"_name": "#THE_INNER_EYE_NAME"
+			},
+			{
+				"_cache": "speed tearcolor tearflag",
+				"_description": "#SPOON_BENDER_DESCRIPTION",
+				"_gfx": "Collectibles_003_SpoonBender.png",
+				"_id": "3",
+				"_name": "#SPOON_BENDER_NAME"
+			},
+			{
+				"_cache": "damage shotspeed",
+				"_description": "#CRICKETS_HEAD_DESCRIPTION",
+				"_gfx": "Collectibles_004_CricketsHead.png",
+				"_id": "4",
+				"_name": "#CRICKETS_HEAD_NAME"
+			},
+			{
+				"_cache": "damage luck tearflag shotspeed range",
+				"_description": "#MY_REFLECTION_DESCRIPTION",
+				"_gfx": "Collectibles_005_MyReflection.png",
+				"_id": "5",
+				"_name": "#MY_REFLECTION_NAME"
+			},
+			{
+				"_cache": "firedelay range tearcolor",
+				"_description": "#NUMBER_ONE_DESCRIPTION",
+				"_gfx": "Collectibles_006_NumberOne.png",
+				"_id": "6",
+				"_name": "#NUMBER_ONE_NAME"
+			},
+			{
+				"_cache": "damage",
+				"_description": "#BLOOD_OF_THE_MARTYR_DESCRIPTION",
+				"_gfx": "Collectibles_007_BloodOfTheMartyr.png",
+				"_id": "7",
+				"_name": "#BLOOD_OF_THE_MARTYR_NAME"
+			},
+			{
+				"_description": "#SKATOLE_DESCRIPTION",
+				"_gfx": "Collectibles_009_Skatole.png",
+				"_id": "9",
+				"_name": "#SKATOLE_NAME"
+			},
+			{
+				"_cache": "damage range speed size",
+				"_description": "#MAGIC_MUSHROOM_DESCRIPTION",
+				"_gfx": "Collectibles_012_MagicMushroom.png",
+				"_hearts": "100",
+				"_id": "12",
+				"_maxhearts": "2",
+				"_name": "#MAGIC_MUSHROOM_NAME"
+			},
+			{
+				"_cache": "speed color",
+				"_description": "#THE_VIRUS_DESCRIPTION",
+				"_gfx": "Collectibles_013_TheVirus.png",
+				"_id": "13",
+				"_name": "#THE_VIRUS_NAME"
+			},
+			{
+				"_cache": "range speed",
+				"_description": "#ROID_RAGE_DESCRIPTION",
+				"_gfx": "Collectibles_014_RoidRage.png",
+				"_id": "14",
+				"_name": "#ROID_RAGE_NAME"
+			},
+			{
+				"_description": "#HEART_DESCRIPTION",
+				"_gfx": "Collectibles_015_Heart.png",
+				"_hearts": "99",
+				"_id": "15",
+				"_maxhearts": "2",
+				"_name": "#HEART_NAME"
+			},
+			{
+				"_description": "#RAW_LIVER_DESCRIPTION",
+				"_gfx": "Collectibles_016_RawLiver.png",
+				"_hearts": "99",
+				"_id": "16",
+				"_maxhearts": "4",
+				"_name": "#RAW_LIVER_NAME"
+			},
+			{
+				"_description": "#SKELETON_KEY_DESCRIPTION",
+				"_gfx": "Collectibles_017_SkeletonKey.png",
+				"_id": "17",
+				"_keys": "99",
+				"_name": "#SKELETON_KEY_NAME"
+			},
+			{
+				"_coins": "100",
+				"_description": "#A_DOLLAR_DESCRIPTION",
+				"_gfx": "Collectibles_018_ADollar.png",
+				"_id": "18",
+				"_name": "#A_DOLLAR_NAME"
+			},
+			{
+				"_bombs": "10",
+				"_description": "#BOOM_DESCRIPTION",
+				"_gfx": "Collectibles_019_Boom.png",
+				"_id": "19",
+				"_name": "#BOOM_NAME"
+			},
+			{
+				"_achievement": "8",
+				"_cache": "flying",
+				"_description": "#TRANSCENDENCE_DESCRIPTION",
+				"_gfx": "Collectibles_020_Transcendence.png",
+				"_id": "20",
+				"_name": "#TRANSCENDENCE_NAME"
+			},
+			{
+				"_description": "#THE_COMPASS_DESCRIPTION",
+				"_gfx": "Collectibles_021_TheCompass.png",
+				"_id": "21",
+				"_name": "#THE_COMPASS_NAME"
+			},
+			{
+				"_description": "#LUNCH_DESCRIPTION",
+				"_gfx": "Collectibles_022_Lunch.png",
+				"_hearts": "4",
+				"_id": "22",
+				"_maxhearts": "2",
+				"_name": "#LUNCH_NAME"
+			},
+			{
+				"_description": "#DINNER_DESCRIPTION",
+				"_gfx": "Collectibles_023_Dinner.png",
+				"_hearts": "4",
+				"_id": "23",
+				"_maxhearts": "2",
+				"_name": "#DINNER_NAME"
+			},
+			{
+				"_description": "#DESSERT_DESCRIPTION",
+				"_gfx": "Collectibles_024_Dessert.png",
+				"_hearts": "4",
+				"_id": "24",
+				"_maxhearts": "2",
+				"_name": "#DESSERT_NAME"
+			},
+			{
+				"_description": "#BREAKFAST_DESCRIPTION",
+				"_gfx": "Collectibles_025_Breakfast.png",
+				"_hearts": "4",
+				"_id": "25",
+				"_maxhearts": "2",
+				"_name": "#BREAKFAST_NAME"
+			},
+			{
+				"_description": "#ROTTEN_MEAT_DESCRIPTION",
+				"_gfx": "Collectibles_026_RottenMeat.png",
+				"_hearts": "4",
+				"_id": "26",
+				"_maxhearts": "2",
+				"_name": "#ROTTEN_MEAT_NAME"
+			},
+			{
+				"_cache": "speed",
+				"_description": "#WOODEN_SPOON_DESCRIPTION",
+				"_gfx": "Collectibles_027_WoodenSpoon.png",
+				"_id": "27",
+				"_name": "#WOODEN_SPOON_NAME"
+			},
+			{
+				"_cache": "speed",
+				"_description": "#THE_BELT_DESCRIPTION",
+				"_gfx": "Collectibles_028_TheBelt.png",
+				"_id": "28",
+				"_name": "#THE_BELT_NAME"
+			},
+			{
+				"_cache": "range",
+				"_description": "#MOMS_UNDERWEAR_DESCRIPTION",
+				"_gfx": "Collectibles_029_MomsUnderwear.png",
+				"_id": "29",
+				"_name": "#MOMS_UNDERWEAR_NAME"
+			},
+			{
+				"_cache": "range",
+				"_description": "#MOMS_HEELS_DESCRIPTION",
+				"_gfx": "Collectibles_030_MomsHeels.png",
+				"_id": "30",
+				"_name": "#MOMS_HEELS_NAME"
+			},
+			{
+				"_cache": "range",
+				"_description": "#MOMS_LIPSTICK_DESCRIPTION",
+				"_gfx": "Collectibles_031_MomsLipstick.png",
+				"_id": "31",
+				"_name": "#MOMS_LIPSTICK_NAME"
+			},
+			{
+				"_achievement": "139",
+				"_cache": "firedelay",
+				"_description": "#WIRE_COAT_HANGER_DESCRIPTION",
+				"_gfx": "Collectibles_032_WireCoatHanger.png",
+				"_id": "32",
+				"_name": "#WIRE_COAT_HANGER_NAME"
+			},
+			{
+				"_cache": "luck",
+				"_description": "#LUCKY_FOOT_DESCRIPTION",
+				"_gfx": "Collectibles_046_LuckyFoot.png",
+				"_id": "46",
+				"_name": "#LUCKY_FOOT_NAME"
+			},
+			{
+				"_cache": "tearflag",
+				"_description": "#CUPIDS_ARROW_DESCRIPTION",
+				"_gfx": "Collectibles_048_CupidsArrow.png",
+				"_id": "48",
+				"_name": "#CUPIDS_ARROW_NAME"
+			},
+			{
+				"_cache": "damage",
+				"_description": "#STEVEN_DESCRIPTION",
+				"_gfx": "Collectibles_050_Steven.png",
+				"_id": "50",
+				"_name": "#STEVEN_NAME"
+			},
+			{
+				"_cache": "damage",
+				"_description": "#PENTAGRAM_DESCRIPTION",
+				"_gfx": "Collectibles_051_Pentagram.png",
+				"_id": "51",
+				"_name": "#PENTAGRAM_NAME"
+			},
+			{
+				"_achievement": "11",
+				"_cache": "all",
+				"_description": "#DR_FETUS_DESCRIPTION",
+				"_gfx": "Collectibles_052_DrFetus.png",
+				"_id": "52",
+				"_name": "#DR_FETUS_NAME",
+				"_special": "true"
+			},
+			{
+				"_description": "#MAGNETO_DESCRIPTION",
+				"_gfx": "Collectibles_053_Magneto.png",
+				"_id": "53",
+				"_name": "#MAGNETO_NAME"
+			},
+			{
+				"_description": "#TREASURE_MAP_DESCRIPTION",
+				"_gfx": "Collectibles_054_TreasureMap.png",
+				"_id": "54",
+				"_name": "#TREASURE_MAP_NAME"
+			},
+			{
+				"_description": "#MOMS_EYE_DESCRIPTION",
+				"_gfx": "Collectibles_055_MomsEye.png",
+				"_id": "55",
+				"_name": "#MOMS_EYE_NAME"
+			},
+			{
+				"_cache": "damage",
+				"_description": "#THE_BOOK_OF_BELIAL_DESCRIPTION",
+				"_gfx": "Collectibles_059_TheBookOfBelial.png",
+				"_id": "59",
+				"_maxcharges": "3",
+				"_name": "#THE_BOOK_OF_BELIAL_NAME",
+				"_hidden": "true"
+			},
+			{
+				"_cache": "tearflag",
+				"_description": "#THE_LADDER_DESCRIPTION",
+				"_gfx": "Collectibles_060_TheLadder.png",
+				"_id": "60",
+				"_name": "#THE_LADDER_NAME"
+			},
+			{
+				"_description": "#CHARM_OF_THE_VAMPIRE_DESCRIPTION",
+				"_gfx": "Collectibles_062_CharmOfTheVampire.png",
+				"_id": "62",
+				"_name": "#CHARM_OF_THE_VAMPIRE_NAME",
+				"_cache": "damage"
+			},
+			{
+				"_description": "#THE_BATTERY_DESCRIPTION",
+				"_gfx": "Collectibles_063_TheBattery.png",
+				"_id": "63",
+				"_name": "#THE_BATTERY_NAME"
+			},
+			{
+				"_description": "#STEAM_SALE_DESCRIPTION",
+				"_gfx": "Collectibles_064_SteamSale.png",
+				"_id": "64",
+				"_name": "#STEAM_SALE_NAME"
+			},
+			{
+				"_cache": "all",
+				"_description": "#TECHNOLOGY_DESCRIPTION",
+				"_gfx": "Collectibles_068_Technology.png",
+				"_id": "68",
+				"_name": "#TECHNOLOGY_NAME"
+			},
+			{
+				"_cache": "all",
+				"_description": "#CHOCOLATE_MILK_DESCRIPTION",
+				"_gfx": "Collectibles_069_ChocolateMilk.png",
+				"_id": "69",
+				"_name": "#CHOCOLATE_MILK_NAME"
+			},
+			{
+				"_cache": "damage speed",
+				"_description": "#GROWTH_HORMONES_DESCRIPTION",
+				"_gfx": "Collectibles_070_GrowthHormones.png",
+				"_id": "70",
+				"_name": "#GROWTH_HORMONES_NAME"
+			},
+			{
+				"_cache": "speed range size",
+				"_description": "#MINI_MUSH_DESCRIPTION",
+				"_gfx": "Collectibles_071_MiniMushroom.png",
+				"_id": "71",
+				"_name": "#MINI_MUSH_NAME"
+			},
+			{
+				"_description": "#ROSARY_DESCRIPTION",
+				"_gfx": "Collectibles_072_Rosary.png",
+				"_id": "72",
+				"_name": "#ROSARY_NAME",
+				"_soulhearts": "6",
+				"_cache": "firedelay"
+			},
+			{
+				"_achievement": "10",
+				"_coins": "25",
+				"_description": "#A_QUARTER_DESCRIPTION",
+				"_gfx": "Collectibles_074_AQuarter.png",
+				"_id": "74",
+				"_name": "#A_QUARTER_NAME"
+			},
+			{
+				"_description": "#PHD_DESCRIPTION",
+				"_gfx": "Collectibles_075_PHD.png",
+				"_hearts": "4",
+				"_id": "75",
+				"_name": "#PHD_NAME"
+			},
+			{
+				"_description": "#XRAY_VISION_DESCRIPTION",
+				"_gfx": "Collectibles_076_XrayVision.png",
+				"_id": "76",
+				"_name": "#XRAY_VISION_NAME"
+			},
+			{
+				"_cache": "damage speed",
+				"_description": "#THE_MARK_DESCRIPTION",
+				"_gfx": "Collectibles_079_TheMark.png",
+				"_devilprice": "1",
+				"_id": "79",
+				"_name": "#THE_MARK_NAME",
+				"_blackhearts": "2"
+			},
+			{
+				"_cache": "damage firedelay",
+				"_description": "#THE_PACT_DESCRIPTION",
+				"_devilprice": "2",
+				"_gfx": "Collectibles_080_ThePact.png",
+				"_id": "80",
+				"_name": "#THE_PACT_NAME",
+				"_blackhearts": "4"
+			},
+			{
+				"_cache": "flying speed",
+				"_description": "#LORD_OF_THE_PIT_DESCRIPTION",
+				"_devilprice": "2",
+				"_gfx": "Collectibles_082_LordOfThePit.png",
+				"_id": "82",
+				"_name": "#LORD_OF_THE_PIT_NAME"
+			},
+			{
+				"_achievement": "15",
+				"_description": "#LOKIS_HORNS_DESCRIPTION",
+				"_gfx": "Collectibles_087_LokisHorns.png",
+				"_id": "87",
+				"_name": "#LOKIS_HORNS_NAME"
+			},
+			{
+				"_cache": "tearcolor tearflag",
+				"_description": "#SPIDER_BITE_DESCRIPTION",
+				"_gfx": "Collectibles_089_SpidersBite.png",
+				"_id": "89",
+				"_name": "#SPIDER_BITE_NAME"
+			},
+			{
+				"_achievement": "12",
+				"_cache": "tearcolor damage speed firedelay",
+				"_description": "#THE_SMALL_ROCK_DESCRIPTION",
+				"_gfx": "Collectibles_090_SmallRock.png",
+				"_id": "90",
+				"_name": "#THE_SMALL_ROCK_NAME"
+			},
+			{
+				"_description": "#SPELUNKER_HAT_DESCRIPTION",
+				"_gfx": "Collectibles_091_SpelunkerHat.png",
+				"_id": "91",
+				"_name": "#SPELUNKER_HAT_NAME"
+			},
+			{
+				"_achievement": "19",
+				"_description": "#SUPER_BANDAGE_DESCRIPTION",
+				"_gfx": "Collectibles_092_SuperBandage.png",
+				"_hearts": "4",
+				"_id": "92",
+				"_maxhearts": "2",
+				"_name": "#SUPER_BANDAGE_NAME",
+				"_soulhearts": "4"
+			},
+			{
+				"_achievement": "27",
+				"_cache": "damage firedelay range speed",
+				"_description": "#THE_HALO_DESCRIPTION",
+				"_gfx": "Collectibles_101_TheHalo.png",
+				"_hearts": "4",
+				"_id": "101",
+				"_maxhearts": "2",
+				"_name": "#THE_HALO_NAME"
+			},
+			{
+				"_cache": "tearcolor tearflag",
+				"_description": "#THE_COMMON_COLD_DESCRIPTION",
+				"_gfx": "Collectibles_103_TheCommonCold.png",
+				"_id": "103",
+				"_name": "#THE_COMMON_COLD_NAME"
+			},
+			{
+				"_achievement": "31",
+				"_cache": "tearcolor tearflag",
+				"_description": "#THE_PARASITE_DESCRIPTION",
+				"_gfx": "Collectibles_104_TheParasite.png",
+				"_id": "104",
+				"_name": "#THE_PARASITE_NAME"
+			},
+			{
+				"_achievement": "28",
+				"_bombs": "5",
+				"_description": "#MR_MEGA_DESCRIPTION",
+				"_gfx": "Collectibles_106_MrMega.png",
+				"_id": "106",
+				"_name": "#MR_MEGA_NAME"
+			},
+			{
+				"_description": "#THE_WAFER_DESCRIPTION",
+				"_gfx": "Collectibles_108_TheWafer.png",
+				"_id": "108",
+				"_name": "#THE_WAFER_NAME",
+				"_devilprice": "2"
+			},
+			{
+				"_cache": "damage",
+				"_description": "#MONEY__POWER_DESCRIPTION",
+				"_gfx": "Collectibles_109_MoneyisPower.png",
+				"_id": "109",
+				"_name": "#MONEY__POWER_NAME"
+			},
+			{
+				"_achievement": "35",
+				"_cache": "tearcolor tearflag range",
+				"_description": "#MOMS_CONTACTS_DESCRIPTION",
+				"_gfx": "Collectibles_110_MomsContacts.png",
+				"_id": "110",
+				"_name": "#MOMS_CONTACTS_NAME"
+			},
+			{
+				"_achievement": "43",
+				"_cache": "all",
+				"_description": "#MOMS_KNIFE_DESCRIPTION",
+				"_devilprice": "2",
+				"_gfx": "Collectibles_114_MomsKnife.png",
+				"_id": "114",
+				"_name": "#MOMS_KNIFE_NAME",
+				"_special": "true"
+			},
+			{
+				"_cache": "tearflag tearcolor firedelay",
+				"_description": "#OUIJA_BOARD_DESCRIPTION",
+				"_gfx": "Collectibles_115_OuijaBoard.png",
+				"_id": "115",
+				"_name": "#OUIJA_BOARD_NAME"
+			},
+			{
+				"_description": "#9_VOLT_DESCRIPTION",
+				"_gfx": "Collectibles_116_9Volt.png",
+				"_id": "116",
+				"_name": "#9_VOLT_NAME"
+			},
+			{
+				"_cache": "familiars",
+				"_description": "#DEAD_BIRD_DESCRIPTION",
+				"_gfx": "Collectibles_117_DeadBird.png",
+				"_id": "117",
+				"_name": "#DEAD_BIRD_NAME"
+			},
+			{
+				"_cache": "all",
+				"_description": "#BRIMSTONE_DESCRIPTION",
+				"_devilprice": "2",
+				"_gfx": "Collectibles_118_Brimstone.png",
+				"_id": "118",
+				"_name": "#BRIMSTONE_NAME",
+				"_special": "true"
+			},
+			{
+				"_cache": "speed",
+				"_achievement": "147",
+				"_description": "#BLOOD_BAG_DESCRIPTION",
+				"_gfx": "Collectibles_119_BloodBag.png",
+				"_hearts": "10",
+				"_id": "119",
+				"_maxhearts": "2",
+				"_name": "#BLOOD_BAG_NAME"
+			},
+			{
+				"_cache": "damage firedelay speed size",
+				"_description": "#ODD_MUSHROOM_THIN_DESCRIPTION",
+				"_gfx": "Collectibles_120_OddMushroomThin.png",
+				"_id": "120",
+				"_name": "#ODD_MUSHROOM_THIN_NAME"
+			},
+			{
+				"_cache": "damage speed range size",
+				"_description": "#ODD_MUSHROOM_LARGE_DESCRIPTION",
+				"_gfx": "Collectibles_121_OddMushroomLarge.png",
+				"_id": "121",
+				"_hearts": "2",
+				"_maxhearts": "2",
+				"_name": "#ODD_MUSHROOM_LARGE_NAME"
+			},
+			{
+				"_cache": "damage speed",
+				"_description": "#WHORE_OF_BABYLON_DESCRIPTION",
+				"_gfx": "Collectibles_122_WhoreOFBabylon.png",
+				"_id": "122",
+				"_name": "#WHORE_OF_BABYLON_NAME",
+				"_addcostumeonpickup": "false"
+			},
+			{
+				"_bombs": "5",
+				"_description": "#BOBBYBOMB_DESCRIPTION",
+				"_gfx": "Collectibles_125_BobbyBomb.png",
+				"_id": "125",
+				"_name": "#BOBBYBOMB_NAME"
+			},
+			{
+				"_cache": "speed",
+				"_description": "#BUCKET_OF_LARD_DESCRIPTION",
+				"_gfx": "Collectibles_129_BucketofLard.png",
+				"_hearts": "4",
+				"_id": "129",
+				"_maxhearts": "4",
+				"_name": "#BUCKET_OF_LARD_NAME"
+			},
+			{
+				"_cache": "damage tearflag tearcolor",
+				"_description": "#A_LUMP_OF_COAL_DESCRIPTION",
+				"_gfx": "Collectibles_132_ALumpOfCoal.png",
+				"_id": "132",
+				"_name": "#A_LUMP_OF_COAL_NAME"
+			},
+			{
+				"_description": "#GUPPYS_TAIL_DESCRIPTION",
+				"_gfx": "Collectibles_134_GuppysTail.png",
+				"_id": "134",
+				"_name": "#GUPPYS_TAIL_NAME"
+			},
+			{
+				"_cache": "damage",
+				"_description": "#STIGMATA_DESCRIPTION",
+				"_gfx": "Collectibles_138_Stigmata.png",
+				"_hearts": "4",
+				"_id": "138",
+				"_maxhearts": "2",
+				"_name": "#STIGMATA_NAME"
+			},
+			{
+				"_description": "#MOMS_PURSE_DESCRIPTION",
+				"_gfx": "Collectibles_139_MomsPurse.png",
+				"_id": "139",
+				"_name": "#MOMS_PURSE_NAME"
+			},
+			{
+				"_bombs": "5",
+				"_description": "#BOBS_CURSE_DESCRIPTION",
+				"_gfx": "Collectibles_140_BobsCurse.png",
+				"_id": "140",
+				"_name": "#BOBS_CURSE_NAME"
+			},
+			{
+				"_description": "#PAGEANT_BOY_DESCRIPTION",
+				"_gfx": "Collectibles_141_PageantBoy.png",
+				"_id": "141",
+				"_name": "#PAGEANT_BOY_NAME"
+			},
+			{
+				"_description": "#SCAPULAR_DESCRIPTION",
+				"_gfx": "Collectibles_142_Scapular.png",
+				"_id": "142",
+				"_name": "#SCAPULAR_NAME",
+				"_addcostumeonpickup": "false"
+			},
+			{
+				"_cache": "speed shotspeed",
+				"_description": "#SPEED_BALL_DESCRIPTION",
+				"_gfx": "Collectibles_143_Speedball.png",
+				"_id": "143",
+				"_name": "#SPEED_BALL_NAME"
+			},
+			{
+				"_description": "#INFESTATION_DESCRIPTION",
+				"_gfx": "Collectibles_148_Infestation.png",
+				"_id": "148",
+				"_name": "#INFESTATION_NAME"
+			},
+			{
+				"_achievement": "140",
+				"_cache": "all",
+				"_description": "#IPECAC_DESCRIPTION",
+				"_gfx": "Collectibles_149_Ipecac.png",
+				"_id": "149",
+				"_name": "#IPECAC_NAME"
+			},
+			{
+				"_description": "#TOUGH_LOVE_DESCRIPTION",
+				"_gfx": "Collectibles_150_ToughLove.png",
+				"_id": "150",
+				"_name": "#TOUGH_LOVE_NAME"
+			},
+			{
+				"_cache": "tearflag",
+				"_description": "#THE_MULLIGAN_DESCRIPTION",
+				"_gfx": "Collectibles_151_TheMulligan.png",
+				"_id": "151",
+				"_name": "#THE_MULLIGAN_NAME"
+			},
+			{
+				"_cache": "weapon firedelay",
+				"_description": "#TECHNOLOGY_2_DESCRIPTION",
+				"_gfx": "Collectibles_152_Technology2.png",
+				"_id": "152",
+				"_name": "#TECHNOLOGY_2_NAME"
+			},
+			{
+				"_cache": "firedelay damage",
+				"_description": "#MUTANT_SPIDER_DESCRIPTION",
+				"_gfx": "Collectibles_153_MutantSpider.png",
+				"_id": "153",
+				"_name": "#MUTANT_SPIDER_NAME",
+				"_special": "true"
+			},
+			{
+				"_cache": "damage",
+				"_description": "#CHEMICAL_PEEL_DESCRIPTION",
+				"_gfx": "Collectibles_154_ChemicalPeel.png",
+				"_id": "154",
+				"_name": "#CHEMICAL_PEEL_NAME"
+			},
+			{
+				"_description": "#HABIT_DESCRIPTION",
+				"_gfx": "Collectibles_156_Habit.png",
+				"_id": "156",
+				"_name": "#HABIT_NAME"
+			},
+			{
+				"_achievement": "54",
+				"_cache": "damage color",
+				"_description": "#BLOODY_LUST_DESCRIPTION",
+				"_gfx": "Collectibles_157_BloodyLust.png",
+				"_id": "157",
+				"_name": "#BLOODY_LUST_NAME"
+			},
+			{
+				"_cache": "flying tearflag tearcolor",
+				"_description": "#SPIRIT_OF_THE_NIGHT_DESCRIPTION",
+				"_devilprice": "2",
+				"_gfx": "Collectibles_159_SpiritOfTheNight.png",
+				"_id": "159",
+				"_name": "#SPIRIT_OF_THE_NIGHT_NAME"
+			},
+			{
+				"_description": "#ANKH_DESCRIPTION",
+				"_gfx": "Collectibles_161_Ankh.png",
+				"_id": "161",
+				"_name": "#ANKH_NAME"
+			},
+			{
+				"_achievement": "50",
+				"_cooldown": "200",
+				"_description": "#CELTIC_CROSS_DESCRIPTION",
+				"_gfx": "Collectibles_162_CelticCross.png",
+				"_id": "162",
+				"_name": "#CELTIC_CROSS_NAME"
+			},
+			{
+				"_cache": "shotspeed damage",
+				"_description": "#CATONINETAILS_DESCRIPTION",
+				"_gfx": "Collectibles_165_CatONineTails.png",
+				"_id": "165",
+				"_name": "#CATONINETAILS_NAME"
+			},
+			{
+				"_achievement": "62",
+				"_cache": "all",
+				"_description": "#EPIC_FETUS_DESCRIPTION",
+				"_gfx": "Collectibles_168_EpicFetus.png",
+				"_id": "168",
+				"_name": "#EPIC_FETUS_NAME",
+				"_special": "true"
+			},
+			{
+				"_cache": "damage firedelay tearflag",
+				"_description": "#POLYPHEMUS_DESCRIPTION",
+				"_gfx": "Collectibles_169_Polyphemus.png",
+				"_id": "169",
+				"_name": "#POLYPHEMUS_NAME",
+				"_special": "true"
+			},
+			{
+				"_description": "#MITRE_DESCRIPTION",
+				"_gfx": "Collectibles_173_Mitre.png",
+				"_id": "173",
+				"_name": "#MITRE_NAME"
+			},
+			{
+				"_cache": "shotspeed",
+				"_description": "#STEM_CELLS_DESCRIPTION",
+				"_gfx": "Collectibles_176_StemCells.png",
+				"_hearts": "4",
+				"_id": "176",
+				"_maxhearts": "2",
+				"_name": "#STEM_CELLS_NAME"
+			},
+			{
+				"_achievement": "113",
+				"_cache": "flying",
+				"_description": "#FATE_DESCRIPTION",
+				"_gfx": "Collectibles_179_Fate.png",
+				"_id": "179",
+				"_name": "#FATE_NAME"
+			},
+			{
+				"_description": "#THE_BLACK_BEAN_DESCRIPTION",
+				"_gfx": "Collectibles_180_BlackBean.png",
+				"_id": "180",
+				"_name": "#THE_BLACK_BEAN_NAME",
+				"_cooldown": "30"
+			},
+			{
+				"_cache": "damage firedelay range shotspeed tearcolor tearflag",
+				"_description": "#SACRED_HEART_DESCRIPTION",
+				"_gfx": "Collectibles_182_SacredHeart.png",
+				"_hearts": "99",
+				"_id": "182",
+				"_maxhearts": "2",
+				"_name": "#SACRED_HEART_NAME",
+				"_special": "true",
+				"_devilprice": "2"
+			},
+			{
+				"_cache": "shotspeed firedelay",
+				"_description": "#TOOTH_PICKS_DESCRIPTION",
+				"_gfx": "Collectibles_183_ToothPicks.png",
+				"_id": "183",
+				"_name": "#TOOTH_PICKS_NAME"
+			},
+			{
+				"_cache": "flying",
+				"_description": "#HOLY_GRAIL_DESCRIPTION",
+				"_gfx": "Collectibles_184_HolyGrail.png",
+				"_hearts": "4",
+				"_id": "184",
+				"_maxhearts": "2",
+				"_name": "#HOLY_GRAIL_NAME",
+				"_devilprice": "2"
+			},
+			{
+				"_cache": "flying tearflag tearcolor",
+				"_description": "#DEAD_DOVE_DESCRIPTION",
+				"_gfx": "Collectibles_185_DeadDove.png",
+				"_id": "185",
+				"_name": "#DEAD_DOVE_NAME",
+				"_devilprice": "2"
+			},
+			{
+				"_achievement": "63",
+				"_cache": "firedelay damage speed range",
+				"_description": "#SMB_SUPER_FAN_DESCRIPTION",
+				"_gfx": "Collectibles_189_SMBSuperFan.png",
+				"_hearts": "99",
+				"_id": "189",
+				"_maxhearts": "2",
+				"_name": "#SMB_SUPER_FAN_NAME"
+			},
+			{
+				"_bombs": "99",
+				"_description": "#PYRO_DESCRIPTION",
+				"_gfx": "Collectibles_190_Pyro.png",
+				"_id": "190",
+				"_name": "#PYRO_NAME"
+			},
+			{
+				"_cache": "all",
+				"_description": "#3_DOLLAR_BILL_DESCRIPTION",
+				"_gfx": "Collectibles_191_3DollarBill.png",
+				"_id": "191",
+				"_name": "#3_DOLLAR_BILL_NAME"
+			},
+			{
+				"_cache": "damage",
+				"_description": "#MEAT_DESCRIPTION",
+				"_gfx": "Collectibles_193_Meat.png",
+				"_hearts": "4",
+				"_id": "193",
+				"_maxhearts": "2",
+				"_name": "#MEAT_NAME"
+			},
+			{
+				"_cache": "shotspeed",
+				"_description": "#MAGIC_8_BALL_DESCRIPTION",
+				"_gfx": "Collectibles_194_Magic8Ball.png",
+				"_id": "194",
+				"_name": "#MAGIC_8_BALL_NAME"
+			},
+			{
+				"_description": "#MOMS_COIN_PURSE_DESCRIPTION",
+				"_gfx": "Collectibles_195_MomsCoinPurse.png",
+				"_id": "195",
+				"_name": "#MOMS_COIN_PURSE_NAME"
+			},
+			{
+				"_cache": "firedelay",
+				"_description": "#SQUEEZY_DESCRIPTION",
+				"_gfx": "Collectibles_196_Squeezy.png",
+				"_id": "196",
+				"_name": "#SQUEEZY_NAME"
+			},
+			{
+				"_cache": "damage range",
+				"_description": "#JESUS_JUICE_DESCRIPTION",
+				"_gfx": "Collectibles_197_JesusJuice.png",
+				"_id": "197",
+				"_name": "#JESUS_JUICE_NAME"
+			},
+			{
+				"_description": "#BOX_DESCRIPTION",
+				"_gfx": "Collectibles_198_Box.png",
+				"_id": "198",
+				"_name": "#BOX_NAME"
+			},
+			{
+				"_description": "#MOMS_KEY_DESCRIPTION",
+				"_gfx": "collectibles_199_momskey.png",
+				"_id": "199",
+				"_keys": "2",
+				"_name": "#MOMS_KEY_NAME",
+				"_cache": "pickupvision"
+			},
+			{
+				"_cache": "tearcolor",
+				"_description": "#MOMS_EYESHADOW_DESCRIPTION",
+				"_gfx": "collectibles_200_momseyeshadow.png",
+				"_id": "200",
+				"_name": "#MOMS_EYESHADOW_NAME"
+			},
+			{
+				"_cache": "damage",
+				"_description": "#IRON_BAR_DESCRIPTION",
+				"_gfx": "collectibles_201_ironbar.png",
+				"_id": "201",
+				"_name": "#IRON_BAR_NAME"
+			},
+			{
+				"_description": "#MIDAS_TOUCH_DESCRIPTION",
+				"_gfx": "collectibles_202_midastouch.png",
+				"_id": "202",
+				"_name": "#MIDAS_TOUCH_NAME"
+			},
+			{
+				"_description": "#HUMBLEING_BUNDLE_DESCRIPTION",
+				"_gfx": "collectibles_203_humblingbundle.png",
+				"_id": "203",
+				"_name": "#HUMBLEING_BUNDLE_NAME"
+			},
+			{
+				"_description": "#FANNY_PACK_DESCRIPTION",
+				"_gfx": "collectibles_204_fannypack.png",
+				"_id": "204",
+				"_name": "#FANNY_PACK_NAME"
+			},
+			{
+				"_description": "#SHARP_PLUG_DESCRIPTION",
+				"_gfx": "collectibles_205_sharpplug.png",
+				"_id": "205",
+				"_name": "#SHARP_PLUG_NAME"
+			},
+			{
+				"_cache": "damage",
+				"_description": "#CHAMPION_BELT_DESCRIPTION",
+				"_gfx": "collectibles_208_championbelt.png",
+				"_id": "208",
+				"_name": "#CHAMPION_BELT_NAME"
+			},
+			{
+				"_bombs": "5",
+				"_description": "#BUTT_BOMBS_DESCRIPTION",
+				"_gfx": "collectibles_209_buttbombs.png",
+				"_id": "209",
+				"_name": "#BUTT_BOMBS_NAME"
+			},
+			{
+				"_description": "#GNAWED_LEAF_DESCRIPTION",
+				"_gfx": "Collectibles_210_GnawedLeaf.png",
+				"_id": "210",
+				"_name": "#GNAWED_LEAF_NAME"
+			},
+			{
+				"_description": "#SPIDERBABY_DESCRIPTION",
+				"_gfx": "collectibles_211_spiderbaby.png",
+				"_id": "211",
+				"_name": "#SPIDERBABY_NAME"
+			},
+			{
+				"_description": "#GUPPYS_COLLAR_DESCRIPTION",
+				"_gfx": "Collectibles_212_GuppysCollar.png",
+				"_id": "212",
+				"_name": "#GUPPYS_COLLAR_NAME"
+			},
+			{
+				"_cache": "shotspeed tearflag",
+				"_description": "#LOST_CONTACT_DESCRIPTION",
+				"_gfx": "collectibles_213_lostcontact.png",
+				"_id": "213",
+				"_name": "#LOST_CONTACT_NAME"
+			},
+			{
+				"_cache": "range",
+				"_description": "#ANEMIC_DESCRIPTION",
+				"_gfx": "collectibles_214_anemic.png",
+				"_id": "214",
+				"_name": "#ANEMIC_NAME"
+			},
+			{
+				"_cache": "damage",
+				"_description": "#GOAT_HEAD_DESCRIPTION",
+				"_gfx": "collectibles_215_goathead.png",
+				"_id": "215",
+				"_name": "#GOAT_HEAD_NAME"
+			},
+			{
+				"_cache": "damage",
+				"_blackhearts": "6",
+				"_description": "#CEREMONIAL_ROBES_DESCRIPTION",
+				"_gfx": "Collectibles_216_CeremonialRobes.png",
+				"_id": "216",
+				"_name": "#CEREMONIAL_ROBES_NAME",
+				"_devilprice": "2"
+			},
+			{
+				"_cache": "firedelay",
+				"_description": "#MOMS_WIG_DESCRIPTION",
+				"_gfx": "collectibles_217_momswig.png",
+				"_hearts": "2",
+				"_id": "217",
+				"_name": "#MOMS_WIG_NAME"
+			},
+			{
+				"_description": "#PLACENTA_DESCRIPTION",
+				"_gfx": "collectibles_218_placenta.png",
+				"_hearts": "4",
+				"_id": "218",
+				"_maxhearts": "2",
+				"_name": "#PLACENTA_NAME"
+			},
+			{
+				"_description": "#OLD_BANDAGE_DESCRIPTION",
+				"_gfx": "collectibles_219_oldbandage.png",
+				"_id": "219",
+				"_maxhearts": "2",
+				"_name": "#OLD_BANDAGE_NAME"
+			},
+			{
+				"_bombs": "5",
+				"_description": "#SAD_BOMBS_DESCRIPTION",
+				"_gfx": "collectibles_220_sadbombs.png",
+				"_id": "220",
+				"_name": "#SAD_BOMBS_NAME"
+			},
+			{
+				"_achievement": "150",
+				"_cache": "tearcolor tearflag",
+				"_description": "#RUBBER_CEMENT_DESCRIPTION",
+				"_gfx": "collectibles_221_rubbercement.png",
+				"_id": "221",
+				"_name": "#RUBBER_CEMENT_NAME"
+			},
+			{
+				"_cache": "firedelay tearflag color",
+				"_description": "#ANTIGRAVITY_DESCRIPTION",
+				"_gfx": "collectibles_222_antigravity.png",
+				"_id": "222",
+				"_name": "#ANTIGRAVITY_NAME"
+			},
+			{
+				"_bombs": "5",
+				"_description": "#PYROMANIAC_DESCRIPTION",
+				"_gfx": "collectibles_223_pyromaniac.png",
+				"_id": "223",
+				"_name": "#PYROMANIAC_NAME",
+				"_special": "true"
+			},
+			{
+				"_cache": "firedelay range tearflag",
+				"_description": "#CRICKETS_BODY_DESCRIPTION",
+				"_gfx": "collectibles_224_cricketsbody.png",
+				"_id": "224",
+				"_name": "#CRICKETS_BODY_NAME"
+			},
+			{
+				"_description": "#GIMPY_DESCRIPTION",
+				"_gfx": "collectibles_225_gimpy.png",
+				"_id": "225",
+				"_name": "#GIMPY_NAME"
+			},
+			{
+				"_blackhearts": "2",
+				"_description": "#BLACK_LOTUS_DESCRIPTION",
+				"_gfx": "collectibles_226_blacklotus.png",
+				"_hearts": "4",
+				"_id": "226",
+				"_maxhearts": "2",
+				"_name": "#BLACK_LOTUS_NAME",
+				"_soulhearts": "2"
+			},
+			{
+				"_coins": "3",
+				"_description": "#PIGGY_BANK_DESCRIPTION",
+				"_gfx": "collectibles_227_piggybank.png",
+				"_id": "227",
+				"_name": "#PIGGY_BANK_NAME"
+			},
+			{
+				"_cache": "firedelay tearcolor",
+				"_description": "#MOMS_PERFUME_DESCRIPTION",
+				"_gfx": "collectibles_228_momsperfume.png",
+				"_id": "228",
+				"_name": "#MOMS_PERFUME_NAME"
+			},
+			{
+				"_cache": "all",
+				"_description": "#MONSTROS_LUNG_DESCRIPTION",
+				"_gfx": "collectibles_229_monstroslung.png",
+				"_id": "229",
+				"_name": "#MONSTROS_LUNG_NAME"
+			},
+			{
+				"_achievement": "128",
+				"_cache": "damage speed",
+				"_description": "#ABADDON_DESCRIPTION",
+				"_devilprice": "2",
+				"_gfx": "collectibles_230_abaddon.png",
+				"_id": "230",
+				"_name": "#ABADDON_NAME"
+			},
+			{
+				"_cache": "tearcolor",
+				"_description": "#BALL_OF_TAR_DESCRIPTION",
+				"_gfx": "collectibles_231_balloftar.png",
+				"_id": "231",
+				"_name": "#BALL_OF_TAR_NAME"
+			},
+			{
+				"_achievement": "138",
+				"_cache": "speed",
+				"_description": "#STOP_WATCH_DESCRIPTION",
+				"_gfx": "collectibles_232_stopwatch.png",
+				"_id": "232",
+				"_name": "#STOP_WATCH_NAME"
+			},
+			{
+				"_cache": "all",
+				"_description": "#TINY_PLANET_DESCRIPTION",
+				"_gfx": "collectibles_233_tinyplanet.png",
+				"_id": "233",
+				"_name": "#TINY_PLANET_NAME"
+			},
+			{
+				"_description": "#INFESTATION_2_DESCRIPTION",
+				"_gfx": "collectibles_234_infestation2.png",
+				"_id": "234",
+				"_name": "#INFESTATION_2_NAME"
+			},
+			{
+				"_description": "#E_COLI_DESCRIPTION",
+				"_gfx": "collectibles_236_ecoli.png",
+				"_id": "236",
+				"_name": "#E_COLI_NAME"
+			},
+			{
+				"_achievement": "103",
+				"_cache": "tearflag firedelay damage",
+				"_description": "#DEATHS_TOUCH_DESCRIPTION",
+				"_devilprice": "2",
+				"_gfx": "collectibles_237_deathstouch.png",
+				"_id": "237",
+				"_name": "#DEATHS_TOUCH_NAME"
+			},
+			{
+				"_achievement": "141",
+				"_cache": "all",
+				"_description": "#EXPERIMENTAL_TREATMENT_DESCRIPTION",
+				"_gfx": "collectibles_240_experimentaltreatment.png",
+				"_id": "240",
+				"_name": "#EXPERIMENTAL_TREATMENT_NAME"
+			},
+			{
+				"_description": "#CONTRACT_FROM_BELOW_DESCRIPTION",
+				"_gfx": "collectibles_241_contractfrombelow.png",
+				"_id": "241",
+				"_name": "#CONTRACT_FROM_BELOW_NAME"
+			},
+			{
+				"_description": "#INFAMY_DESCRIPTION",
+				"_gfx": "collectibles_242_infamy.png",
+				"_id": "242",
+				"_name": "#INFAMY_NAME"
+			},
+			{
+				"_cache": "weapon",
+				"_description": "#TRINITY_SHIELD_DESCRIPTION",
+				"_gfx": "collectibles_243_trinityshield.png",
+				"_id": "243",
+				"_name": "#TRINITY_SHIELD_NAME"
+			},
+			{
+				"_achievement": "104",
+				"_description": "#TECH5_DESCRIPTION",
+				"_gfx": "collectibles_244_techpointfive.png",
+				"_id": "244",
+				"_name": "#TECH5_NAME"
+			},
+			{
+				"_description": "#2020_DESCRIPTION",
+				"_gfx": "collectibles_245_2020.png",
+				"_id": "245",
+				"_name": "#2020_NAME",
+				"_cache": "damage firedelay"
+			},
+			{
+				"_achievement": "134",
+				"_description": "#BLUE_MAP_DESCRIPTION",
+				"_gfx": "collectibles_246_bluemap.png",
+				"_id": "246",
+				"_name": "#BLUE_MAP_NAME"
+			},
+			{
+				"_description": "#BFFS_DESCRIPTION",
+				"_gfx": "collectibles_247_bffs.png",
+				"_id": "247",
+				"_name": "#BFFS_NAME"
+			},
+			{
+				"_description": "#HIVE_MIND_DESCRIPTION",
+				"_gfx": "collectibles_248_hivemind.png",
+				"_id": "248",
+				"_name": "#HIVE_MIND_NAME"
+			},
+			{
+				"_achievement": "135",
+				"_description": "#THERES_OPTIONS_DESCRIPTION",
+				"_gfx": "collectibles_249_theresoptions.png",
+				"_id": "249",
+				"_name": "#THERES_OPTIONS_NAME"
+			},
+			{
+				"_description": "#BOGO_BOMBS_DESCRIPTION",
+				"_gfx": "collectibles_250_bogobombs.png",
+				"_id": "250",
+				"_name": "#BOGO_BOMBS_NAME"
+			},
+			{
+				"_description": "#STARTER_DECK_DESCRIPTION",
+				"_gfx": "collectibles_251_starterdeck.png",
+				"_id": "251",
+				"_name": "#STARTER_DECK_NAME"
+			},
+			{
+				"_achievement": "146",
+				"_description": "#LITTLE_BAGGY_DESCRIPTION",
+				"_gfx": "collectibles_252_littlebaggy.png",
+				"_id": "252",
+				"_name": "#LITTLE_BAGGY_NAME"
+			},
+			{
+				"_cache": "luck",
+				"_description": "#MAGIC_SCAB_DESCRIPTION",
+				"_gfx": "collectibles_253_magicscab.png",
+				"_hearts": "4",
+				"_id": "253",
+				"_maxhearts": "2",
+				"_name": "#MAGIC_SCAB_NAME"
+			},
+			{
+				"_description": "#BLOOD_CLOT_DESCRIPTION",
+				"_gfx": "collectibles_254_bloodclot.png",
+				"_id": "254",
+				"_name": "#BLOOD_CLOT_NAME"
+			},
+			{
+				"_cache": "firedelay shotspeed",
+				"_description": "#SCREW_DESCRIPTION",
+				"_gfx": "collectibles_255_screw.png",
+				"_id": "255",
+				"_name": "#SCREW_NAME"
+			},
+			{
+				"_bombs": "5",
+				"_description": "#HOT_BOMBS_DESCRIPTION",
+				"_gfx": "collectibles_256_hotbombs.png",
+				"_id": "256",
+				"_name": "#HOT_BOMBS_NAME"
+			},
+			{
+				"_cache": "tearflag tearcolor",
+				"_description": "#FIRE_MIND_DESCRIPTION",
+				"_gfx": "collectibles_257_firemind.png",
+				"_id": "257",
+				"_name": "#FIRE_MIND_NAME"
+			},
+			{
+				"_achievement": "105",
+				"_cache": "all",
+				"_description": "#MISSING_NO_DESCRIPTION",
+				"_gfx": "collectibles_258_missingno.png",
+				"_id": "258",
+				"_name": "#MISSING_NO_NAME"
+			},
+			{
+				"_cache": "damage tearcolor tearflag",
+				"_description": "#DARK_MATTER_DESCRIPTION",
+				"_gfx": "collectibles_259_darkmatter.png",
+				"_devilprice": "1",
+				"_id": "259",
+				"_name": "#DARK_MATTER_NAME"
+			},
+			{
+				"_cache": "damage pickupvision",
+				"_achievement": "136",
+				"_blackhearts": "2",
+				"_description": "#BLACK_CANDLE_DESCRIPTION",
+				"_gfx": "collectibles_260_blackcandle.png",
+				"_id": "260",
+				"_name": "#BLACK_CANDLE_NAME"
+			},
+			{
+				"_cache": "tearflag damage",
+				"_description": "#PROPTOSIS_DESCRIPTION",
+				"_gfx": "collectibles_261_proptosis.png",
+				"_id": "261",
+				"_name": "#PROPTOSIS_NAME"
+			},
+			{
+				"_cache": "damage",
+				"_blackhearts": "2",
+				"_description": "#MISSING_PAGE_2_DESCRIPTION",
+				"_gfx": "collectibles_262_missingpage2.png",
+				"_id": "262",
+				"_name": "#MISSING_PAGE_2_NAME"
+			},
+			{
+				"_cache": "speed",
+				"_description": "#TAURUS_DESCRIPTION",
+				"_gfx": "collectibles_299_taurus.png",
+				"_id": "299",
+				"_name": "#TAURUS_NAME"
+			},
+			{
+				"_cache": "speed",
+				"_description": "#ARIES_DESCRIPTION",
+				"_gfx": "collectibles_300_aries.png",
+				"_id": "300",
+				"_name": "#ARIES_NAME"
+			},
+			{
+				"_description": "#CANCER_DESCRIPTION",
+				"_gfx": "collectibles_301_cancer.png",
+				"_id": "301",
+				"_name": "#CANCER_NAME",
+				"_soulhearts": "6"
+			},
+			{
+				"_cache": "size",
+				"_description": "#LEO_DESCRIPTION",
+				"_gfx": "collectibles_302_leo.png",
+				"_id": "302",
+				"_name": "#LEO_NAME"
+			},
+			{
+				"_description": "#VIRGO_DESCRIPTION",
+				"_gfx": "collectibles_303_virgo.png",
+				"_id": "303",
+				"_name": "#VIRGO_NAME"
+			},
+			{
+				"_bombs": "6",
+				"_cache": "speed firedelay damage range",
+				"_coins": "6",
+				"_description": "#LIBRA_DESCRIPTION",
+				"_gfx": "collectibles_304_libra.png",
+				"_id": "304",
+				"_keys": "6",
+				"_name": "#LIBRA_NAME"
+			},
+			{
+				"_cache": "tearflag tearcolor",
+				"_description": "#SCORPIO_DESCRIPTION",
+				"_gfx": "collectibles_305_scorpio.png",
+				"_id": "305",
+				"_name": "#SCORPIO_NAME"
+			},
+			{
+				"_cache": "tearflag speed",
+				"_description": "#SAGITTARIUS_DESCRIPTION",
+				"_gfx": "collectibles_306_sagittarius.png",
+				"_id": "306",
+				"_name": "#SAGITTARIUS_NAME"
+			},
+			{
+				"_bombs": "1",
+				"_cache": "speed firedelay damage range",
+				"_coins": "1",
+				"_description": "#CAPRICORN_DESCRIPTION",
+				"_gfx": "collectibles_307_capricorn.png",
+				"_hearts": "4",
+				"_id": "307",
+				"_keys": "1",
+				"_maxhearts": "2",
+				"_name": "#CAPRICORN_NAME"
+			},
+			{
+				"_description": "#AQUARIUS_DESCRIPTION",
+				"_gfx": "collectibles_308_aquarius.png",
+				"_id": "308",
+				"_name": "#AQUARIUS_NAME"
+			},
+			{
+				"_cache": "firedelay tearflag",
+				"_description": "#PISCES_DESCRIPTION",
+				"_gfx": "collectibles_309_pisces.png",
+				"_id": "309",
+				"_name": "#PISCES_NAME"
+			},
+			{
+				"_achievement": "112",
+				"_cache": "shotspeed damage tearcolor firedelay",
+				"_description": "#EVES_MASCARA_DESCRIPTION",
+				"_gfx": "collectibles_310_evesmascara.png",
+				"_id": "310",
+				"_name": "#EVES_MASCARA_NAME"
+			},
+			{
+				"_achievement": "108",
+				"_description": "#JUDAS_SHADOW_DESCRIPTION",
+				"_devilprice": "2",
+				"_gfx": "collectibles_311_judasshadow.png",
+				"_id": "311",
+				"_name": "#JUDAS_SHADOW_NAME",
+				"_addcostumeonpickup": "false"
+			},
+			{
+				"_achievement": "109",
+				"_description": "#MAGGYS_BOW_DESCRIPTION",
+				"_gfx": "collectibles_312_maggysbow.png",
+				"_hearts": "4",
+				"_id": "312",
+				"_maxhearts": "2",
+				"_name": "#MAGGYS_BOW_NAME"
+			},
+			{
+				"_description": "#HOLY_MANTLE_DESCRIPTION",
+				"_gfx": "collectibles_313_holymantle.png",
+				"_id": "313",
+				"_name": "#HOLY_MANTLE_NAME",
+				"_addcostumeonpickup": "false",
+				"_devilprice": "2"
+			},
+			{
+				"_cache": "speed",
+				"_description": "#THUNDER_THIGHS_DESCRIPTION",
+				"_gfx": "collectibles_314_thunderthighs.png",
+				"_hearts": "4",
+				"_id": "314",
+				"_maxhearts": "2",
+				"_name": "#THUNDER_THIGHS_NAME"
+			},
+			{
+				"_cache": "tearflag tearcolor",
+				"_description": "#STRANGE_ATTRACTOR_DESCRIPTION",
+				"_gfx": "collectibles_315_strangeattractor.png",
+				"_id": "315",
+				"_name": "#STRANGE_ATTRACTOR_NAME"
+			},
+			{
+				"_cache": "all",
+				"_description": "#CURSED_EYE_DESCRIPTION",
+				"_gfx": "collectibles_316_cursedeye.png",
+				"_id": "316",
+				"_name": "#CURSED_EYE_NAME"
+			},
+			{
+				"_cache": "tearflag tearcolor",
+				"_description": "#MYSTERIOUS_LIQUID_DESCRIPTION",
+				"_gfx": "collectibles_317_mysteriousliquid.png",
+				"_id": "317",
+				"_name": "#MYSTERIOUS_LIQUID_NAME"
+			},
+			{
+				"_achievement": "57",
+				"_cooldown": "150",
+				"_description": "#THE_POLAROID_DESCRIPTION",
+				"_gfx": "collectibles_327_thepolaroid.png",
+				"_id": "327",
+				"_name": "#THE_POLAROID_NAME"
+			},
+			{
+				"_achievement": "78",
+				"_cache": "damage",
+				"_description": "#THE_NEGATIVE_DESCRIPTION",
+				"_gfx": "collectibles_328_thenegative.png",
+				"_id": "328",
+				"_name": "#THE_NEGATIVE_NAME"
+			},
+			{
+				"_cache": "all",
+				"_description": "#THE_LUDOVICO_TECHNIQUE_DESCRIPTION",
+				"_gfx": "collectibles_329_theludovicotechnique.png",
+				"_id": "329",
+				"_name": "#THE_LUDOVICO_TECHNIQUE_NAME",
+				"_special": "true"
+			},
+			{
+				"_cache": "firedelay damage tearcolor",
+				"_description": "#SOY_MILK_DESCRIPTION",
+				"_gfx": "collectibles_330_soymilk.png",
+				"_id": "330",
+				"_name": "#SOY_MILK_NAME"
+			},
+			{
+				"_achievement": "156",
+				"_cache": "tearflag shotspeed firedelay range damage",
+				"_description": "#GODHEAD_DESCRIPTION",
+				"_gfx": "collectibles_331_godhead.png",
+				"_id": "331",
+				"_name": "#GODHEAD_NAME",
+				"_special": "true",
+				"_devilprice": "2"
+			},
+			{
+				"_achievement": "116",
+				"_cache": "",
+				"_description": "#LAZARUS_RAGS_DESCRIPTION",
+				"_gfx": "collectibles_332_lazarusrags.png",
+				"_id": "332",
+				"_name": "#LAZARUS_RAGS_NAME"
+			},
+			{
+				"_achievement": "130",
+				"_cache": "",
+				"_description": "#THE_MIND_DESCRIPTION",
+				"_gfx": "collectibles_333_mind.png",
+				"_id": "333",
+				"_name": "#THE_MIND_NAME",
+				"_devilprice": "2"
+			},
+			{
+				"_achievement": "131",
+				"_cache": "",
+				"_description": "#THE_BODY_DESCRIPTION",
+				"_gfx": "collectibles_334_body.png",
+				"_hearts": "6",
+				"_id": "334",
+				"_maxhearts": "6",
+				"_name": "#THE_BODY_NAME",
+				"_devilprice": "2"
+			},
+			{
+				"_achievement": "132",
+				"_cache": "",
+				"_description": "#THE_SOUL_DESCRIPTION",
+				"_gfx": "collectibles_335_soul.png",
+				"_id": "335",
+				"_name": "#THE_SOUL_NAME",
+				"_soulhearts": "4",
+				"_devilprice": "2"
+			},
+			{
+				"_cache": "tearcolor tearflag range shotspeed",
+				"_description": "#DEAD_ONION_DESCRIPTION",
+				"_gfx": "collectibles_336_deadonion.png",
+				"_id": "336",
+				"_name": "#DEAD_ONION_NAME"
+			},
+			{
+				"_cache": "",
+				"_description": "#BROKEN_WATCH_DESCRIPTION",
+				"_gfx": "collectibles_337_brokenwatch.png",
+				"_id": "337",
+				"_name": "#BROKEN_WATCH_NAME"
+			},
+			{
+				"_blackhearts": "2",
+				"_cache": "range shotspeed damage",
+				"_description": "#SAFETY_PIN_DESCRIPTION",
+				"_gfx": "collectibles_339_SafetyPin.png",
+				"_id": "339",
+				"_name": "#SAFETY_PIN_NAME"
+			},
+			{
+				"_cache": "speed size",
+				"_description": "#CAFFEINE_PILL_DESCRIPTION",
+				"_gfx": "collectibles_340_CaffeinePill.png",
+				"_id": "340",
+				"_name": "#CAFFEINE_PILL_NAME"
+			},
+			{
+				"_cache": "shotspeed firedelay",
+				"_description": "#TORN_PHOTO_DESCRIPTION",
+				"_gfx": "collectibles_341_TornPhoto.png",
+				"_id": "341",
+				"_name": "#TORN_PHOTO_NAME"
+			},
+			{
+				"_cache": "shotspeed firedelay",
+				"_description": "#BLUE_CAP_DESCRIPTION",
+				"_gfx": "collectibles_342_BlueCap.png",
+				"_hearts": "4",
+				"_id": "342",
+				"_maxhearts": "2",
+				"_name": "#BLUE_CAP_NAME"
+			},
+			{
+				"_cache": "luck",
+				"_description": "#LATCH_KEY_DESCRIPTION",
+				"_gfx": "collectibles_343_LatchKey.png",
+				"_id": "343",
+				"_name": "#LATCH_KEY_NAME",
+				"_soulhearts": "2"
+			},
+			{
+				"_cache": "damage",
+				"_blackhearts": "2",
+				"_description": "#MATCH_BOOK_DESCRIPTION",
+				"_gfx": "collectibles_344_MatchBook.png",
+				"_id": "344",
+				"_name": "#MATCH_BOOK_NAME"
+			},
+			{
+				"_cache": "damage range",
+				"_description": "#SYNTHOIL_DESCRIPTION",
+				"_gfx": "collectibles_345_Synthoil.png",
+				"_id": "345",
+				"_name": "#SYNTHOIL_NAME"
+			},
+			{
+				"_description": "#A_SNACK_DESCRIPTION",
+				"_gfx": "collectibles_346_ASnack.png",
+				"_hearts": "4",
+				"_id": "346",
+				"_maxhearts": "2",
+				"_name": "#A_SNACK_NAME"
+			},
+			{
+				"_description": "#TOXIC_SHOCK_DESCRIPTION",
+				"_gfx": "Collectibles_350_ToxicShock.png",
+				"_id": "350",
+				"_name": "#TOXIC_SHOCK_NAME",
+				"_cache": "color"
+			},
+			{
+				"_description": "#BOMBER_BOY_DESCRIPTION",
+				"_gfx": "Collectibles_353_BomberBoy.png",
+				"_id": "353",
+				"_name": "#BOMBER_BOY_NAME",
+				"_bombs": "5"
+			},
+			{
+				"_description": "#CRACK_JACKS_DESCRIPTION",
+				"_gfx": "Collectibles_354_CrackJacks.png",
+				"_id": "354",
+				"_name": "#CRACK_JACKS_NAME",
+				"_maxhearts": "2",
+				"_hearts": "4"
+			},
+			{
+				"_description": "#MOMS_PEARLS_DESCRIPTION",
+				"_gfx": "Collectibles_355_MomsPearls.png",
+				"_id": "355",
+				"_name": "#MOMS_PEARLS_NAME",
+				"_cache": "luck range",
+				"_soulhearts": "2"
+			},
+			{
+				"_description": "#CAR_BATTERY_DESCRIPTION",
+				"_gfx": "Collectibles_356_CarBattery.png",
+				"_id": "356",
+				"_name": "#CAR_BATTERY_NAME"
+			},
+			{
+				"_description": "#THE_WIZ_DESCRIPTION",
+				"_gfx": "Collectibles_358_TheWiz.png",
+				"_id": "358",
+				"_name": "#THE_WIZ_NAME",
+				"_cache": "tearflag"
+			},
+			{
+				"_description": "#8_INCH_NAILS_DESCRIPTION",
+				"_gfx": "Collectibles_359_8InchNails.png",
+				"_id": "359",
+				"_name": "#8_INCH_NAILS_NAME",
+				"_cache": "damage tearflag"
+			},
+			{
+				"_description": "#SCATTER_BOMBS_DESCRIPTION",
+				"_gfx": "Collectibles_366_ScatterBombs.png",
+				"_id": "366",
+				"_name": "#SCATTER_BOMBS_NAME",
+				"_bombs": "5"
+			},
+			{
+				"_description": "#STICKY_BOMBS_DESCRIPTION",
+				"_gfx": "Collectibles_367_StickyBombs.png",
+				"_id": "367",
+				"_name": "#STICKY_BOMBS_NAME",
+				"_bombs": "5"
+			},
+			{
+				"_description": "#EPIPHORA_DESCRIPTION",
+				"_gfx": "Collectibles_368_Epiphora.png",
+				"_id": "368",
+				"_name": "#EPIPHORA_NAME",
+				"_cache": "firedelay"
+			},
+			{
+				"_description": "#CONTINUUM_DESCRIPTION",
+				"_gfx": "Collectibles_369_Continuum.png",
+				"_id": "369",
+				"_name": "#CONTINUUM_NAME",
+				"_cache": "tearflag range"
+			},
+			{
+				"_description": "#MR_DOLLY_DESCRIPTION",
+				"_gfx": "Collectibles_370_MrDolly.png",
+				"_id": "370",
+				"_name": "#MR_DOLLY_NAME",
+				"_cache": "range firedelay"
+			},
+			{
+				"_description": "#CURSE_OF_THE_TOWER_DESCRIPTION",
+				"_gfx": "Collectibles_371_CurseOfTheTower.png",
+				"_id": "371",
+				"_name": "#CURSE_OF_THE_TOWER_NAME"
+			},
+			{
+				"_description": "#DEAD_EYE_DESCRIPTION",
+				"_gfx": "Collectibles_373_DeadEye.png",
+				"_id": "373",
+				"_name": "#DEAD_EYE_NAME",
+				"_cache": "damage"
+			},
+			{
+				"_description": "#HOLY_LIGHT_DESCRIPTION",
+				"_gfx": "Collectibles_374_HolyLight.png",
+				"_id": "374",
+				"_name": "#HOLY_LIGHT_NAME",
+				"_devilprice": "2"
+			},
+			{
+				"_description": "#HOST_HAT_DESCRIPTION",
+				"_gfx": "Collectibles_375_HostHat.png",
+				"_id": "375",
+				"_name": "#HOST_HAT_NAME"
+			},
+			{
+				"_description": "#RESTOCK_DESCRIPTION",
+				"_gfx": "Collectibles_376_Restock.png",
+				"_id": "376",
+				"_name": "#RESTOCK_NAME"
+			},
+			{
+				"_description": "#BURSTING_SACK_DESCRIPTION",
+				"_gfx": "Collectibles_377_BurstingSack.png",
+				"_id": "377",
+				"_name": "#BURSTING_SACK_NAME"
+			},
+			{
+				"_description": "#NUMBER_TWO_DESCRIPTION",
+				"_gfx": "Collectibles_378_NumberTwo.png",
+				"_id": "378",
+				"_name": "#NUMBER_TWO_NAME"
+			},
+			{
+				"_description": "#PUPULA_DUPLEX_DESCRIPTION",
+				"_gfx": "Collectibles_379_PupulaDuplex.png",
+				"_id": "379",
+				"_name": "#PUPULA_DUPLEX_NAME",
+				"_cache": "tearflag"
+			},
+			{
+				"_description": "#PAY_TO_PLAY_DESCRIPTION",
+				"_gfx": "Collectibles_380_PayToPlay.png",
+				"_id": "380",
+				"_name": "#PAY_TO_PLAY_NAME",
+				"_coins": "5"
+			},
+			{
+				"_achievement": "188",
+				"_description": "#EDENS_BLESSING_DESCRIPTION",
+				"_gfx": "Collectibles_381_EdensBlessing.png",
+				"_id": "381",
+				"_name": "#EDENS_BLESSING_NAME",
+				"_cache": "firedelay"
+			},
+			{
+				"_achievement": "182",
+				"_description": "#BETRAYAL_DESCRIPTION",
+				"_gfx": "Collectibles_391_Betrayal.png",
+				"_id": "391",
+				"_name": "#BETRAYAL_NAME"
+			},
+			{
+				"_achievement": "202",
+				"_description": "#ZODIAC_DESCRIPTION",
+				"_gfx": "Collectibles_392_Zodiac.png",
+				"_id": "392",
+				"_name": "#ZODIAC_NAME"
+			},
+			{
+				"_achievement": "220",
+				"_description": "#SERPENTS_KISS_DESCRIPTION",
+				"_gfx": "Collectibles_393_SerpentsKiss.png",
+				"_id": "393",
+				"_name": "#SERPENTS_KISS_NAME"
+			},
+			{
+				"_description": "#MARKED_DESCRIPTION",
+				"_gfx": "Collectibles_394_Marked.png",
+				"_id": "394",
+				"_name": "#MARKED_NAME",
+				"_cache": "firedelay range"
+			},
+			{
+				"_description": "#TECH_X_DESCRIPTION",
+				"_gfx": "Collectibles_395_TechX.png",
+				"_id": "395",
+				"_name": "#TECH_X_NAME",
+				"_cache": "all"
+			},
+			{
+				"_description": "#TRACTOR_BEAM_DESCRIPTION",
+				"_gfx": "Collectibles_397_TractorBeam.png",
+				"_id": "397",
+				"_name": "#TRACTOR_BEAM_NAME",
+				"_cache": "firedelay tearflag range shotspeed"
+			},
+			{
+				"_description": "#GODS_FLESH_DESCRIPTION",
+				"_gfx": "Collectibles_398_GodsFlesh.png",
+				"_id": "398",
+				"_name": "#GODS_FLESH_NAME",
+				"_cache": "tearcolor"
+			},
+			{
+				"_achievement": "186",
+				"_description": "#MAW_OF_THE_VOID_DESCRIPTION",
+				"_gfx": "Collectibles_399_MawOfTheVoid.png",
+				"_id": "399",
+				"_name": "#MAW_OF_THE_VOID_NAME",
+				"_cache": "tearcolor",
+				"_devilprice": "2"
+			},
+			{
+				"_description": "#SPEAR_OF_DESTINY_DESCRIPTION",
+				"_gfx": "Collectibles_400_SpearOfDestiny.png",
+				"_id": "400",
+				"_name": "#SPEAR_OF_DESTINY_NAME"
+			},
+			{
+				"_description": "#EXPLOSIVO_DESCRIPTION",
+				"_gfx": "Collectibles_401_Explosivo.png",
+				"_id": "401",
+				"_name": "#EXPLOSIVO_NAME",
+				"_cache": "tearflag tearcolor"
+			},
+			{
+				"_description": "#CHAOS_DESCRIPTION",
+				"_gfx": "Collectibles_402_Chaos.png",
+				"_id": "402",
+				"_name": "#CHAOS_NAME"
+			},
+			{
+				"_achievement": "180",
+				"_description": "#PURITY_DESCRIPTION",
+				"_gfx": "Collectibles_407_Purity.png",
+				"_id": "407",
+				"_name": "#PURITY_NAME",
+				"_cache": "damage firedelay speed range"
+			},
+			{
+				"_achievement": "184",
+				"_description": "#ATHAME_DESCRIPTION",
+				"_gfx": "Collectibles_408_Athame.png",
+				"_id": "408",
+				"_name": "#ATHAME_NAME"
+			},
+			{
+				"_achievement": "187",
+				"_description": "#EMPTY_VESSEL_DESCRIPTION",
+				"_gfx": "Collectibles_409_EmptyVessel.png",
+				"_id": "409",
+				"_name": "#EMPTY_VESSEL_NAME",
+				"_cache": "flying",
+				"_blackhearts": "4"
+			},
+			{
+				"_achievement": "194",
+				"_description": "#EVIL_EYE_DESCRIPTION",
+				"_gfx": "Collectibles_410_EvilEye.png",
+				"_id": "410",
+				"_name": "#EVIL_EYE_NAME"
+			},
+			{
+				"_achievement": "198",
+				"_description": "#LUSTY_BLOOD_DESCRIPTION",
+				"_gfx": "Collectibles_411_LustyBlood.png",
+				"_id": "411",
+				"_name": "#LUSTY_BLOOD_NAME",
+				"_cache": "damage color",
+				"_devilprice": "2"
+			},
+			{
+				"_achievement": "219",
+				"_description": "#CAMBION_CONCEPTION_DESCRIPTION",
+				"_gfx": "Collectibles_412_CambionConception.png",
+				"_id": "412",
+				"_name": "#CAMBION_CONCEPTION_NAME"
+			},
+			{
+				"_achievement": "222",
+				"_description": "#IMMACULATE_CONCEPTION_DESCRIPTION",
+				"_gfx": "Collectibles_413_ImmaculateConception.png",
+				"_id": "413",
+				"_name": "#IMMACULATE_CONCEPTION_NAME"
+			},
+			{
+				"_achievement": "135",
+				"_description": "#MORE_OPTIONS_DESCRIPTION",
+				"_gfx": "Collectibles_414_MoreOptions.png",
+				"_id": "414",
+				"_name": "#MORE_OPTIONS_NAME"
+			},
+			{
+				"_description": "#CROWN_OF_LIGHT_DESCRIPTION",
+				"_gfx": "Collectibles_415_CrownOfLight.png",
+				"_id": "415",
+				"_name": "#CROWN_OF_LIGHT_NAME",
+				"_soulhearts": "4",
+				"_cache": "damage shotspeed",
+				"_devilprice": "2"
+			},
+			{
+				"_achievement": "238",
+				"_description": "#DEEP_POCKETS_DESCRIPTION",
+				"_gfx": "Collectibles_416_deeppockets.png",
+				"_id": "416",
+				"_name": "#DEEP_POCKETS_NAME"
+			},
+			{
+				"_description": "#FRUIT_CAKE_DESCRIPTION",
+				"_gfx": "Collectibles_418_FruitCake.png",
+				"_id": "418",
+				"_name": "#FRUIT_CAKE_NAME"
+			},
+			{
+				"_description": "#BLACK_POWDER_DESCRIPTION",
+				"_gfx": "Collectibles_420_BlackPowder.png",
+				"_id": "420",
+				"_name": "#BLACK_POWDER_NAME"
+			},
+			{
+				"_description": "#CIRCLE_OF_PROTECTION_DESCRIPTION",
+				"_gfx": "Collectibles_423_CircleOfProtection.png",
+				"_id": "423",
+				"_name": "#CIRCLE_OF_PROTECTION_NAME"
+			},
+			{
+				"_description": "#SACK_HEAD_DESCRIPTION",
+				"_gfx": "Collectibles_424_SackHead.png",
+				"_id": "424",
+				"_name": "#SACK_HEAD_NAME"
+			},
+			{
+				"_description": "#NIGHT_LIGHT_DESCRIPTION",
+				"_gfx": "Collectibles_425_NightLight.png",
+				"_id": "425",
+				"_name": "#NIGHT_LIGHT_NAME"
+			},
+			{
+				"_description": "#PJS_DESCRIPTION",
+				"_gfx": "Collectibles_428_PJs.png",
+				"_id": "428",
+				"_name": "#PJS_NAME",
+				"_soulhearts": "8",
+				"_hearts": "24"
+			},
+			{
+				"_cache": "tearflag tearcolor",
+				"_description": "#HEAD_OF_THE_KEEPER_DESCRIPTION",
+				"_gfx": "Collectibles_429_HeadOfTheKeeper.png",
+				"_id": "429",
+				"_name": "#HEAD_OF_THE_KEEPER_NAME"
+			},
+			{
+				"_description": "#GLITTER_BOMBS_DESCRIPTION",
+				"_gfx": "Collectibles_432_GlitterBombs.png",
+				"_id": "432",
+				"_name": "#GLITTER_BOMBS_NAME",
+				"_bombs": "5"
+			},
+			{
+				"_description": "#BINKY_DESCRIPTION",
+				"_gfx": "Collectibles_438_Binky.png",
+				"_id": "438",
+				"_name": "#BINKY_NAME",
+				"_cache": "firedelay size",
+				"_soulhearts": "2"
+			},
+			{
+				"_achievement": "232",
+				"_description": "#KIDNEY_STONE_DESCRIPTION",
+				"_gfx": "Collectibles_440_KidneyStone.png",
+				"_id": "440",
+				"_name": "#KIDNEY_STONE_NAME",
+				"_cache": "range speed firedelay"
+			},
+			{
+				"_achievement": "290",
+				"_description": "#DARK_PRINCES_CROWN_DESCRIPTION",
+				"_gfx": "Collectibles_442_DarkPrincesCrown.png",
+				"_id": "442",
+				"_name": "#DARK_PRINCES_CROWN_NAME",
+				"_cache": "range firedelay shotspeed",
+				"_devilprice": "1"
+			},
+			{
+				"_description": "#APPLE_DESCRIPTION",
+				"_gfx": "Collectibles_443_Apple.png",
+				"_id": "443",
+				"_name": "#APPLE_NAME",
+				"_cache": "firedelay"
+			},
+			{
+				"_description": "#LEAD_PENCIL_DESCRIPTION",
+				"_gfx": "Collectibles_444_LeadPencil.png",
+				"_id": "444",
+				"_name": "#LEAD_PENCIL_NAME"
+			},
+			{
+				"_description": "#DOG_TOOTH_DESCRIPTION",
+				"_gfx": "Collectibles_445_DogTooth.png",
+				"_id": "445",
+				"_name": "#DOG_TOOTH_NAME",
+				"_cache": "damage speed"
+			},
+			{
+				"_description": "#DEAD_TOOTH_DESCRIPTION",
+				"_gfx": "Collectibles_446_DeadTooth.png",
+				"_id": "446",
+				"_name": "#DEAD_TOOTH_NAME"
+			},
+			{
+				"_description": "#LINGER_BEAN_DESCRIPTION",
+				"_gfx": "Collectibles_447_LingerBean.png",
+				"_id": "447",
+				"_name": "#LINGER_BEAN_NAME"
+			},
+			{
+				"_description": "#SHARD_OF_GLASS_DESCRIPTION",
+				"_gfx": "Collectibles_448_ShardOfGlass.png",
+				"_id": "448",
+				"_name": "#SHARD_OF_GLASS_NAME"
+			},
+			{
+				"_description": "#METAL_PLATE_DESCRIPTION",
+				"_gfx": "Collectibles_449_MetalPlate.png",
+				"_id": "449",
+				"_name": "#METAL_PLATE_NAME",
+				"_soulhearts": "2"
+			},
+			{
+				"_achievement": "308",
+				"_description": "#EYE_OF_GREED_DESCRIPTION",
+				"_gfx": "Collectibles_450_EyeOfGreed.png",
+				"_id": "450",
+				"_name": "#EYE_OF_GREED_NAME"
+			},
+			{
+				"_description": "#TAROT_CLOTH_DESCRIPTION",
+				"_gfx": "Collectibles_451_TarotCloth.png",
+				"_id": "451",
+				"_name": "#TAROT_CLOTH_NAME"
+			},
+			{
+				"_description": "#VARICOSE_VEINS_DESCRIPTION",
+				"_gfx": "Collectibles_452_VaricoseVeins.png",
+				"_id": "452",
+				"_name": "#VARICOSE_VEINS_NAME"
+			},
+			{
+				"_achievement": "291",
+				"_description": "#COMPOUND_FRACTURE_DESCRIPTION",
+				"_gfx": "Collectibles_453_CompoundFracture.png",
+				"_id": "453",
+				"_name": "#COMPOUND_FRACTURE_NAME",
+				"_cache": "range tearflag"
+			},
+			{
+				"_description": "#POLYDACTYLY_DESCRIPTION",
+				"_gfx": "Collectibles_454_Polydactyly.png",
+				"_id": "454",
+				"_name": "#POLYDACTYLY_NAME"
+			},
+			{
+				"_achievement": "307",
+				"_description": "#DADS_LOST_COIN_DESCRIPTION",
+				"_gfx": "Collectibles_455_DadsLostCoin.png",
+				"_id": "455",
+				"_name": "#DADS_LOST_COIN_NAME",
+				"_cache": "range"
+			},
+			{
+				"_description": "#MIDNIGHT_SNACK_DESCRIPTION",
+				"_gfx": "Collectibles_456_MoldyBread.png",
+				"_id": "456",
+				"_name": "#MIDNIGHT_SNACK_NAME",
+				"_hearts": "4",
+				"_maxhearts": "2"
+			},
+			{
+				"_description": "#CONE_HEAD_DESCRIPTION",
+				"_gfx": "Collectibles_457_Conehead.png",
+				"_id": "457",
+				"_name": "#CONE_HEAD_NAME",
+				"_soulhearts": "2"
+			},
+			{
+				"_description": "#BELLY_BUTTON_DESCRIPTION",
+				"_gfx": "Collectibles_458_BellyButton.png",
+				"_id": "458",
+				"_name": "#BELLY_BUTTON_NAME"
+			},
+			{
+				"_description": "#SINUS_INFECTION_DESCRIPTION",
+				"_gfx": "Collectibles_459_SinusInfection.png",
+				"_id": "459",
+				"_name": "#SINUS_INFECTION_NAME",
+				"_cache": "tearcolor"
+			},
+			{
+				"_description": "#GLAUCOMA_DESCRIPTION",
+				"_gfx": "Collectibles_460_Glaucoma.png",
+				"_id": "460",
+				"_name": "#GLAUCOMA_NAME"
+			},
+			{
+				"_description": "#PARASITOID_DESCRIPTION",
+				"_gfx": "Collectibles_461_Parasitoid.png",
+				"_id": "461",
+				"_name": "#PARASITOID_NAME",
+				"_cache": "range"
+			},
+			{
+				"_achievement": "299",
+				"_description": "#EYE_OF_BELIAL_DESCRIPTION",
+				"_gfx": "Collectibles_462_EyeOfBelial.png",
+				"_id": "462",
+				"_name": "#EYE_OF_BELIAL_NAME",
+				"_cache": "range tearflag",
+				"_devilprice": "2"
+			},
+			{
+				"_description": "#SULFURIC_ACID_DESCRIPTION",
+				"_gfx": "Collectibles_463_SulfuricAcid.png",
+				"_id": "463",
+				"_name": "#SULFURIC_ACID_NAME",
+				"_cache": "damage tearcolor tearflag"
+			},
+			{
+				"_achievement": "297",
+				"_description": "#GLYPH_OF_BALANCE_DESCRIPTION",
+				"_gfx": "Collectibles_464_GlyphOfBalance.png",
+				"_id": "464",
+				"_name": "#GLYPH_OF_BALANCE_NAME",
+				"_soulhearts": "4"
+			},
+			{
+				"_description": "#ANALOG_STICK_DESCRIPTION",
+				"_gfx": "Collectibles_465_AnalogStick.png",
+				"_id": "465",
+				"_name": "#ANALOG_STICK_NAME",
+				"_cache": "firedelay"
+			},
+			{
+				"_description": "#CONTAGION_DESCRIPTION",
+				"_gfx": "Collectibles_466_Contagion.png",
+				"_id": "466",
+				"_name": "#CONTAGION_NAME"
+			},
+			{
+				"_description": "#ADRENALINE_DESCRIPTION",
+				"_gfx": "collectibles_493_adderline.png",
+				"_id": "493",
+				"_name": "#ADRENALINE_NAME",
+				"_cache": "damage"
+			},
+			{
+				"_description": "#JACOBS_LADDER_DESCRIPTION",
+				"_gfx": "collectibles_494_jacobsladder.png",
+				"_id": "494",
+				"_name": "#JACOBS_LADDER_NAME",
+				"_cache": "tearflag tearcolor"
+			},
+			{
+				"_description": "#GHOST_PEPPER_DESCRIPTION",
+				"_gfx": "collectibles_495_ghostpepper.png",
+				"_id": "495",
+				"_name": "#GHOST_PEPPER_NAME"
+			},
+			{
+				"_achievement": "292",
+				"_description": "#EUTHANASIA_DESCRIPTION",
+				"_gfx": "collectibles_496_euthanasia.png",
+				"_id": "496",
+				"_name": "#EUTHANASIA_NAME"
+			},
+			{
+				"_description": "#CAMO_UNDIES_DESCRIPTION",
+				"_gfx": "collectibles_497_camoundies.png",
+				"_id": "497",
+				"_name": "#CAMO_UNDIES_NAME",
+				"_cache": "speed"
+			},
+			{
+				"_achievement": "306",
+				"_description": "#DUALITY_DESCRIPTION",
+				"_gfx": "collectibles_498_duality.png",
+				"_id": "498",
+				"_name": "#DUALITY_NAME"
+			},
+			{
+				"_achievement": "283",
+				"_description": "#EUCHARIST_DESCRIPTION",
+				"_gfx": "collectibles_499_eucharist.png",
+				"_id": "499",
+				"_name": "#EUCHARIST_NAME"
+			},
+			{
+				"_achievement": "335",
+				"_description": "#GREEDS_GULLET_DESCRIPTION",
+				"_gfx": "Collectibles_501_GreedsGullet.png",
+				"_id": "501",
+				"_name": "#GREEDS_GULLET_NAME"
+			},
+			{
+				"_description": "#LARGE_ZIT_DESCRIPTION",
+				"_gfx": "Collectibles_502_LargeZit.png",
+				"_id": "502",
+				"_name": "#LARGE_ZIT_NAME"
+			},
+			{
+				"_description": "#LITTLE_HORN_DESCRIPTION",
+				"_gfx": "Collectibles_503_LittleHorn.png",
+				"_id": "503",
+				"_name": "#LITTLE_HORN_NAME"
+			},
+			{
+				"_description": "#POKE_GO_DESCRIPTION",
+				"_gfx": "Collectibles_505_PokeGo.png",
+				"_id": "505",
+				"_name": "#POKE_GO_NAME"
+			},
+			{
+				"_description": "#BACKSTABBER_DESCRIPTION",
+				"_gfx": "Collectibles_506_Backstabber.png",
+				"_id": "506",
+				"_name": "#BACKSTABBER_NAME",
+				"_cache": "tearflag"
+			},
+			{
+				"_achievement": "353",
+				"_cache": "damage",
+				"_name": "#BOZO_NAME",
+				"_description": "#BOZO_DESCRIPTION",
+				"_soulhearts": "2",
+				"_id": "513",
+				"_gfx": "Collectibles_513_Bozo.png"
+			},
+			{
+				"_achievement": "354",
+				"_name": "#BROKEN_MODEM_NAME",
+				"_description": "#BROKEN_MODEM_DESCRIPTION",
+				"_id": "514",
+				"_gfx": "Collectibles_514_BrokenModem.png"
+			},
+			{
+				"_achievement": "356",
+				"_name": "#FAST_BOMBS_NAME",
+				"_gfx": "Collectibles_517_FastBombs.png",
+				"_description": "#FAST_BOMBS_DESCRIPTION",
+				"_id": "517",
+				"_bombs": "7"
+			},
+			{
+				"_achievement": "367",
+				"_description": "#JUMPER_CABLES_DESCRIPTION",
+				"_gfx": "Collectibles_520_JumperCable.png",
+				"_name": "#JUMPER_CABLES_NAME",
+				"_id": "520"
+			},
+			{
+				"_achievement": "369",
+				"_description": "#TECHNOLOGY_ZERO_DESCRIPTION",
+				"_gfx": "Collectibles_524_TechnologyZero.png",
+				"_name": "#TECHNOLOGY_ZERO_NAME",
+				"_id": "524",
+				"_cache": "tearflag"
+			},
+			{
+				"_achievement": "374",
+				"_cache": "tearflag",
+				"_description": "#POP_DESCRIPTION",
+				"_gfx": "Collectibles_529_Pop.png",
+				"_name": "#POP_NAME",
+				"_id": "529"
+			},
+			{
+				"_achievement": "376",
+				"_description": "#DEATHS_LIST_DESCRIPTION",
+				"_gfx": "Collectibles_530_DeathsList.png",
+				"_name": "#DEATHS_LIST_NAME",
+				"_id": "530"
+			},
+			{
+				"_achievement": "377",
+				"_cache": "weapon firedelay damage tearcolor range",
+				"_description": "#HAEMOLACRIA_DESCRIPTION",
+				"_gfx": "Collectibles_531_Haemolacria.png",
+				"_name": "#HAEMOLACRIA_NAME",
+				"_id": "531"
+			},
+			{
+				"_achievement": "378",
+				"_cache": "tearflag",
+				"_description": "#LACHRYPHAGY_DESCRIPTION",
+				"_gfx": "Collectibles_532_Lachryphagy.png",
+				"_name": "#LACHRYPHAGY_NAME",
+				"_id": "532"
+			},
+			{
+				"_achievement": "380",
+				"_cache": "tearflag",
+				"_description": "#TRISAGION_DESCRIPTION",
+				"_gfx": "Collectibles_533_Trisagion.png",
+				"_name": "#TRISAGION_NAME",
+				"_id": "533",
+				"_devilprice": "2"
+			},
+			{
+				"_achievement": "379",
+				"_description": "#SCHOOLBAG_DESCRIPTION",
+				"_gfx": "collectibles_534_Schoolbag.png",
+				"_name": "#SCHOOLBAG_NAME",
+				"_id": "534"
+			},
+			{
+				"_achievement": "385",
+				"_name": "#BLANKET_NAME",
+				"_description": "#BLANKET_DESCRIPTION",
+				"_gfx": "Collectibles_535_Blanket.png",
+				"_id": "535",
+				"_hearts": "2",
+				"_soulhearts": "2"
+			},
+			{
+				"_achievement": "386",
+				"_cache": "luck",
+				"_description": "#MARBLES_DESCRIPTION",
+				"_gfx": "Collectibles_538_Marbles.png",
+				"_name": "#MARBLES_NAME",
+				"_id": "538"
+			},
+			{
+				"_achievement": "382",
+				"_cache": "tearflag damage firedelay range",
+				"_name": "#FLAT_STONE_NAME",
+				"_gfx": "Collectibles_540_FlatStone.png",
+				"_description": "#FLAT_STONE_DESCRIPTION",
+				"_id": "540"
+			},
+			{
+				"_achievement": "392",
+				"_name": "#MARROW_NAME",
+				"_gfx": "Collectibles_541_Marrow.png",
+				"_description": "#MARROW_DESCRIPTION",
+				"_id": "541"
+			},
+			{
+				"_achievement": "400",
+				"_name": "#DADS_RING_NAME",
+				"_gfx": "Collectibles_546_DadsRing.png",
+				"_description": "#DADS_RING_DESCRIPTION",
+				"_id": "546"
+			},
+			{
+				"_achievement": "397",
+				"_name": "#DIVORCE_PAPERS_NAME",
+				"_gfx": "Collectibles_547_DivorcePapers.png",
+				"_description": "#DIVORCE_PAPERS_DESCRIPTION",
+				"_id": "547",
+				"_cache": "firedelay"
+			},
+			{
+				"_achievement": "396",
+				"_name": "#BRITTLE_BONES_NAME",
+				"_gfx": "Collectibles_549_BrittleBones.png",
+				"_description": "#BRITTLE_BONES_DESCRIPTION",
+				"_id": "549"
+			},
+			{
+				"_name": "#BROKEN_SHOVEL2_NAME",
+				"_gfx": "Collectibles_551_ShovelPiece2.png",
+				"_description": "#BROKEN_SHOVEL2_DESCRIPTION",
+				"_id": "551"
+			},
+			{
+				"_id": "553",
+				"_gfx": "Collectibles_553_Mucormycosis.png",
+				"_name": "#MUCORMYCOSIS_NAME",
+				"_description": "#MUCORMYCOSIS_DESCRIPTION",
+				"_cache": "tearcolor"
+			},
+			{
+				"_id": "554",
+				"_gfx": "Collectibles_554_2Spooky.png",
+				"_name": "#2SPOOKY_NAME",
+				"_description": "#2SPOOKY_DESCRIPTION",
+				"_cache": "color"
+			},
+			{
+				"_id": "558",
+				"_gfx": "Collectibles_558_EyeSore.png",
+				"_name": "#EYE_SORE_NAME",
+				"_description": "#EYE_SORE_DESCRIPTION"
+			},
+			{
+				"_id": "559",
+				"_gfx": "Collectibles_559_120Volt.png",
+				"_name": "#120_VOLT_NAME",
+				"_description": "#120_VOLT_DESCRIPTION"
+			},
+			{
+				"_id": "560",
+				"_gfx": "Collectibles_560_ItHurts.png",
+				"_name": "#IT_HURTS_NAME",
+				"_description": "#IT_HURTS_DESCRIPTION"
+			},
+			{
+				"_id": "561",
+				"_gfx": "Collectibles_561_AlmondMilk.png",
+				"_name": "#ALMOND_MILK_NAME",
+				"_description": "#ALMOND_MILK_DESCRIPTION",
+				"_cache": "damage firedelay tearcolor"
+			},
+			{
+				"_id": "562",
+				"_achievement": "433",
+				"_gfx": "Collectibles_562_RockBottom.png",
+				"_name": "#ROCK_BOTTOM_NAME",
+				"_description": "#ROCK_BOTTOM_DESCRIPTION",
+				"_cache": "all"
+			},
+			{
+				"_id": "563",
+				"_gfx": "Collectibles_563_EnigmaBombs.png",
+				"_name": "#NANCY_BOMBS_NAME",
+				"_description": "#NANCY_BOMBS_DESCRIPTION",
+				"_bombs": "5"
+			},
+			{
+				"_id": "564",
+				"_gfx": "Collectibles_564_BarOfSoap.png",
+				"_name": "#A_BAR_OF_SOAP_NAME",
+				"_description": "#A_BAR_OF_SOAP_DESCRIPTION",
+				"_cache": "firedelay shotspeed"
+			},
+			{
+				"_id": "566",
+				"_gfx": "Collectibles_566_DreamCatcher.png",
+				"_name": "#DREAM_CATCHER_NAME",
+				"_description": "#DREAM_CATCHER_DESCRIPTION"
+			},
+			{
+				"_id": "568",
+				"_achievement": "423",
+				"_gfx": "Collectibles_568_DivineIntervention.png",
+				"_name": "#DIVINE_INTERVENTION_NAME",
+				"_description": "#DIVINE_INTERVENTION_DESCRIPTION"
+			},
+			{
+				"_id": "570",
+				"_gfx": "Collectibles_570_PlaydohCookie.png",
+				"_name": "#PLAYDOUGH_COOKIE_NAME",
+				"_description": "#PLAYDOUGH_COOKIE_DESCRIPTION",
+				"_cache": "tearflag"
+			},
+			{
+				"_id": "571",
+				"_gfx": "Collectibles_571_Socks.png",
+				"_name": "#ORPHAN_SOCKS_NAME",
+				"_description": "#ORPHAN_SOCKS_DESCRIPTION",
+				"_cache": "speed",
+				"_soulhearts": "4"
+			},
+			{
+				"_id": "572",
+				"_gfx": "Collectibles_572_OccultEye.png",
+				"_name": "#EYE_OF_THE_OCCULT_NAME",
+				"_description": "#EYE_OF_THE_OCCULT_DESCRIPTION",
+				"_cache": "damage range shotspeed tearcolor tearflag",
+				"_devilprice": "2"
+			},
+			{
+				"_id": "573",
+				"_gfx": "Collectibles_573_ImmaculateHeart.png",
+				"_name": "#IMMACULATE_HEART_NAME",
+				"_description": "#IMMACULATE_HEART_DESCRIPTION",
+				"_maxhearts": "2",
+				"_hearts": "99",
+				"_cache": "damage",
+				"_devilprice": "2"
+			},
+			{
+				"_id": "574",
+				"_gfx": "Collectibles_574_Monstrance.png",
+				"_name": "#MONSTRANCE_NAME",
+				"_description": "#MONSTRANCE_DESCRIPTION"
+			},
+			{
+				"_id": "576",
+				"_achievement": "517",
+				"_gfx": "Collectibles_576_DirtyMind.png",
+				"_name": "#DIRTY_MIND_NAME",
+				"_description": "#DIRTY_MIND_DESCRIPTION"
+			},
+			{
+				"_id": "579",
+				"_achievement": "520",
+				"_gfx": "Collectibles_579_SpiritSword.png",
+				"_name": "#SPIRIT_SWORD_NAME",
+				"_description": "#SPIRIT_SWORD_DESCRIPTION",
+				"_cache": "weapon damage firedelay",
+				"_special": "true",
+				"_devilprice": "2"
+			},
+			{
+				"_id": "583",
+				"_gfx": "Collectibles_583_RocketInAJar.png",
+				"_name": "#ROCKET_IN_A_JAR_NAME",
+				"_description": "#ROCKET_IN_A_JAR_DESCRIPTION",
+				"_bombs": "5"
+			},
+			{
+				"_id": "584",
+				"_achievement": "417",
+				"_gfx": "Collectibles_584_BookOfVirtues.png",
+				"_name": "#BOOK_OF_VIRTUES_NAME",
+				"_description": "#BOOK_OF_VIRTUES_DESCRIPTION",
+				"_maxcharges": "4"
+			},
+			{
+				"_id": "586",
+				"_achievement": "429",
+				"_gfx": "Collectibles_586_JacobsLadder.png",
+				"_name": "#THE_STAIRWAY_NAME",
+				"_description": "#THE_STAIRWAY_DESCRIPTION"
+			},
+			{
+				"_id": "588",
+				"_gfx": "Collectibles_588_Sol.png",
+				"_name": "#SOL_NAME",
+				"_description": "#SOL_DESCRIPTION"
+			},
+			{
+				"_id": "589",
+				"_gfx": "Collectibles_589_Luna.png",
+				"_name": "#LUNA_NAME",
+				"_description": "#LUNA_DESCRIPTION"
+			},
+			{
+				"_id": "590",
+				"_gfx": "Collectibles_590_Mercurius.png",
+				"_name": "#MERCURIUS_NAME",
+				"_description": "#MERCURIUS_DESCRIPTION",
+				"_cache": "speed"
+			},
+			{
+				"_id": "591",
+				"_gfx": "Collectibles_591_Venus.png",
+				"_name": "#VENUS_NAME",
+				"_description": "#VENUS_DESCRIPTION",
+				"_maxhearts": "2",
+				"_hearts": "4"
+			},
+			{
+				"_id": "592",
+				"_gfx": "Collectibles_592_Terra.png",
+				"_name": "#TERRA_NAME",
+				"_description": "#TERRA_DESCRIPTION",
+				"_cache": "damage tearflag"
+			},
+			{
+				"_id": "593",
+				"_gfx": "Collectibles_593_Mars.png",
+				"_name": "#MARS_NAME",
+				"_description": "#MARS_DESCRIPTION",
+				"_cooldown": "25"
+			},
+			{
+				"_id": "594",
+				"_gfx": "Collectibles_594_Jupiter.png",
+				"_name": "#JUPITER_NAME",
+				"_description": "#JUPITER_DESCRIPTION",
+				"_maxhearts": "4",
+				"_hearts": "4",
+				"_cache": "speed range"
+			},
+			{
+				"_id": "595",
+				"_gfx": "Collectibles_595_Saturnus.png",
+				"_name": "#SATURNUS_NAME",
+				"_description": "#SATURNUS_DESCRIPTION"
+			},
+			{
+				"_id": "596",
+				"_gfx": "Collectibles_596_Uranus.png",
+				"_name": "#URANUS_NAME",
+				"_description": "#URANUS_DESCRIPTION",
+				"_cache": "tearflag tearcolor"
+			},
+			{
+				"_id": "597",
+				"_gfx": "Collectibles_597_Neptunus.png",
+				"_name": "#NEPTUNUS_NAME",
+				"_description": "#NEPTUNUS_DESCRIPTION"
+			},
+			{
+				"_id": "598",
+				"_gfx": "Collectibles_598_Pluto.png",
+				"_name": "#PLUTO_NAME",
+				"_description": "#PLUTO_DESCRIPTION",
+				"_cache": "range firedelay speed size"
+			},
+			{
+				"_id": "599",
+				"_gfx": "Collectibles_599_VoodooHead.png",
+				"_name": "#VOODOO_HEAD_NAME",
+				"_description": "#VOODOO_HEAD_DESCRIPTION"
+			},
+			{
+				"_id": "600",
+				"_gfx": "Collectibles_600_EyeDrops.png",
+				"_name": "#EYE_DROPS_NAME",
+				"_description": "#EYE_DROPS_DESCRIPTION",
+				"_cache": "firedelay"
+			},
+			{
+				"_id": "601",
+				"_gfx": "Collectibles_601_ActOfContrition.png",
+				"_name": "#ACT_OF_CONTRITION_NAME",
+				"_description": "#ACT_OF_CONTRITION_DESCRIPTION",
+				"_cache": "firedelay"
+			},
+			{
+				"_id": "602",
+				"_achievement": "582",
+				"_gfx": "Collectibles_602_MemberCard.png",
+				"_name": "#MEMBER_CARD_NAME",
+				"_description": "#MEMBER_CARD_DESCRIPTION"
+			},
+			{
+				"_id": "603",
+				"_gfx": "Collectibles_603_BatteryPack.png",
+				"_name": "#BATTERY_PACK_NAME",
+				"_description": "#BATTERY_PACK_DESCRIPTION"
+			},
+			{
+				"_id": "606",
+				"_gfx": "Collectibles_606_OculusRift.png",
+				"_name": "#OCULAR_RIFT_NAME",
+				"_description": "#OCULAR_RIFT_DESCRIPTION"
+			},
+			{
+				"_id": "614",
+				"_gfx": "Collectibles_614_BloodBombs.png",
+				"_name": "#BLOOD_BOMBS_NAME",
+				"_description": "#BLOOD_BOMBS_DESCRIPTION",
+				"_maxhearts": "2",
+				"_hearts": "10"
+			},
+			{
+				"_id": "616",
+				"_gfx": "Collectibles_616_BirdsEye.png",
+				"_name": "#BIRDS_EYE_NAME",
+				"_description": "#BIRDS_EYE_DESCRIPTION"
+			},
+			{
+				"_id": "617",
+				"_gfx": "Collectibles_617_Lodestone.png",
+				"_name": "#LODESTONE_NAME",
+				"_description": "#LODESTONE_DESCRIPTION",
+				"_cache": "tearcolor"
+			},
+			{
+				"_id": "618",
+				"_gfx": "Collectibles_618_RottenTomato.png",
+				"_name": "#ROTTEN_TOMATO_NAME",
+				"_description": "#ROTTEN_TOMATO_DESCRIPTION",
+				"_cache": "tearcolor"
+			},
+			{
+				"_id": "619",
+				"_achievement": "431",
+				"_gfx": "Collectibles_619_Birthright.png",
+				"_name": "#BIRTHRIGHT_NAME",
+				"_description": "#BIRTHRIGHT_DESCRIPTION",
+				"_cache": "all"
+			},
+			{
+				"_id": "621",
+				"_achievement": "430",
+				"_gfx": "Collectibles_621_RedStew.png",
+				"_name": "#RED_STEW_NAME",
+				"_description": "#RED_STEW_DESCRIPTION",
+				"_hearts": "99",
+				"_cache": "damage"
+			},
+			{
+				"_id": "624",
+				"_gfx": "Collectibles_624_BoosterPack.png",
+				"_name": "#BOOSTER_PACK_NAME",
+				"_description": "#BOOSTER_PACK_DESCRIPTION"
+			},
+			{
+				"_id": "632",
+				"_gfx": "Collectibles_632_EvilCharm.png",
+				"_name": "#EVIL_CHARM_NAME",
+				"_description": "#EVIL_CHARM_DESCRIPTION",
+				"_cache": "luck"
+			},
+			{
+				"_id": "633",
+				"_gfx": "Collectibles_633_Dogma.png",
+				"_name": "#DOGMA_NAME",
+				"_description": "#DOGMA_DESCRIPTION",
+				"_cache": "damage flying speed"
+			},
+			{
+				"_id": "634",
+				"_achievement": "519",
+				"_gfx": "Collectibles_634_Purgatory.png",
+				"_name": "#PURGATORY_NAME",
+				"_description": "#PURGATORY_DESCRIPTION"
+			},
+			{
+				"_id": "637",
+				"_gfx": "Collectibles_637_KnockoutDrops.png",
+				"_name": "#KNOCKOUT_DROPS_NAME",
+				"_description": "#KNOCKOUT_DROPS_DESCRIPTION"
+			},
+			{
+				"_id": "641",
+				"_achievement": "446",
+				"_gfx": "Collectibles_641_Akeldama.png",
+				"_name": "#AKELDAMA_NAME",
+				"_description": "#AKELDAMA_DESCRIPTION"
+			},
+			{
+				"_id": "643",
+				"_achievement": "470",
+				"_gfx": "Collectibles_643_Revelation.png",
+				"_name": "#REVELATION_NAME",
+				"_description": "#REVELATION_DESCRIPTION",
+				"_cache": "flying",
+				"_soulhearts": "4",
+				"_devilprice": "2"
+			},
+			{
+				"_id": "644",
+				"_gfx": "Collectibles_644_ConsolationPrize.png",
+				"_name": "#CONSOLATION_PRIZE_NAME",
+				"_description": "#CONSOLATION_PRIZE_DESCRIPTION"
+			},
+			{
+				"_id": "646",
+				"_achievement": "546",
+				"_gfx": "Collectibles_646_BrimstoneBombs.png",
+				"_name": "#BRIMSTONE_BOMBS_NAME",
+				"_description": "#BRIMSTONE_BOMBS_DESCRIPTION",
+				"_bombs": "5"
+			},
+			{
+				"_id": "647",
+				"_gfx": "Collectibles_647_AssaultBattery.png",
+				"_name": "#4_5_VOLT_NAME",
+				"_description": "#4_5_VOLT_DESCRIPTION"
+			},
+			{
+				"_id": "654",
+				"_gfx": "Collectibles_654_FalsePhd.png",
+				"_name": "#FALSE_PHD_NAME",
+				"_description": "#FALSE_PHD_DESCRIPTION",
+				"_cache": "damage",
+				"_blackhearts": "2"
+			},
+			{
+				"_id": "657",
+				"_gfx": "Collectibles_657_Vasculitis.png",
+				"_name": "#VASCULITIS_NAME",
+				"_description": "#VASCULITIS_DESCRIPTION"
+			},
+			{
+				"_id": "658",
+				"_gfx": "Collectibles_658_GiantCell.png",
+				"_name": "#GIANT_CELL_NAME",
+				"_description": "#GIANT_CELL_DESCRIPTION"
+			},
+			{
+				"_id": "659",
+				"_gfx": "Collectibles_659_Tropicamide.png",
+				"_name": "#TROPICAMIDE_NAME",
+				"_description": "#TROPICAMIDE_DESCRIPTION",
+				"_cache": "range"
+			},
+			{
+				"_id": "660",
+				"_gfx": "Collectibles_660_CardReading.png",
+				"_name": "#CARD_READING_NAME",
+				"_description": "#CARD_READING_DESCRIPTION"
+			},
+			{
+				"_id": "661",
+				"_gfx": "Collectibles_661_Quints.png",
+				"_name": "#QUINTS_NAME",
+				"_description": "#QUINTS_DESCRIPTION"
+			},
+			{
+				"_id": "663",
+				"_gfx": "Collectibles_663_ToothAndNail.png",
+				"_name": "#TOOTH_AND_NAIL_NAME",
+				"_description": "#TOOTH_AND_NAIL_DESCRIPTION"
+			},
+			{
+				"_id": "664",
+				"_gfx": "Collectibles_664_BingeEater.png",
+				"_name": "#BINGE_EATER_NAME",
+				"_description": "#BINGE_EATER_DESCRIPTION",
+				"_hearts": "99",
+				"_maxhearts": "2",
+				"_cache": "speed firedelay damage range shotspeed luck"
+			},
+			{
+				"_id": "665",
+				"_achievement": "444",
+				"_gfx": "Collectibles_665_GuppysEye.png",
+				"_name": "#GUPPYS_EYE_NAME",
+				"_description": "#GUPPYS_EYE_DESCRIPTION",
+				"_cache": "pickupvision"
+			},
+			{
+				"_id": "668",
+				"_gfx": "Collectibles_668_DadsNote.png",
+				"_name": "#DADS_NOTE_NAME",
+				"_description": "#DADS_NOTE_DESCRIPTION"
+			},
+			{
+				"_id": "669",
+				"_gfx": "Collectibles_669_Sausage.png",
+				"_name": "#SAUSAGE_NAME",
+				"_description": "#SAUSAGE_DESCRIPTION",
+				"_maxhearts": "2",
+				"_hearts": "99",
+				"_cache": "all"
+			},
+			{
+				"_id": "670",
+				"_achievement": "441",
+				"_gfx": "Collectibles_670_Options.png",
+				"_name": "#OPTIONS_NAME",
+				"_description": "#OPTIONS_DESCRIPTION"
+			},
+			{
+				"_id": "671",
+				"_achievement": "443",
+				"_gfx": "Collectibles_671_CandyHeart.png",
+				"_name": "#CANDY_HEART_NAME",
+				"_description": "#CANDY_HEART_DESCRIPTION",
+				"_cache": "all"
+			},
+			{
+				"_id": "672",
+				"_achievement": "445",
+				"_gfx": "Collectibles_672_PoundOfFlesh.png",
+				"_name": "#A_POUND_OF_FLESH_NAME",
+				"_description": "#A_POUND_OF_FLESH_DESCRIPTION"
+			},
+			{
+				"_id": "673",
+				"_achievement": "447",
+				"_gfx": "Collectibles_673_Redemption.png",
+				"_name": "#REDEMPTION_NAME",
+				"_description": "#REDEMPTION_DESCRIPTION",
+				"_persistent": "true"
+			},
+			{
+				"_id": "674",
+				"_achievement": "469",
+				"_gfx": "Collectibles_674_SpiritShackles.png",
+				"_name": "#SPIRIT_SHACKLES_NAME",
+				"_description": "#SPIRIT_SHACKLES_DESCRIPTION"
+			},
+			{
+				"_id": "675",
+				"_achievement": "451",
+				"_gfx": "Collectibles_675_CrackedOrb.png",
+				"_name": "#CRACKED_ORB_NAME",
+				"_description": "#CRACKED_ORB_DESCRIPTION"
+			},
+			{
+				"_id": "676",
+				"_achievement": "453",
+				"_gfx": "Collectibles_676_EmptyHeart.png",
+				"_name": "#EMPTY_HEART_NAME",
+				"_description": "#EMPTY_HEART_DESCRIPTION"
+			},
+			{
+				"_id": "677",
+				"_achievement": "457",
+				"_gfx": "Collectibles_677_AstralProjection.png",
+				"_name": "#ASTRAL_PROJECTION_NAME",
+				"_description": "#ASTRAL_PROJECTION_DESCRIPTION",
+				"_addcostumeonpickup": "false",
+				"_cache": "flying tearflag tearcolor"
+			},
+			{
+				"_id": "678",
+				"_achievement": "463",
+				"_gfx": "Collectibles_678_CSection.png",
+				"_name": "#C_SECTION_NAME",
+				"_description": "#C_SECTION_DESCRIPTION",
+				"_cache": "weapon firedelay damage tearcolor range"
+			},
+			{
+				"_id": "680",
+				"_achievement": "449",
+				"_gfx": "Collectibles_680_MontezumasRevenge.png",
+				"_name": "#MONTEZUMAS_REVENGE_NAME",
+				"_description": "#MONTEZUMAS_REVENGE_DESCRIPTION"
+			},
+			{
+				"_id": "683",
+				"_achievement": "468",
+				"_gfx": "Collectibles_683_BoneSpurs.png",
+				"_name": "#BONE_SPURS_NAME",
+				"_description": "#BONE_SPURS_DESCRIPTION"
+			},
+			{
+				"_id": "684",
+				"_achievement": "461",
+				"_gfx": "Collectibles_684_HungrySoul.png",
+				"_name": "#HUNGRY_SOUL_NAME",
+				"_description": "#HUNGRY_SOUL_DESCRIPTION"
+			},
+			{
+				"_id": "686",
+				"_achievement": "422",
+				"_gfx": "Collectibles_686_SoulLocket.png",
+				"_name": "#SOUL_LOCKET_NAME",
+				"_description": "#SOUL_LOCKET_DESCRIPTION",
+				"_cache": "all"
+			},
+			{
+				"_id": "688",
+				"_achievement": "434",
+				"_gfx": "Collectibles_688_InnerChild.png",
+				"_name": "#INNER_CHILD_NAME",
+				"_description": "#INNER_CHILD_DESCRIPTION",
+				"_persistent": "true",
+				"_cache": "range firedelay speed size",
+				"_addcostumeonpickup": "false"
+			},
+			{
+				"_id": "689",
+				"_achievement": "491",
+				"_gfx": "Collectibles_689_GlitchedCrown.png",
+				"_name": "#GLITCHED_CROWN_NAME",
+				"_description": "#GLITCHED_CROWN_DESCRIPTION"
+			},
+			{
+				"_id": "690",
+				"_achievement": "492",
+				"_gfx": "Collectibles_690_BellyJelly.png",
+				"_name": "#BELLY_JELLY_NAME",
+				"_description": "#BELLY_JELLY_DESCRIPTION"
+			},
+			{
+				"_id": "691",
+				"_achievement": "501",
+				"_gfx": "Collectibles_691_SacredOrb.png",
+				"_name": "#SACRED_ORB_NAME",
+				"_description": "#SACRED_ORB_DESCRIPTION",
+				"_devilprice": "2"
+			},
+			{
+				"_id": "692",
+				"_achievement": "494",
+				"_gfx": "Collectibles_692_SanguineBond.png",
+				"_name": "#SANGUINE_BOND_NAME",
+				"_description": "#SANGUINE_BOND_DESCRIPTION",
+				"_persistent": "true",
+				"_cache": "damage"
+			},
+			{
+				"_id": "693",
+				"_achievement": "495",
+				"_gfx": "Collectibles_693_TheSwarm.png",
+				"_name": "#THE_SWARM_NAME",
+				"_description": "#THE_SWARM_DESCRIPTION"
+			},
+			{
+				"_id": "694",
+				"_achievement": "496",
+				"_gfx": "Collectibles_694_Heartbreak.png",
+				"_name": "#HEARTBREAK_NAME",
+				"_description": "#HEARTBREAK_DESCRIPTION",
+				"_cache": "damage"
+			},
+			{
+				"_id": "695",
+				"_achievement": "452",
+				"_gfx": "Collectibles_695_BloodyGust.png",
+				"_name": "#BLOODY_GUST_NAME",
+				"_description": "#BLOODY_GUST_DESCRIPTION",
+				"_cache": "speed firedelay color"
+			},
+			{
+				"_id": "696",
+				"_achievement": "499",
+				"_gfx": "Collectibles_696_Salvation.png",
+				"_name": "#SALVATION_NAME",
+				"_description": "#SALVATION_DESCRIPTION",
+				"_persistent": "true"
+			},
+			{
+				"_id": "699",
+				"_achievement": "498",
+				"_gfx": "Collectibles_699_AzazelsRage.png",
+				"_name": "#AZAZELS_RAGE_NAME",
+				"_description": "#AZAZELS_RAGE_DESCRIPTION",
+				"_persistent": "true"
+			},
+			{
+				"_id": "700",
+				"_achievement": "504",
+				"_gfx": "Collectibles_700_EchoChamber.png",
+				"_name": "#ECHO_CHAMBER_NAME",
+				"_description": "#ECHO_CHAMBER_DESCRIPTION"
+			},
+			{
+				"_id": "701",
+				"_achievement": "505",
+				"_gfx": "Collectibles_701_IsaacsTomb.png",
+				"_name": "#ISAACS_TOMB_NAME",
+				"_description": "#ISAACS_TOMB_DESCRIPTION"
+			},
+			{
+				"_id": "702",
+				"_achievement": "506",
+				"_gfx": "Collectibles_702_BloodSoul.png",
+				"_name": "#VENGEFUL_SPIRIT_NAME",
+				"_description": "#VENGEFUL_SPIRIT_DESCRIPTION"
+			},
+			{
+				"_id": "707",
+				"_gfx": "Collectibles_707_Supper.png",
+				"_name": "#SUPPER_NAME",
+				"_description": "#SUPPER_DESCRIPTION",
+				"_hearts": "4",
+				"_maxhearts": "2"
+			},
+			{
+				"_id": "708",
+				"_gfx": "Collectibles_708_Stapler.png",
+				"_name": "#STAPLER_NAME",
+				"_description": "#STAPLER_DESCRIPTION",
+				"_cache": "damage"
+			},
+			{
+				"_id": "716",
+				"_achievement": "464",
+				"_gfx": "Collectibles_716_KeepersSack.png",
+				"_name": "#KEEPERS_SACK_NAME",
+				"_description": "#KEEPERS_SACK_DESCRIPTION",
+				"_cache": "damage speed range"
+			},
+			{
+				"_id": "717",
+				"_achievement": "596",
+				"_gfx": "Collectibles_717_KeepersKin.png",
+				"_name": "#KEEPERS_KIN_NAME",
+				"_description": "#KEEPERS_KIN_DESCRIPTION"
+			},
+			{
+				"_id": "721",
+				"_achievement": "500",
+				"_gfx": "Collectibles_721_TMTRAINER.png",
+				"_name": "#TMTRAINER_NAME",
+				"_description": "#TMTRAINER_DESCRIPTION"
+			},
+			{
+				"_id": "724",
+				"_achievement": "585",
+				"_gfx": "Collectibles_724_Hypercoagulation.png",
+				"_name": "#HYPERCOAGULATION_NAME",
+				"_description": "#HYPERCOAGULATION_DESCRIPTION"
+			},
+			{
+				"_id": "725",
+				"_achievement": "588",
+				"_gfx": "Collectibles_725_IBS.png",
+				"_name": "#IBS_NAME",
+				"_description": "#IBS_DESCRIPTION"
+			},
+			{
+				"_id": "726",
+				"_achievement": "591",
+				"_gfx": "Collectibles_726_Hemoptysis.png",
+				"_name": "#HEMOPTYSIS_NAME",
+				"_description": "#HEMOPTYSIS_DESCRIPTION",
+				"_cooldown": "30"
+			},
+			{
+				"_id": "727",
+				"_achievement": "594",
+				"_gfx": "Collectibles_727_GhostBombs.png",
+				"_name": "#GHOST_BOMBS_NAME",
+				"_description": "#GHOST_BOMBS_DESCRIPTION",
+				"_bombs": "5"
+			},
+			{
+				"_id": "730",
+				"_gfx": "Collectibles_730_GlassEye.png",
+				"_name": "#GLASS_EYE_NAME",
+				"_description": "#GLASS_EYE_DESCRIPTION",
+				"_cache": "damage luck"
+			},
+			{
+				"_id": "731",
+				"_gfx": "Collectibles_731_Stye.png",
+				"_name": "#STYE_NAME",
+				"_description": "#STYE_DESCRIPTION",
+				"_cache": "damage range"
+			},
+			{
+				"_id": "732",
+				"_gfx": "Collectibles_732_MomsRing.png",
+				"_name": "#MOMS_RING_NAME",
+				"_description": "#MOMS_RING_DESCRIPTION",
+				"_cache": "damage"
+			}
+		],
+		"familiar": [
+			{
+				"_description": "#BROTHER_BOBBY_DESCRIPTION",
+				"_gfx": "Collectibles_008_BrotherBobby.png",
+				"_id": "8",
+				"_name": "#BROTHER_BOBBY_NAME"
+			},
+			{
+				"_description": "#HALO_OF_FLIES_DESCRIPTION",
+				"_gfx": "Collectibles_010_HaloOfFlies.png",
+				"_id": "10",
+				"_name": "#HALO_OF_FLIES_NAME"
+			},
+			{
+				"_description": "#1UP_DESCRIPTION",
+				"_gfx": "Collectibles_011_1Up.png",
+				"_id": "11",
+				"_name": "#1UP_NAME"
+			},
+			{
+				"_description": "#DISTANT_ADMIRATION_DESCRIPTION",
+				"_gfx": "Collectibles_057_DistantAdmiration.png",
+				"_id": "57",
+				"_name": "#DISTANT_ADMIRATION_NAME"
+			},
+			{
+				"_description": "#SISTER_MAGGY_DESCRIPTION",
+				"_gfx": "Collectibles_067_SisterMaggy.png",
+				"_id": "67",
+				"_name": "#SISTER_MAGGY_NAME"
+			},
+			{
+				"_achievement": "6",
+				"_description": "#CUBE_OF_MEAT_DESCRIPTION",
+				"_gfx": "Collectibles_073_CubeOfMeat.png",
+				"_id": "73",
+				"_name": "#CUBE_OF_MEAT_NAME"
+			},
+			{
+				"_description": "#DEAD_CAT_DESCRIPTION",
+				"_gfx": "Collectibles_081_DeadCat.png",
+				"_id": "81",
+				"_name": "#DEAD_CAT_NAME",
+				"_devilprice": "2"
+			},
+			{
+				"_achievement": "14",
+				"_description": "#LITTLE_CHUBBY_DESCRIPTION",
+				"_gfx": "Collectibles_088_LittleChubby.png",
+				"_id": "88",
+				"_name": "#LITTLE_CHUBBY_NAME"
+			},
+			{
+				"_achievement": "21",
+				"_description": "#SACK_OF_PENNIES_DESCRIPTION",
+				"_gfx": "Collectibles_094_SackOfPennies.png",
+				"_id": "94",
+				"_name": "#SACK_OF_PENNIES_NAME"
+			},
+			{
+				"_description": "#ROBOBABY_DESCRIPTION",
+				"_gfx": "Collectibles_095_RoboBaby.png",
+				"_id": "95",
+				"_name": "#ROBOBABY_NAME"
+			},
+			{
+				"_achievement": "25",
+				"_description": "#LITTLE_CHAD_DESCRIPTION",
+				"_gfx": "Collectibles_096_LittleChad.png",
+				"_id": "96",
+				"_name": "#LITTLE_CHAD_NAME"
+			},
+			{
+				"_achievement": "20",
+				"_description": "#THE_RELIC_DESCRIPTION",
+				"_gfx": "Collectibles_098_TheRelic.png",
+				"_id": "98",
+				"_name": "#THE_RELIC_NAME",
+				"_devilprice": "2"
+			},
+			{
+				"_achievement": "23",
+				"_description": "#LITTLE_GISH_DESCRIPTION",
+				"_gfx": "Collectibles_099_LittleGish.png",
+				"_id": "99",
+				"_name": "#LITTLE_GISH_NAME"
+			},
+			{
+				"_achievement": "24",
+				"_description": "#LITTLE_STEVEN_DESCRIPTION",
+				"_gfx": "Collectibles_100_LittleSteve.png",
+				"_id": "100",
+				"_name": "#LITTLE_STEVEN_NAME"
+			},
+			{
+				"_achievement": "45",
+				"_description": "#GUARDIAN_ANGEL_DESCRIPTION",
+				"_gfx": "Collectibles_112_GuardianAngel.png",
+				"_id": "112",
+				"_name": "#GUARDIAN_ANGEL_NAME"
+			},
+			{
+				"_achievement": "47",
+				"_description": "#DEMON_BABY_DESCRIPTION",
+				"_gfx": "Collectibles_113_DemonBaby.png",
+				"_id": "113",
+				"_name": "#DEMON_BABY_NAME"
+			},
+			{
+				"_description": "#FOREVER_ALONE_DESCRIPTION",
+				"_gfx": "Collectibles_128_ForeverAlone.png",
+				"_id": "128",
+				"_name": "#FOREVER_ALONE_NAME"
+			},
+			{
+				"_achievement": "46",
+				"_description": "#BOMB_BAG_DESCRIPTION",
+				"_gfx": "Collectibles_131_BombBag.png",
+				"_id": "131",
+				"_name": "#BOMB_BAG_NAME"
+			},
+			{
+				"_description": "#BUM_FRIEND_DESCRIPTION",
+				"_gfx": "Collectibles_144_BumFriend.png",
+				"_id": "144",
+				"_name": "#BUM_FRIEND_NAME"
+			},
+			{
+				"_description": "#THE_PEEPER_DESCRIPTION",
+				"_gfx": "Collectibles_155_ThePeeper.png",
+				"_id": "155",
+				"_name": "#THE_PEEPER_NAME"
+			},
+			{
+				"_description": "#GHOST_BABY_DESCRIPTION",
+				"_gfx": "Collectibles_163_GhostBaby.png",
+				"_id": "163",
+				"_name": "#GHOST_BABY_NAME"
+			},
+			{
+				"_description": "#HARLEQUIN_BABY_DESCRIPTION",
+				"_gfx": "Collectibles_167_HarlequinBaby.png",
+				"_id": "167",
+				"_name": "#HARLEQUIN_BABY_NAME"
+			},
+			{
+				"_description": "#DADDY_LONGLEGS_DESCRIPTION",
+				"_gfx": "Collectibles_170_DaddyLonglegs.png",
+				"_id": "170",
+				"_name": "#DADDY_LONGLEGS_NAME"
+			},
+			{
+				"_achievement": "53",
+				"_description": "#SACRIFICIAL_DAGGER_DESCRIPTION",
+				"_gfx": "Collectibles_172_SacrificialDagger.png",
+				"_id": "172",
+				"_name": "#SACRIFICIAL_DAGGER_NAME"
+			},
+			{
+				"_description": "#RAINBOW_BABY_DESCRIPTION",
+				"_gfx": "Collectibles_174_RainbowBaby.png",
+				"_id": "174",
+				"_name": "#RAINBOW_BABY_NAME"
+			},
+			{
+				"_description": "#HOLY_WATER_DESCRIPTION",
+				"_gfx": "Collectibles_178_HolyWater.png",
+				"_id": "178",
+				"_name": "#HOLY_WATER_NAME"
+			},
+			{
+				"_achievement": "65",
+				"_description": "#GUPPYS_HAIRBALL_DESCRIPTION",
+				"_gfx": "Collectibles_187_GuppysHairball.png",
+				"_id": "187",
+				"_name": "#GUPPYS_HAIRBALL_NAME"
+			},
+			{
+				"_achievement": "51",
+				"_description": "#ABEL_DESCRIPTION",
+				"_gfx": "Collectibles_188_Abel.png",
+				"_id": "188",
+				"_name": "#ABEL_NAME"
+			},
+			{
+				"_achievement": "107",
+				"_cache": "damage firedelay",
+				"_description": "#GUILLOTINE_DESCRIPTION",
+				"_gfx": "collectibles_206_guillotine.png",
+				"_id": "206",
+				"_name": "#GUILLOTINE_NAME"
+			},
+			{
+				"_achievement": "6",
+				"_description": "#BALL_OF_BANDAGES_DESCRIPTION",
+				"_gfx": "collectibles_207_ballofbandages.png",
+				"_id": "207",
+				"_name": "#BALL_OF_BANDAGES_NAME"
+			},
+			{
+				"_description": "#KEY_PIECE_1_DESCRIPTION",
+				"_gfx": "collectibles_238_keypiece1.png",
+				"_id": "238",
+				"_name": "#KEY_PIECE_1_NAME"
+			},
+			{
+				"_description": "#KEY_PIECE_2_DESCRIPTION",
+				"_gfx": "collectibles_239_keypiece2.png",
+				"_id": "239",
+				"_name": "#KEY_PIECE_2_NAME"
+			},
+			{
+				"_description": "#SMART_FLY_DESCRIPTION",
+				"_gfx": "collectibles_264_smartfly.png",
+				"_id": "264",
+				"_name": "#SMART_FLY_NAME"
+			},
+			{
+				"_description": "#DRY_BABY_DESCRIPTION",
+				"_gfx": "collectibles_265_drybaby.png",
+				"_id": "265",
+				"_name": "#DRY_BABY_NAME"
+			},
+			{
+				"_description": "#JUICY_SACK_DESCRIPTION",
+				"_gfx": "collectibles_266_juicysack.png",
+				"_id": "266",
+				"_name": "#JUICY_SACK_NAME"
+			},
+			{
+				"_achievement": "102",
+				"_description": "#ROBOBABY_20_DESCRIPTION",
+				"_gfx": "collectibles_267_robobaby2.png",
+				"_id": "267",
+				"_name": "#ROBOBABY_20_NAME"
+			},
+			{
+				"_description": "#ROTTEN_BABY_DESCRIPTION",
+				"_gfx": "collectibles_268_rottenbaby.png",
+				"_id": "268",
+				"_name": "#ROTTEN_BABY_NAME"
+			},
+			{
+				"_description": "#HEADLESS_BABY_DESCRIPTION",
+				"_gfx": "collectibles_269_headlessbaby.png",
+				"_id": "269",
+				"_name": "#HEADLESS_BABY_NAME"
+			},
+			{
+				"_description": "#LEECH_DESCRIPTION",
+				"_gfx": "collectibles_270_leech.png",
+				"_id": "270",
+				"_name": "#LEECH_NAME"
+			},
+			{
+				"_achievement": "124",
+				"_description": "#MYSTERY_SACK_DESCRIPTION",
+				"_gfx": "collectibles_271_mysterysack.png",
+				"_id": "271",
+				"_name": "#MYSTERY_SACK_NAME"
+			},
+			{
+				"_description": "#BBF_DESCRIPTION",
+				"_gfx": "collectibles_272_bff.png",
+				"_id": "272",
+				"_name": "#BBF_NAME"
+			},
+			{
+				"_description": "#BOBS_BRAIN_DESCRIPTION",
+				"_gfx": "collectibles_273_bobsbrain.png",
+				"_id": "273",
+				"_name": "#BOBS_BRAIN_NAME"
+			},
+			{
+				"_description": "#BEST_BUD_DESCRIPTION",
+				"_gfx": "collectibles_274_bestbud.png",
+				"_id": "274",
+				"_name": "#BEST_BUD_NAME"
+			},
+			{
+				"_description": "#LIL_BRIMSTONE_DESCRIPTION",
+				"_gfx": "collectibles_275_lilbrimstone.png",
+				"_devilprice": "1",
+				"_id": "275",
+				"_name": "#LIL_BRIMSTONE_NAME"
+			},
+			{
+				"_achievement": "129",
+				"_description": "#ISAACS_HEART_DESCRIPTION",
+				"_gfx": "collectibles_276_isaacsheart.png",
+				"_id": "276",
+				"_name": "#ISAACS_HEART_NAME"
+			},
+			{
+				"_description": "#LIL_HAUNT_DESCRIPTION",
+				"_gfx": "collectibles_277_lilhaunt.png",
+				"_id": "277",
+				"_name": "#LIL_HAUNT_NAME"
+			},
+			{
+				"_description": "#DARK_BUM_DESCRIPTION",
+				"_gfx": "collectibles_278_darkbum.png",
+				"_id": "278",
+				"_name": "#DARK_BUM_NAME"
+			},
+			{
+				"_description": "#BIG_FAN_DESCRIPTION",
+				"_gfx": "collectibles_279_bigfan.png",
+				"_id": "279",
+				"_name": "#BIG_FAN_NAME"
+			},
+			{
+				"_description": "#SISSY_LONGLEGS_DESCRIPTION",
+				"_gfx": "collectibles_280_sissylonglegs.png",
+				"_id": "280",
+				"_name": "#SISSY_LONGLEGS_NAME"
+			},
+			{
+				"_description": "#PUNCHING_BAG_DESCRIPTION",
+				"_gfx": "collectibles_281_punchingbag.png",
+				"_id": "281",
+				"_name": "#PUNCHING_BAG_NAME"
+			},
+			{
+				"_description": "#GEMINI_DESCRIPTION",
+				"_gfx": "collectibles_318_gemini.png",
+				"_id": "318",
+				"_name": "#GEMINI_NAME"
+			},
+			{
+				"_achievement": "110",
+				"_description": "#CAINS_OTHER_EYE_DESCRIPTION",
+				"_gfx": "collectibles_319_cainseye.png",
+				"_id": "319",
+				"_name": "#CAINS_OTHER_EYE_NAME"
+			},
+			{
+				"_achievement": "114",
+				"_description": "#S_ONLY_FRIEND_DESCRIPTION",
+				"_gfx": "collectibles_320_bluebabysonlyfriend.png",
+				"_id": "320",
+				"_name": "#S_ONLY_FRIEND_NAME"
+			},
+			{
+				"_achievement": "115",
+				"_description": "#SAMSONS_CHAINS_DESCRIPTION",
+				"_gfx": "collectibles_321_samsonschains.png",
+				"_id": "321",
+				"_name": "#SAMSONS_CHAINS_NAME"
+			},
+			{
+				"_description": "#MONGO_BABY_DESCRIPTION",
+				"_gfx": "collectibles_322_mongobaby.png",
+				"_id": "322",
+				"_name": "#MONGO_BABY_NAME"
+			},
+			{
+				"_achievement": "190",
+				"_description": "#INCUBUS_DESCRIPTION",
+				"_gfx": "Collectibles_360_Incubus.png",
+				"_id": "360",
+				"_name": "#INCUBUS_NAME",
+				"_devilprice": "2"
+			},
+			{
+				"_achievement": "183",
+				"_description": "#FATES_REWARD_DESCRIPTION",
+				"_gfx": "Collectibles_361_FatesReward.png",
+				"_id": "361",
+				"_name": "#FATES_REWARD_NAME"
+			},
+			{
+				"_achievement": "192",
+				"_description": "#LIL_CHEST_DESCRIPTION",
+				"_gfx": "Collectibles_362_LilChest.png",
+				"_id": "362",
+				"_name": "#LIL_CHEST_NAME"
+			},
+			{
+				"_achievement": "189",
+				"_description": "#SWORN_PROTECTOR_DESCRIPTION",
+				"_gfx": "Collectibles_363_SwornProtector.png",
+				"_id": "363",
+				"_name": "#SWORN_PROTECTOR_NAME"
+			},
+			{
+				"_description": "#FRIEND_ZONE_DESCRIPTION",
+				"_gfx": "Collectibles_364_FriendZone.png",
+				"_id": "364",
+				"_name": "#FRIEND_ZONE_NAME"
+			},
+			{
+				"_description": "#LOST_FLY_DESCRIPTION",
+				"_gfx": "Collectibles_365_LostFly.png",
+				"_id": "365",
+				"_name": "#LOST_FLY_NAME"
+			},
+			{
+				"_description": "#CHARGED_BABY_DESCRIPTION",
+				"_gfx": "Collectibles_372_ChargedBaby.png",
+				"_id": "372",
+				"_name": "#CHARGED_BABY_NAME"
+			},
+			{
+				"_description": "#LIL_GURDY_DESCRIPTION",
+				"_gfx": "Collectibles_384_LilGurdy.png",
+				"_id": "384",
+				"_name": "#LIL_GURDY_NAME"
+			},
+			{
+				"_description": "#BUMBO_DESCRIPTION",
+				"_gfx": "Collectibles_385_Bumbo.png",
+				"_id": "385",
+				"_name": "#BUMBO_NAME"
+			},
+			{
+				"_achievement": "193",
+				"_description": "#CENSER_DESCRIPTION",
+				"_gfx": "Collectibles_387_Censer.png",
+				"_id": "387",
+				"_name": "#CENSER_NAME"
+			},
+			{
+				"_achievement": "200",
+				"_description": "#KEY_BUM_DESCRIPTION",
+				"_gfx": "Collectibles_388_KeyBum.png",
+				"_id": "388",
+				"_name": "#KEY_BUM_NAME"
+			},
+			{
+				"_achievement": "218",
+				"_description": "#RUNE_BAG_DESCRIPTION",
+				"_gfx": "Collectibles_389_RuneBag.png",
+				"_id": "389",
+				"_name": "#RUNE_BAG_NAME"
+			},
+			{
+				"_description": "#SERAPHIM_DESCRIPTION",
+				"_gfx": "Collectibles_390_Seraphim.png",
+				"_id": "390",
+				"_name": "#SERAPHIM_NAME"
+			},
+			{
+				"_description": "#SPIDER_MOD_DESCRIPTION",
+				"_gfx": "Collectibles_403_SpiderMod.png",
+				"_id": "403",
+				"_name": "#SPIDER_MOD_NAME"
+			},
+			{
+				"_achievement": "179",
+				"_description": "#FARTING_BABY_DESCRIPTION",
+				"_gfx": "collectibles_404_fartbaby.png",
+				"_id": "404",
+				"_name": "#FARTING_BABY_NAME"
+			},
+			{
+				"_achievement": "201",
+				"_description": "#GB_BUG_DESCRIPTION",
+				"_gfx": "Collectibles_405_GBBug.png",
+				"_id": "405",
+				"_name": "#GB_BUG_NAME"
+			},
+			{
+				"_achievement": "221",
+				"_description": "#SUCCUBUS_DESCRIPTION",
+				"_gfx": "Collectibles_417_Succubus.png",
+				"_id": "417",
+				"_name": "#SUCCUBUS_NAME",
+				"_devilprice": "2"
+			},
+			{
+				"_description": "#OBSESSED_FAN_DESCRIPTION",
+				"_gfx": "Collectibles_426_ObsessedFan.png",
+				"_id": "426",
+				"_name": "#OBSESSED_FAN_NAME"
+			},
+			{
+				"_description": "#PAPA_FLY_DESCRIPTION",
+				"_gfx": "Collectibles_430_PapaFly.png",
+				"_id": "430",
+				"_name": "#PAPA_FLY_NAME"
+			},
+			{
+				"_description": "#MULTIDIMENSIONAL_BABY_DESCRIPTION",
+				"_gfx": "Collectibles_431_MultidimensionalBaby.png",
+				"_id": "431",
+				"_name": "#MULTIDIMENSIONAL_BABY_NAME"
+			},
+			{
+				"_achievement": "195",
+				"_description": "#MY_SHADOW_DESCRIPTION",
+				"_gfx": "Collectibles_433_MyShadow.png",
+				"_id": "433",
+				"_name": "#MY_SHADOW_NAME"
+			},
+			{
+				"_description": "#LIL_LOKI_DESCRIPTION",
+				"_gfx": "Collectibles_435_LilLoki.png",
+				"_id": "435",
+				"_name": "#LIL_LOKI_NAME"
+			},
+			{
+				"_description": "#MILK_DESCRIPTION",
+				"_gfx": "Collectibles_436_Milk.png",
+				"_id": "436",
+				"_name": "#MILK_NAME",
+				"_cache": "firedelay",
+				"_persistent": "true"
+			},
+			{
+				"_description": "#FINGER_DESCRIPTION",
+				"_gfx": "Collectibles_467_Finger.png",
+				"_id": "467",
+				"_name": "#FINGER_NAME"
+			},
+			{
+				"_achievement": "285",
+				"_description": "#SHADE_DESCRIPTION",
+				"_gfx": "Collectibles_468_Shade.png",
+				"_id": "468",
+				"_name": "#SHADE_NAME"
+			},
+			{
+				"_description": "#DEPRESSION_DESCRIPTION",
+				"_gfx": "Collectibles_469_Depression.png",
+				"_id": "469",
+				"_name": "#DEPRESSION_NAME"
+			},
+			{
+				"_achievement": "315",
+				"_description": "#HUSHY_DESCRIPTION",
+				"_gfx": "Collectibles_470_Hushy.png",
+				"_id": "470",
+				"_name": "#HUSHY_NAME"
+			},
+			{
+				"_description": "#LIL_MONSTRO_DESCRIPTION",
+				"_gfx": "Collectibles_471_LilMonstro.png",
+				"_id": "471",
+				"_name": "#LIL_MONSTRO_NAME"
+			},
+			{
+				"_achievement": "286",
+				"_description": "#KING_BABY_DESCRIPTION",
+				"_gfx": "Collectibles_472_KingBaby.png",
+				"_id": "472",
+				"_name": "#KING_BABY_NAME"
+			},
+			{
+				"_description": "#BIG_CHUBBY_DESCRIPTION",
+				"_gfx": "Collectibles_473_BigChubby.png",
+				"_id": "473",
+				"_name": "#BIG_CHUBBY_NAME"
+			},
+			{
+				"_description": "#ACID_BABY_DESCRIPTION",
+				"_gfx": "collectibles_491_acidbaby.png",
+				"_id": "491",
+				"_name": "#ACID_BABY_NAME"
+			},
+			{
+				"_description": "#YO_LISTEN_DESCRIPTION",
+				"_gfx": "collectibles_492_yolisten.png",
+				"_id": "492",
+				"_name": "#YO_LISTEN_NAME",
+				"_cache": "luck"
+			},
+			{
+				"_achievement": "298",
+				"_description": "#SACK_OF_SACKS_DESCRIPTION",
+				"_gfx": "Collectibles_500_SackOfSacks.png",
+				"_id": "500",
+				"_name": "#SACK_OF_SACKS_NAME"
+			},
+			{
+				"_description": "#MOMS_RAZOR_DESCRIPTION",
+				"_gfx": "Collectibles_508_MomsRazor.png",
+				"_id": "508",
+				"_name": "#MOMS_RAZOR_NAME"
+			},
+			{
+				"_description": "#BLOODSHOT_EYE_DESCRIPTION",
+				"_gfx": "Collectibles_509_BloodshotEye.png",
+				"_id": "509",
+				"_name": "#BLOODSHOT_EYE_NAME"
+			},
+			{
+				"_achievement": "352",
+				"_description": "#ANGRY_FLY_DESCRIPTION",
+				"_gfx": "Collectibles_511_AngryFly.png",
+				"_id": "511",
+				"_name": "#ANGRY_FLY_NAME"
+			},
+			{
+				"_achievement": "355",
+				"_description": "#BUDDY_IN_A_BOX_DESCRIPTION",
+				"_gfx": "Collectibles_518_BuddyBox.png",
+				"_id": "518",
+				"_name": "#BUDDY_IN_A_BOX_NAME"
+			},
+			{
+				"_achievement": "357",
+				"_description": "#LIL_DELIRIUM_DESCRIPTION",
+				"_gfx": "Collectibles_519_LilDelirium.png",
+				"_id": "519",
+				"_name": "#LIL_DELIRIUM_NAME"
+			},
+			{
+				"_achievement": "368",
+				"_description": "#LEPROSY_DESCRIPTION",
+				"_gfx": "Collectibles_525_Leprosy.png",
+				"_name": "#LEPROSY_NAME",
+				"_id": "525"
+			},
+			{
+				"_achievement": "372",
+				"_description": "#7_SEALS_DESCRIPTION",
+				"_gfx": "Collectibles_526_7Seals.png",
+				"_name": "#7_SEALS_NAME",
+				"_devilprice": "1",
+				"_id": "526"
+			},
+			{
+				"_achievement": "373",
+				"_description": "#ANGELIC_PRISM_DESCRIPTION",
+				"_gfx": "collectibles_528_angelic prism.png",
+				"_name": "#ANGELIC_PRISM_NAME",
+				"_id": "528"
+			},
+			{
+				"_achievement": "384",
+				"_name": "#LIL_SPEWER_NAME",
+				"_description": "#LIL_SPEWER_DESCRIPTION",
+				"_gfx": "Collectibles_537_LilSpewer.png",
+				"_id": "537"
+			},
+			{
+				"_achievement": "387",
+				"_name": "#MYSTERY_EGG_NAME",
+				"_description": "#MYSTERY_EGG_DESCRIPTION",
+				"_gfx": "Collectibles_539_MysteryEgg.png",
+				"_id": "539"
+			},
+			{
+				"_achievement": "393",
+				"_name": "#SLIPPED_RIB_NAME",
+				"_gfx": "Collectibles_542_SlippedRib.png",
+				"_description": "#SLIPPED_RIB_DESCRIPTION",
+				"_id": "542"
+			},
+			{
+				"_achievement": "398",
+				"_name": "#HALLOWED_GROUND_NAME",
+				"_gfx": "Collectibles_543_HallowedGround.png",
+				"_description": "#HALLOWED_GROUND_DESCRIPTION",
+				"_id": "543"
+			},
+			{
+				"_achievement": "394",
+				"_name": "#POINTY_RIB_NAME",
+				"_gfx": "Collectibles_544_PointyRib.png",
+				"_description": "#POINTY_RIB_DESCRIPTION",
+				"_id": "544"
+			},
+			{
+				"_achievement": "395",
+				"_name": "#JAW_BONE_NAME",
+				"_gfx": "Collectibles_548_JawBone.png",
+				"_description": "#JAW_BONE_DESCRIPTION",
+				"_id": "548"
+			},
+			{
+				"_id": "565",
+				"_achievement": "462",
+				"_gfx": "Collectibles_565_BloodPuppy.png",
+				"_name": "#BLOOD_PUPPY_NAME",
+				"_description": "#BLOOD_PUPPY_DESCRIPTION"
+			},
+			{
+				"_id": "567",
+				"_gfx": "Collectibles_567_PaschalCandle.png",
+				"_name": "#PASCHAL_CANDLE_NAME",
+				"_description": "#PASCHAL_CANDLE_DESCRIPTION",
+				"_cache": "firedelay",
+				"_devilprice": "2"
+			},
+			{
+				"_id": "569",
+				"_gfx": "Collectibles_569_BloodOath.png",
+				"_name": "#BLOOD_OATH_NAME",
+				"_description": "#BLOOD_OATH_DESCRIPTION"
+			},
+			{
+				"_id": "575",
+				"_gfx": "Collectibles_575_TheIntruder.png",
+				"_name": "#THE_INTRUDER_NAME",
+				"_description": "#THE_INTRUDER_DESCRIPTION"
+			},
+			{
+				"_id": "581",
+				"_gfx": "Collectibles_581_PsyFly.png",
+				"_name": "#PSY_FLY_NAME",
+				"_description": "#PSY_FLY_DESCRIPTION"
+			},
+			{
+				"_id": "607",
+				"_gfx": "Collectibles_607_BoiledBaby.png",
+				"_name": "#BOILED_BABY_NAME",
+				"_description": "#BOILED_BABY_DESCRIPTION"
+			},
+			{
+				"_id": "608",
+				"_gfx": "Collectibles_608_FreezerBaby.png",
+				"_name": "#FREEZER_BABY_NAME",
+				"_description": "#FREEZER_BABY_DESCRIPTION"
+			},
+			{
+				"_id": "610",
+				"_achievement": "450",
+				"_gfx": "Collectibles_610_BirdCage.png",
+				"_name": "#BIRD_CAGE_NAME",
+				"_description": "#BIRD_CAGE_DESCRIPTION"
+			},
+			{
+				"_id": "612",
+				"_achievement": "460",
+				"_gfx": "Collectibles_612_LostSoul.png",
+				"_name": "#LOST_SOUL_NAME",
+				"_description": "#LOST_SOUL_DESCRIPTION"
+			},
+			{
+				"_id": "615",
+				"_gfx": "Collectibles_615_LilDumpy.png",
+				"_name": "#LIL_DUMPY_NAME",
+				"_description": "#LIL_DUMPY_DESCRIPTION"
+			},
+			{
+				"_id": "626",
+				"_gfx": "Collectibles_626_KnifePiece1.png",
+				"_name": "#KNIFE_PIECE_1_NAME",
+				"_description": "#KNIFE_PIECE_1_DESCRIPTION"
+			},
+			{
+				"_id": "627",
+				"_gfx": "Collectibles_627_KnifePiece2.png",
+				"_name": "#KNIFE_PIECE_2_NAME",
+				"_description": "#KNIFE_PIECE_2_DESCRIPTION"
+			},
+			{
+				"_id": "629",
+				"_gfx": "Collectibles_629_BotFly.png",
+				"_name": "#BOT_FLY_NAME",
+				"_description": "#BOT_FLY_DESCRIPTION"
+			},
+			{
+				"_id": "645",
+				"_achievement": "456",
+				"_gfx": "Collectibles_645_Tinytoma.png",
+				"_name": "#TINYTOMA_NAME",
+				"_description": "#TINYTOMA_DESCRIPTION"
+			},
+			{
+				"_id": "649",
+				"_achievement": "409",
+				"_gfx": "Collectibles_649_FruityPlum.png",
+				"_name": "#FRUITY_PLUM_NAME",
+				"_description": "#FRUITY_PLUM_DESCRIPTION"
+			},
+			{
+				"_id": "651",
+				"_achievement": "425",
+				"_gfx": "Collectibles_651_StarOfBethlehem.png",
+				"_name": "#STAR_OF_BETHLEHEM_NAME",
+				"_description": "#STAR_OF_BETHLEHEM_DESCRIPTION",
+				"_devilprice": "2"
+			},
+			{
+				"_id": "652",
+				"_gfx": "Collectibles_652_CubeBaby.png",
+				"_name": "#CUBE_BABY_NAME",
+				"_description": "#CUBE_BABY_DESCRIPTION"
+			},
+			{
+				"_id": "656",
+				"_achievement": "432",
+				"_gfx": "Collectibles_656_Damocles.png",
+				"_name": "#DAMOCLES_NAME",
+				"_description": "#DAMOCLES_DESCRIPTION",
+				"_devilprice": "2",
+				"_cache": "familiars damage",
+				"_hidden": "true"
+			},
+			{
+				"_id": "667",
+				"_achievement": "503",
+				"_gfx": "Collectibles_667_Strawman.png",
+				"_name": "#STRAWMAN_NAME",
+				"_description": "#STRAWMAN_DESCRIPTION",
+				"_bombs": "1",
+				"_persistent": "true"
+			},
+			{
+				"_id": "679",
+				"_achievement": "455",
+				"_gfx": "Collectibles_679_LilAbaddon.png",
+				"_name": "#LIL_ABADDON_NAME",
+				"_description": "#LIL_ABADDON_DESCRIPTION",
+				"_devilprice": "1"
+			},
+			{
+				"_id": "681",
+				"_achievement": "466",
+				"_gfx": "Collectibles_681_LilPortal.png",
+				"_name": "#LIL_PORTAL_NAME",
+				"_description": "#LIL_PORTAL_DESCRIPTION"
+			},
+			{
+				"_id": "682",
+				"_achievement": "467",
+				"_gfx": "Collectibles_682_WormFriend.png",
+				"_name": "#WORM_FRIEND_NAME",
+				"_description": "#WORM_FRIEND_DESCRIPTION"
+			},
+			{
+				"_id": "697",
+				"_achievement": "435",
+				"_gfx": "Collectibles_697_VanishingTwin.png",
+				"_name": "#VANISHING_TWIN_NAME",
+				"_description": "#VANISHING_TWIN_DESCRIPTION"
+			},
+			{
+				"_id": "698",
+				"_achievement": "502",
+				"_gfx": "Collectibles_698_TwistedPair.png",
+				"_name": "#TWISTED_PAIR_NAME",
+				"_description": "#TWISTED_PAIR_DESCRIPTION",
+				"_devilprice": "2"
+			}
+		],
+		"active": [
+			{
+				"_cache": "flying",
+				"_description": "#THE_BIBLE_DESCRIPTION",
+				"_gfx": "Collectibles_033_TheBible.png",
+				"_id": "33",
+				"_maxcharges": "4",
+				"_name": "#THE_BIBLE_NAME"
+			},
+			{
+				"_cache": "damage",
+				"_description": "#THE_BOOK_OF_BELIAL_DESCRIPTION",
+				"_gfx": "Collectibles_034_TheBookOfBelial.png",
+				"_id": "34",
+				"_maxcharges": "3",
+				"_name": "#THE_BOOK_OF_BELIAL_NAME"
+			},
+			{
+				"_achievement": "36",
+				"_description": "#THE_NECRONOMICON_DESCRIPTION",
+				"_gfx": "Collectibles_035_TheNecronomicon.png",
+				"_id": "35",
+				"_maxcharges": "4",
+				"_name": "#THE_NECRONOMICON_NAME"
+			},
+			{
+				"_description": "#THE_POOP_DESCRIPTION",
+				"_gfx": "Collectibles_036_ThePoop.png",
+				"_id": "36",
+				"_maxcharges": "1",
+				"_name": "#THE_POOP_NAME"
+			},
+			{
+				"_description": "#MR_BOOM_DESCRIPTION",
+				"_gfx": "Collectibles_037_MrBoom.png",
+				"_id": "37",
+				"_maxcharges": "2",
+				"_name": "#MR_BOOM_NAME"
+			},
+			{
+				"_description": "#TAMMYS_HEAD_DESCRIPTION",
+				"_gfx": "Collectibles_038_TammysHead.png",
+				"_id": "38",
+				"_maxcharges": "1",
+				"_name": "#TAMMYS_HEAD_NAME"
+			},
+			{
+				"_cooldown": "220",
+				"_description": "#MOMS_BRA_DESCRIPTION",
+				"_gfx": "Collectibles_039_MomsBra.png",
+				"_id": "39",
+				"_maxcharges": "3",
+				"_name": "#MOMS_BRA_NAME"
+			},
+			{
+				"_cooldown": "30",
+				"_description": "#KAMIKAZE_DESCRIPTION",
+				"_gfx": "Collectibles_040_Kamikaze.png",
+				"_id": "40",
+				"_maxcharges": "0",
+				"_name": "#KAMIKAZE_NAME",
+				"_addcostumeonpickup": "true"
+			},
+			{
+				"_cooldown": "450",
+				"_description": "#MOMS_PAD_DESCRIPTION",
+				"_gfx": "Collectibles_041_MomsPad.png",
+				"_id": "41",
+				"_maxcharges": "2",
+				"_name": "#MOMS_PAD_NAME"
+			},
+			{
+				"_description": "#BOBS_ROTTEN_HEAD_DESCRIPTION",
+				"_gfx": "Collectibles_042_BobsRottenHead.png",
+				"_id": "42",
+				"_maxcharges": "2",
+				"_name": "#BOBS_ROTTEN_HEAD_NAME"
+			},
+			{
+				"_cooldown": "30",
+				"_description": "#TELEPORT_DESCRIPTION",
+				"_gfx": "Collectibles_044_Teleport.png",
+				"_id": "44",
+				"_maxcharges": "2",
+				"_name": "#TELEPORT_NAME"
+			},
+			{
+				"_description": "#YUM_HEART_DESCRIPTION",
+				"_gfx": "Collectibles_045_YumHeart.png",
+				"_id": "45",
+				"_maxcharges": "4",
+				"_name": "#YUM_HEART_NAME"
+			},
+			{
+				"_description": "#DOCTORS_REMOTE_DESCRIPTION",
+				"_gfx": "Collectibles_047_DoctorsRemote.png",
+				"_id": "47",
+				"_maxcharges": "2",
+				"_name": "#DOCTORS_REMOTE_NAME"
+			},
+			{
+				"_description": "#SHOOP_DA_WHOOP_DESCRIPTION",
+				"_gfx": "Collectibles_049_ShoopDaWhoop.png",
+				"_id": "49",
+				"_maxcharges": "2",
+				"_name": "#SHOOP_DA_WHOOP_NAME"
+			},
+			{
+				"_description": "#LEMON_MISHAP_DESCRIPTION",
+				"_gfx": "Collectibles_056_LemonMishap.png",
+				"_id": "56",
+				"_maxcharges": "2",
+				"_name": "#LEMON_MISHAP_NAME"
+			},
+			{
+				"_cooldown": "300",
+				"_description": "#BOOK_OF_SHADOWS_DESCRIPTION",
+				"_gfx": "Collectibles_058_BookOfShadows.png",
+				"_id": "58",
+				"_maxcharges": "3",
+				"_name": "#BOOK_OF_SHADOWS_NAME"
+			},
+			{
+				"_cooldown": "35",
+				"_description": "#ANARCHIST_COOKBOOK_DESCRIPTION",
+				"_gfx": "Collectibles_065_AnarchistCookbook.png",
+				"_id": "65",
+				"_maxcharges": "3",
+				"_name": "#ANARCHIST_COOKBOOK_NAME"
+			},
+			{
+				"_cooldown": "240",
+				"_description": "#THE_HOURGLASS_DESCRIPTION",
+				"_gfx": "Collectibles_066_TheHourglass.png",
+				"_id": "66",
+				"_maxcharges": "2",
+				"_name": "#THE_HOURGLASS_NAME"
+			},
+			{
+				"_cache": "speed",
+				"_cooldown": "180",
+				"_description": "#MY_LITTLE_UNICORN_DESCRIPTION",
+				"_gfx": "Collectibles_077_MyLittleUnicorn.png",
+				"_id": "77",
+				"_maxcharges": "4",
+				"_name": "#MY_LITTLE_UNICORN_NAME"
+			},
+			{
+				"_achievement": "7",
+				"_description": "#BOOK_OF_REVELATIONS_DESCRIPTION",
+				"_gfx": "Collectibles_078_BookOfRevelations.png",
+				"_id": "78",
+				"_maxcharges": "6",
+				"_name": "#BOOK_OF_REVELATIONS_NAME",
+				"_devilprice": "2"
+			},
+			{
+				"_achievement": "9",
+				"_cache": "speed damage",
+				"_description": "#THE_NAIL_DESCRIPTION",
+				"_gfx": "Collectibles_083_TheNail.png",
+				"_id": "83",
+				"_maxcharges": "6",
+				"_name": "#THE_NAIL_NAME"
+			},
+			{
+				"_description": "#WE_NEED_TO_GO_DEEPER_DESCRIPTION",
+				"_gfx": "Collectibles_084_WeNeedToGoDeeper.png",
+				"_id": "84",
+				"_maxcharges": "6",
+				"_name": "#WE_NEED_TO_GO_DEEPER_NAME"
+			},
+			{
+				"_description": "#DECK_OF_CARDS_DESCRIPTION",
+				"_gfx": "Collectibles_085_DeckOfCards.png",
+				"_id": "85",
+				"_maxcharges": "6",
+				"_name": "#DECK_OF_CARDS_NAME"
+			},
+			{
+				"_achievement": "13",
+				"_description": "#MONSTROS_TOOTH_DESCRIPTION",
+				"_gfx": "Collectibles_086_MonstrosTooth.png",
+				"_id": "86",
+				"_maxcharges": "3",
+				"_name": "#MONSTROS_TOOTH_NAME",
+				"_addcostumeonpickup": "true"
+			},
+			{
+				"_achievement": "26",
+				"_cooldown": "200",
+				"_description": "#THE_GAMEKID_DESCRIPTION",
+				"_gfx": "Collectibles_093_TheGameKid.png",
+				"_id": "93",
+				"_maxcharges": "4",
+				"_name": "#THE_GAMEKID_NAME"
+			},
+			{
+				"_achievement": "22",
+				"_description": "#THE_BOOK_OF_SIN_DESCRIPTION",
+				"_gfx": "Collectibles_097_BookOfSin.png",
+				"_id": "97",
+				"_maxcharges": "4",
+				"_name": "#THE_BOOK_OF_SIN_NAME"
+			},
+			{
+				"_description": "#MOMS_BOTTLE_OF_PILLS_DESCRIPTION",
+				"_gfx": "Collectibles_102_MomsBottleOfPills.png",
+				"_id": "102",
+				"_maxcharges": "6",
+				"_name": "#MOMS_BOTTLE_OF_PILLS_NAME",
+				"_shopprice": "10"
+			},
+			{
+				"_achievement": "29",
+				"_description": "#THE_D6_DESCRIPTION",
+				"_gfx": "Collectibles_105_Dice.png",
+				"_id": "105",
+				"_maxcharges": "6",
+				"_name": "#THE_D6_NAME",
+				"_special": "true"
+			},
+			{
+				"_cache": "familiars",
+				"_description": "#THE_PINKING_SHEARS_DESCRIPTION",
+				"_gfx": "Collectibles_107_PinkingShears.png",
+				"_id": "107",
+				"_maxcharges": "4",
+				"_name": "#THE_PINKING_SHEARS_NAME"
+			},
+			{
+				"_description": "#THE_BEAN_DESCRIPTION",
+				"_gfx": "Collectibles_111_TheBean.png",
+				"_id": "111",
+				"_maxcharges": "120",
+				"_chargetype": "timed",
+				"_name": "#THE_BEAN_NAME"
+			},
+			{
+				"_description": "#MONSTER_MANUAL_DESCRIPTION",
+				"_gfx": "Collectibles_123_MonsterManual.png",
+				"_id": "123",
+				"_maxcharges": "6",
+				"_name": "#MONSTER_MANUAL_NAME"
+			},
+			{
+				"_description": "#DEAD_SEA_SCROLLS_DESCRIPTION",
+				"_gfx": "Collectibles_124_DeadSeaScrolls.png",
+				"_id": "124",
+				"_maxcharges": "2",
+				"_name": "#DEAD_SEA_SCROLLS_NAME"
+			},
+			{
+				"_achievement": "44",
+				"_cache": "damage",
+				"_description": "#RAZOR_BLADE_DESCRIPTION",
+				"_gfx": "Collectibles_126_RazorBlade.png",
+				"_id": "126",
+				"_maxcharges": "0",
+				"_name": "#RAZOR_BLADE_NAME"
+			},
+			{
+				"_achievement": "48",
+				"_description": "#FORGET_ME_NOW_DESCRIPTION",
+				"_gfx": "Collectibles_127_ForgetMeNow.png",
+				"_id": "127",
+				"_maxcharges": "0",
+				"_name": "#FORGET_ME_NOW_NAME"
+			},
+			{
+				"_cache": "flying speed",
+				"_description": "#A_PONY_DESCRIPTION",
+				"_gfx": "Collectibles_130_APony.png",
+				"_id": "130",
+				"_maxcharges": "2",
+				"_name": "#A_PONY_NAME",
+				"_passivecache": "true",
+				"_addcostumeonpickup": "true"
+			},
+			{
+				"_description": "#GUPPYS_PAW_DESCRIPTION",
+				"_gfx": "Collectibles_133_GuppysPaw.png",
+				"_id": "133",
+				"_maxcharges": "0",
+				"_name": "#GUPPYS_PAW_NAME"
+			},
+			{
+				"_cooldown": "15",
+				"_description": "#IV_BAG_DESCRIPTION",
+				"_gfx": "Collectibles_135_IVBag.png",
+				"_id": "135",
+				"_maxcharges": "0",
+				"_name": "#IV_BAG_NAME"
+			},
+			{
+				"_description": "#BEST_FRIEND_DESCRIPTION",
+				"_gfx": "Collectibles_136_BestFriend.png",
+				"_id": "136",
+				"_maxcharges": "3",
+				"_name": "#BEST_FRIEND_NAME"
+			},
+			{
+				"_bombs": "5",
+				"_cooldown": "2",
+				"_description": "#REMOTE_DETONATOR_DESCRIPTION",
+				"_gfx": "Collectibles_137_RemoteDetonator.png",
+				"_id": "137",
+				"_maxcharges": "0",
+				"_name": "#REMOTE_DETONATOR_NAME"
+			},
+			{
+				"_description": "#GUPPYS_HEAD_DESCRIPTION",
+				"_gfx": "Collectibles_145_GuppysHead.png",
+				"_id": "145",
+				"_maxcharges": "1",
+				"_name": "#GUPPYS_HEAD_NAME"
+			},
+			{
+				"_description": "#PRAYER_CARD_DESCRIPTION",
+				"_gfx": "Collectibles_146_PrayerCard.png",
+				"_id": "146",
+				"_maxcharges": "6",
+				"_name": "#PRAYER_CARD_NAME",
+				"_devilprice": "2"
+			},
+			{
+				"_description": "#NOTCHED_AXE_DESCRIPTION",
+				"_gfx": "Collectibles_147_NotchedAxe.png",
+				"_id": "147",
+				"_maxcharges": "64",
+				"_chargetype": "special",
+				"_name": "#NOTCHED_AXE_NAME",
+				"_persistent": "true"
+			},
+			{
+				"_description": "#CRYSTAL_BALL_DESCRIPTION",
+				"_gfx": "Collectibles_158_CrystalBall.png",
+				"_id": "158",
+				"_maxcharges": "6",
+				"_name": "#CRYSTAL_BALL_NAME"
+			},
+			{
+				"_cooldown": "30",
+				"_description": "#CRACK_THE_SKY_DESCRIPTION",
+				"_gfx": "Collectibles_160_CrackTheSky.png",
+				"_id": "160",
+				"_maxcharges": "4",
+				"_name": "#CRACK_THE_SKY_NAME"
+			},
+			{
+				"_achievement": "59",
+				"_description": "#THE_CANDLE_DESCRIPTION",
+				"_gfx": "Collectibles_164_BlueCandle.png",
+				"_id": "164",
+				"_maxcharges": "110",
+				"_name": "#THE_CANDLE_NAME",
+				"_chargetype": "timed"
+			},
+			{
+				"_achievement": "49",
+				"_description": "#D20_DESCRIPTION",
+				"_gfx": "Collectibles_166_D20.png",
+				"_id": "166",
+				"_maxcharges": "6",
+				"_name": "#D20_NAME"
+			},
+			{
+				"_cooldown": "120",
+				"_description": "#SPIDER_BUTT_DESCRIPTION",
+				"_gfx": "Collectibles_171_SpiderButt.png",
+				"_id": "171",
+				"_maxcharges": "2",
+				"_name": "#SPIDER_BUTT_NAME"
+			},
+			{
+				"_achievement": "58",
+				"_description": "#DADS_KEY_DESCRIPTION",
+				"_gfx": "Collectibles_175_DadsKey.png",
+				"_id": "175",
+				"_maxcharges": "2",
+				"_name": "#DADS_KEY_NAME"
+			},
+			{
+				"_cooldown": "0",
+				"_description": "#PORTABLE_SLOT_DESCRIPTION",
+				"_gfx": "Collectibles_177_PortableSlot.png",
+				"_id": "177",
+				"_maxcharges": "0",
+				"_name": "#PORTABLE_SLOT_NAME",
+				"_shopprice": "10"
+			},
+			{
+				"_cache": "flying speed",
+				"_description": "#WHITE_PONY_DESCRIPTION",
+				"_gfx": "Collectibles_181_WhitePony.png",
+				"_id": "181",
+				"_maxcharges": "2",
+				"_name": "#WHITE_PONY_NAME",
+				"_passivecache": "true",
+				"_addcostumeonpickup": "true"
+			},
+			{
+				"_achievement": "56",
+				"_description": "#BLOOD_RIGHTS_DESCRIPTION",
+				"_gfx": "Collectibles_186_BloodRights.png",
+				"_id": "186",
+				"_maxcharges": "0",
+				"_name": "#BLOOD_RIGHTS_NAME"
+			},
+			{
+				"_cache": "tearflag tearcolor range",
+				"_description": "#TELEPATHY_FOR_DUMMIES_DESCRIPTION",
+				"_gfx": "Collectibles_192_TelepathyForDummies.png",
+				"_id": "192",
+				"_maxcharges": "2",
+				"_name": "#TELEPATHY_FOR_DUMMIES_NAME"
+			},
+			{
+				"_achievement": "233",
+				"_description": "#CLEAR_RUNE_DESCRIPTION",
+				"_gfx": "Collectibles_263_BlankRune.png",
+				"_id": "263",
+				"_name": "#CLEAR_RUNE_NAME",
+				"_maxcharges": "4"
+			},
+			{
+				"_cooldown": "14",
+				"_description": "#HOW_TO_JUMP_DESCRIPTION",
+				"_gfx": "collectibles_282_howtojump.png",
+				"_id": "282",
+				"_maxcharges": "0",
+				"_name": "#HOW_TO_JUMP_NAME"
+			},
+			{
+				"_achievement": "133",
+				"_description": "#D100_DESCRIPTION",
+				"_gfx": "collectibles_283_d100.png",
+				"_id": "283",
+				"_maxcharges": "6",
+				"_name": "#D100_NAME",
+				"_special": "true"
+			},
+			{
+				"_achievement": "148",
+				"_description": "#D4_DESCRIPTION",
+				"_gfx": "collectibles_284_d4.png",
+				"_id": "284",
+				"_maxcharges": "6",
+				"_name": "#D4_NAME"
+			},
+			{
+				"_description": "#D10_DESCRIPTION",
+				"_gfx": "collectibles_285_d10.png",
+				"_id": "285",
+				"_maxcharges": "2",
+				"_name": "#D10_NAME"
+			},
+			{
+				"_achievement": "121",
+				"_description": "#BLANK_CARD_DESCRIPTION",
+				"_gfx": "collectibles_286_blankcard.png",
+				"_id": "286",
+				"_maxcharges": "4",
+				"_name": "#BLANK_CARD_NAME"
+			},
+			{
+				"_achievement": "122",
+				"_description": "#BOOK_OF_SECRETS_DESCRIPTION",
+				"_gfx": "collectibles_287_bookofsecrets.png",
+				"_id": "287",
+				"_maxcharges": "6",
+				"_name": "#BOOK_OF_SECRETS_NAME"
+			},
+			{
+				"_description": "#BOX_OF_SPIDERS_DESCRIPTION",
+				"_gfx": "collectibles_288_boxofspiders.png",
+				"_id": "288",
+				"_maxcharges": "2",
+				"_name": "#BOX_OF_SPIDERS_NAME"
+			},
+			{
+				"_achievement": "137",
+				"_description": "#RED_CANDLE_DESCRIPTION",
+				"_gfx": "collectibles_289_redcandle.png",
+				"_id": "289",
+				"_maxcharges": "110",
+				"_name": "#RED_CANDLE_NAME",
+				"_chargetype": "timed"
+			},
+			{
+				"_description": "#THE_JAR_DESCRIPTION",
+				"_gfx": "collectibles_290_thejar.png",
+				"_id": "290",
+				"_maxcharges": "0",
+				"_name": "#THE_JAR_NAME",
+				"_shopprice": "10"
+			},
+			{
+				"_description": "#FLUSH_DESCRIPTION",
+				"_gfx": "collectibles_291_flush.png",
+				"_id": "291",
+				"_maxcharges": "4",
+				"_name": "#FLUSH_NAME"
+			},
+			{
+				"_achievement": "126",
+				"_description": "#SATANIC_BIBLE_DESCRIPTION",
+				"_devilprice": "2",
+				"_gfx": "collectibles_292_satanicbible.png",
+				"_id": "292",
+				"_maxcharges": "6",
+				"_name": "#SATANIC_BIBLE_NAME"
+			},
+			{
+				"_achievement": "143",
+				"_description": "#HEAD_OF_KRAMPUS_DESCRIPTION",
+				"_gfx": "collectibles_293_headofkrampus.png",
+				"_id": "293",
+				"_maxcharges": "3",
+				"_name": "#HEAD_OF_KRAMPUS_NAME"
+			},
+			{
+				"_achievement": "145",
+				"_description": "#BUTTER_BEAN_DESCRIPTION",
+				"_gfx": "collectibles_294_butterbean.png",
+				"_id": "294",
+				"_maxcharges": "60",
+				"_name": "#BUTTER_BEAN_NAME",
+				"_chargetype": "timed"
+			},
+			{
+				"_description": "#MAGIC_FINGERS_DESCRIPTION",
+				"_gfx": "collectibles_295_magicfingers.png",
+				"_id": "295",
+				"_maxcharges": "0",
+				"_name": "#MAGIC_FINGERS_NAME",
+				"_shopprice": "10"
+			},
+			{
+				"_description": "#CONVERTER_DESCRIPTION",
+				"_gfx": "collectibles_296_converter.png",
+				"_id": "296",
+				"_maxcharges": "3",
+				"_name": "#CONVERTER_NAME"
+			},
+			{
+				"_achievement": "119",
+				"_description": "#PANDORAS_BOX_DESCRIPTION",
+				"_gfx": "collectibles_297_bluebox.png",
+				"_id": "297",
+				"_maxcharges": "0",
+				"_name": "#PANDORAS_BOX_NAME"
+			},
+			{
+				"_cache": "speed",
+				"_cooldown": "180",
+				"_description": "#UNICORN_STUMP_DESCRIPTION",
+				"_gfx": "collectibles_298_unicornstump.png",
+				"_id": "298",
+				"_maxcharges": "1",
+				"_name": "#UNICORN_STUMP_NAME"
+			},
+			{
+				"_achievement": "106",
+				"_description": "#ISAACS_TEARS_DESCRIPTION",
+				"_gfx": "collectibles_323_isaacstears.png",
+				"_id": "323",
+				"_maxcharges": "6",
+				"_name": "#ISAACS_TEARS_NAME",
+				"_chargetype": "special"
+			},
+			{
+				"_achievement": "125",
+				"_description": "#UNDEFINED_DESCRIPTION",
+				"_gfx": "collectibles_324_Undefined.png",
+				"_id": "324",
+				"_maxcharges": "6",
+				"_name": "#UNDEFINED_NAME"
+			},
+			{
+				"_achievement": "30",
+				"_cache": "familiars",
+				"_description": "#SCISSORS_DESCRIPTION",
+				"_gfx": "collectibles_325_scissors.png",
+				"_id": "325",
+				"_maxcharges": "4",
+				"_name": "#SCISSORS_NAME"
+			},
+			{
+				"_cooldown": "31",
+				"_description": "#BREATH_OF_LIFE_DESCRIPTION",
+				"_gfx": "collectibles_326_breathoflife.png",
+				"_id": "326",
+				"_maxcharges": "90",
+				"_name": "#BREATH_OF_LIFE_NAME",
+				"_chargetype": "timed"
+			},
+			{
+				"_description": "#THE_BOOMERANG_DESCRIPTION",
+				"_gfx": "collectibles_338_boomerang.png",
+				"_id": "338",
+				"_maxcharges": "70",
+				"_name": "#THE_BOOMERANG_NAME",
+				"_shopprice": "10",
+				"_chargetype": "timed"
+			},
+			{
+				"_description": "#DIPLOPIA_DESCRIPTION",
+				"_gfx": "Collectibles_347_Diplopia.png",
+				"_id": "347",
+				"_name": "#DIPLOPIA_NAME",
+				"_maxcharges": "0"
+			},
+			{
+				"_description": "#PLACEBO_DESCRIPTION",
+				"_gfx": "Collectibles_348_Placebo.png",
+				"_id": "348",
+				"_name": "#PLACEBO_NAME",
+				"_shopprice": "10",
+				"_maxcharges": "4"
+			},
+			{
+				"_achievement": "244",
+				"_description": "#WOODEN_NICKEL_DESCRIPTION",
+				"_gfx": "Collectibles_349_WoodenNickel.png",
+				"_id": "349",
+				"_name": "#WOODEN_NICKEL_NAME",
+				"_shopprice": "10",
+				"_maxcharges": "1"
+			},
+			{
+				"_description": "#MEGA_BEAN_DESCRIPTION",
+				"_gfx": "Collectibles_351_MegaBean.png",
+				"_id": "351",
+				"_name": "#MEGA_BEAN_NAME",
+				"_maxcharges": "4"
+			},
+			{
+				"_description": "#GLASS_CANNON_DESCRIPTION",
+				"_gfx": "Collectibles_352_GlassCannon.png",
+				"_id": "352",
+				"_name": "#GLASS_CANNON_NAME",
+				"_maxcharges": "110",
+				"_chargetype": "timed"
+			},
+			{
+				"_achievement": "203",
+				"_description": "#BOX_OF_FRIENDS_DESCRIPTION",
+				"_gfx": "Collectibles_357_PandorasBox.png",
+				"_id": "357",
+				"_name": "#BOX_OF_FRIENDS_NAME",
+				"_shopprice": "10",
+				"_maxcharges": "3",
+				"_cache": "familiars"
+			},
+			{
+				"_description": "#FRIENDLY_BALL_DESCRIPTION",
+				"_gfx": "Collectibles_382_FriendlyBall.png",
+				"_id": "382",
+				"_name": "#FRIENDLY_BALL_NAME",
+				"_maxcharges": "2"
+			},
+			{
+				"_description": "#TEAR_DETONATOR_DESCRIPTION",
+				"_gfx": "Collectibles_383_TearDetonator.png",
+				"_id": "383",
+				"_name": "#TEAR_DETONATOR_NAME",
+				"_shopprice": "10",
+				"_maxcharges": "450",
+				"_chargetype": "timed"
+			},
+			{
+				"_achievement": "181",
+				"_description": "#D12_DESCRIPTION",
+				"_gfx": "Collectibles_386_D12.png",
+				"_id": "386",
+				"_name": "#D12_NAME",
+				"_shopprice": "10",
+				"_maxcharges": "3"
+			},
+			{
+				"_description": "#VENTRICLE_RAZOR_DESCRIPTION",
+				"_gfx": "Collectibles_396_VentricleRazor.png",
+				"_id": "396",
+				"_name": "#VENTRICLE_RAZOR_NAME",
+				"_shopprice": "10"
+			},
+			{
+				"_achievement": "231",
+				"_description": "#D8_DESCRIPTION",
+				"_gfx": "Collectibles_406_D8.png",
+				"_id": "406",
+				"_name": "#D8_NAME",
+				"_maxcharges": "4"
+			},
+			{
+				"_description": "#TELEPORT_20_DESCRIPTION",
+				"_gfx": "Collectibles_419_Teleport20.png",
+				"_id": "419",
+				"_name": "#TELEPORT_20_NAME",
+				"_maxcharges": "4"
+			},
+			{
+				"_description": "#KIDNEY_BEAN_DESCRIPTION",
+				"_gfx": "Collectibles_421_KidneyBean.png",
+				"_id": "421",
+				"_name": "#KIDNEY_BEAN_NAME",
+				"_maxcharges": "120",
+				"_chargetype": "timed"
+			},
+			{
+				"_description": "#GLOWING_HOURGLASS_DESCRIPTION",
+				"_gfx": "Collectibles_422_GlowingHourGlass.png",
+				"_id": "422",
+				"_name": "#GLOWING_HOURGLASS_NAME",
+				"_maxcharges": "2"
+			},
+			{
+				"_description": "#MINE_CRAFTER_DESCRIPTION",
+				"_gfx": "Collectibles_427_MineCrafter.png",
+				"_id": "427",
+				"_name": "#MINE_CRAFTER_NAME",
+				"_maxcharges": "1"
+			},
+			{
+				"_description": "#JAR_OF_FLIES_DESCRIPTION",
+				"_gfx": "Collectibles_434_JarOfFlies.png",
+				"_id": "434",
+				"_name": "#JAR_OF_FLIES_NAME",
+				"_maxcharges": "0"
+			},
+			{
+				"_description": "#D7_DESCRIPTION",
+				"_gfx": "Collectibles_437_D7.png",
+				"_id": "437",
+				"_name": "#D7_NAME",
+				"_maxcharges": "3"
+			},
+			{
+				"_description": "#MOMS_BOX_DESCRIPTION",
+				"_gfx": "Collectibles_439_MomsBox.png",
+				"_id": "439",
+				"_name": "#MOMS_BOX_NAME",
+				"_maxcharges": "4",
+				"_cache": "all",
+				"_passivecache": "true"
+			},
+			{
+				"_achievement": "276",
+				"_description": "#MEGA_BLAST_DESCRIPTION",
+				"_gfx": "collectibles_441_megasatansbreath.png",
+				"_id": "441",
+				"_name": "#MEGA_BLAST_NAME",
+				"_maxcharges": "12"
+			},
+			{
+				"_description": "#BROKEN_GLASS_CANNON_DESCRIPTION",
+				"_gfx": "Collectibles_474_BrokenGlassCannon.png",
+				"_id": "474",
+				"_name": "#BROKEN_GLASS_CANNON_NAME",
+				"_maxcharges": "4",
+				"_initcharge": "0"
+			},
+			{
+				"_achievement": "305",
+				"_description": "#PLAN_C_DESCRIPTION",
+				"_gfx": "Collectibles_475_PlanC.png",
+				"_id": "475",
+				"_name": "#PLAN_C_NAME",
+				"_maxcharges": "0"
+			},
+			{
+				"_achievement": "296",
+				"_description": "#D1_DESCRIPTION",
+				"_gfx": "Collectibles_476_D1.png",
+				"_id": "476",
+				"_name": "#D1_NAME",
+				"_maxcharges": "4"
+			},
+			{
+				"_achievement": "295",
+				"_description": "#VOID_DESCRIPTION",
+				"_gfx": "Collectibles_477_Void.png",
+				"_id": "477",
+				"_name": "#VOID_NAME",
+				"_maxcharges": "4"
+			},
+			{
+				"_description": "#PAUSE_DESCRIPTION",
+				"_gfx": "Collectibles_478_Pause.png",
+				"_id": "478",
+				"_name": "#PAUSE_NAME",
+				"_shopprice": "10",
+				"_maxcharges": "2"
+			},
+			{
+				"_achievement": "318",
+				"_description": "#SMELTER_DESCRIPTION",
+				"_gfx": "Collectibles_479_Smelter.png",
+				"_id": "479",
+				"_name": "#SMELTER_NAME",
+				"_maxcharges": "6"
+			},
+			{
+				"_description": "#COMPOST_DESCRIPTION",
+				"_gfx": "Collectibles_480_Compost.png",
+				"_id": "480",
+				"_name": "#COMPOST_NAME",
+				"_shopprice": "10",
+				"_maxcharges": "2"
+			},
+			{
+				"_description": "#DATAMINER_DESCRIPTION",
+				"_gfx": "Collectibles_481_Dataminer.png",
+				"_id": "481",
+				"_name": "#DATAMINER_NAME",
+				"_maxcharges": "4"
+			},
+			{
+				"_description": "#CLICKER_DESCRIPTION",
+				"_gfx": "Collectibles_482_Clicker.png",
+				"_id": "482",
+				"_name": "#CLICKER_NAME",
+				"_maxcharges": "6"
+			},
+			{
+				"_description": "#MAMA_MEGA_DESCRIPTION",
+				"_gfx": "Collectibles_483_MaMaMega.png",
+				"_id": "483",
+				"_name": "#MAMA_MEGA_NAME"
+			},
+			{
+				"_description": "#WAIT_WHAT_DESCRIPTION",
+				"_gfx": "Collectibles_484_WaitWhat.png",
+				"_id": "484",
+				"_name": "#WAIT_WHAT_NAME",
+				"_maxcharges": "300",
+				"_chargetype": "timed"
+			},
+			{
+				"_achievement": "294",
+				"_description": "#CROOKED_PENNY_DESCRIPTION",
+				"_gfx": "collectibles_485_crookedpenny.png",
+				"_id": "485",
+				"_name": "#CROOKED_PENNY_NAME",
+				"_maxcharges": "4"
+			},
+			{
+				"_achievement": "288",
+				"_description": "#DULL_RAZOR_DESCRIPTION",
+				"_gfx": "collectibles_486_dullrazor.png",
+				"_id": "486",
+				"_name": "#DULL_RAZOR_NAME",
+				"_shopprice": "10",
+				"_maxcharges": "2"
+			},
+			{
+				"_description": "#POTATO_PEELER_DESCRIPTION",
+				"_gfx": "collectibles_487_potatopeeler.png",
+				"_id": "487",
+				"_name": "#POTATO_PEELER_NAME"
+			},
+			{
+				"_achievement": "303",
+				"_description": "#METRONOME_DESCRIPTION",
+				"_gfx": "collectibles_488_metronome.png",
+				"_id": "488",
+				"_name": "#METRONOME_NAME",
+				"_maxcharges": "2",
+				"_cache": "all"
+			},
+			{
+				"_achievement": "282",
+				"_description": "#D_INFINITY_DESCRIPTION",
+				"_gfx": "collectibles_489_dinfinity.png",
+				"_id": "489",
+				"_name": "#D_INFINITY_NAME",
+				"_maxcharges": "4"
+			},
+			{
+				"_achievement": "289",
+				"_description": "#EDENS_SOUL_DESCRIPTION",
+				"_gfx": "collectibles_490_edenssoul.png",
+				"_id": "490",
+				"_name": "#EDENS_SOUL_NAME",
+				"_maxcharges": "12",
+				"_initcharge": "0"
+			},
+			{
+				"_achievement": "316",
+				"_description": "#BROWN_NUGGET_DESCRIPTION",
+				"_gfx": "Collectibles_504_BrownNugget.png",
+				"_id": "504",
+				"_name": "#BROWN_NUGGET_NAME",
+				"_cache": "familiars",
+				"_maxcharges": "250",
+				"_chargetype": "timed"
+			},
+			{
+				"_description": "#SHARP_STRAW_DESCRIPTION",
+				"_gfx": "Collectibles_507_SharpStraw.png",
+				"_id": "507",
+				"_name": "#SHARP_STRAW_NAME",
+				"_maxcharges": "300",
+				"_chargetype": "timed"
+			},
+			{
+				"_achievement": "338",
+				"_description": "#DELIRIOUS_DESCRIPTION",
+				"_gfx": "Collectibles_510_Delirious.png",
+				"_id": "510",
+				"_name": "#DELIRIOUS_NAME",
+				"_maxcharges": "12"
+			},
+			{
+				"_achievement": "349",
+				"_description": "#BLACK_HOLE_DESCRIPTION",
+				"_gfx": "Collectibles_512_BlackHole.png",
+				"_id": "512",
+				"_maxcharges": "4",
+				"_name": "#BLACK_HOLE_NAME"
+			},
+			{
+				"_achievement": "350",
+				"_description": "#MYSTERY_GIFT_DESCRIPTION",
+				"_id": "515",
+				"_gfx": "Collectibles_515_MysteryGift.png",
+				"_name": "#MYSTERY_GIFT_NAME"
+			},
+			{
+				"_achievement": "351",
+				"_cache": "familiars",
+				"_name": "#SPRINKLER_NAME",
+				"_gfx": "Collectibles_516_Sprinkler.png",
+				"_description": "#SPRINKLER_DESCRIPTION",
+				"_id": "516",
+				"_maxcharges": "4"
+			},
+			{
+				"_achievement": "364",
+				"_description": "#COUPON_DESCRIPTION",
+				"_gfx": "Collectibles_521_CerealCutout.png",
+				"_maxcharges": "6",
+				"_name": "#COUPON_NAME",
+				"_id": "521"
+			},
+			{
+				"_achievement": "365",
+				"_description": "#TELEKINESIS_DESCRIPTION",
+				"_gfx": "Collectibles_522_Telekinesis.png",
+				"_cooldown": "100",
+				"_maxcharges": "200",
+				"_name": "#TELEKINESIS_NAME",
+				"_id": "522",
+				"_chargetype": "timed"
+			},
+			{
+				"_achievement": "366",
+				"_description": "#MOVING_BOX_DESCRIPTION",
+				"_gfx": "collectibles_523_movingbox.png",
+				"_maxcharges": "4",
+				"_name": "#MOVING_BOX_NAME",
+				"_id": "523"
+			},
+			{
+				"_achievement": "371",
+				"_description": "#MR_ME_DESCRIPTION",
+				"_gfx": "Collectibles_527_Mr_Me.png",
+				"_maxcharges": "4",
+				"_name": "#MR_ME_NAME",
+				"_id": "527"
+			},
+			{
+				"_achievement": "383",
+				"_description": "#SACRIFICIAL_ALTAR_DESCRIPTION",
+				"_gfx": "Collectibles_536_SacrificialAltar.png",
+				"_name": "#SACRIFICIAL_ALTAR_NAME",
+				"_id": "536",
+				"_maxcharges": "0"
+			},
+			{
+				"_achievement": "401",
+				"_name": "#BOOK_OF_THE_DEAD_NAME",
+				"_gfx": "Collectibles_545_BookOfTheDead.png",
+				"_description": "#BOOK_OF_THE_DEAD_DESCRIPTION",
+				"_id": "545",
+				"_maxcharges": "6"
+			},
+			{
+				"_name": "#BROKEN_SHOVEL_NAME",
+				"_gfx": "Collectibles_550_ShovelPiece1.png",
+				"_description": "#BROKEN_SHOVEL_DESCRIPTION",
+				"_id": "550",
+				"_maxcharges": "4"
+			},
+			{
+				"_name": "#MOMS_SHOVEL_NAME",
+				"_gfx": "Collectibles_552_MomsShovel.png",
+				"_description": "#MOMS_SHOVEL_DESCRIPTION",
+				"_id": "552",
+				"_maxcharges": "4"
+			},
+			{
+				"_id": "555",
+				"_achievement": "583",
+				"_gfx": "Collectibles_555_GoldenRazor.png",
+				"_name": "#GOLDEN_RAZOR_NAME",
+				"_description": "#GOLDEN_RAZOR_DESCRIPTION",
+				"_maxcharges": "0",
+				"_cache": "damage",
+				"_coins": "5"
+			},
+			{
+				"_id": "556",
+				"_gfx": "Collectibles_556_Sulfur.png",
+				"_name": "#SULFUR_NAME",
+				"_description": "#SULFUR_DESCRIPTION",
+				"_maxcharges": "3"
+			},
+			{
+				"_id": "557",
+				"_gfx": "Collectibles_557_FortuneCookie.png",
+				"_name": "#FORTUNE_COOKIE_NAME",
+				"_description": "#FORTUNE_COOKIE_DESCRIPTION",
+				"_maxcharges": "2"
+			},
+			{
+				"_id": "577",
+				"_achievement": "432",
+				"_gfx": "Collectibles_577_Damocles.png",
+				"_name": "#DAMOCLES_NAME",
+				"_description": "#DAMOCLES_DESCRIPTION",
+				"_maxcharges": "0",
+				"_devilprice": "2",
+				"_cache": "familiars"
+			},
+			{
+				"_id": "578",
+				"_gfx": "Collectibles_578_FreeLemonade.png",
+				"_name": "#FREE_LEMONADE_NAME",
+				"_description": "#FREE_LEMONADE_DESCRIPTION",
+				"_maxcharges": "4"
+			},
+			{
+				"_id": "580",
+				"_achievement": "415",
+				"_gfx": "Collectibles_580_SecretKey.png",
+				"_name": "#RED_KEY_NAME",
+				"_description": "#RED_KEY_DESCRIPTION",
+				"_maxcharges": "4"
+			},
+			{
+				"_id": "582",
+				"_gfx": "Collectibles_582_WavyCap.png",
+				"_name": "#WAVY_CAP_NAME",
+				"_description": "#WAVY_CAP_DESCRIPTION",
+				"_maxcharges": "900",
+				"_chargetype": "timed",
+				"_cache": "firedelay damage speed"
+			},
+			{
+				"_id": "585",
+				"_achievement": "420",
+				"_gfx": "Collectibles_585_AlabasterBox.png",
+				"_name": "#ALABASTER_BOX_NAME",
+				"_description": "#ALABASTER_BOX_DESCRIPTION",
+				"_maxcharges": "12",
+				"_chargetype": "special",
+				"_initcharge": "0"
+			},
+			{
+				"_id": "604",
+				"_gfx": "Collectibles_604_MomsBracelet.png",
+				"_name": "#MOMS_BRACELET_NAME",
+				"_description": "#MOMS_BRACELET_DESCRIPTION",
+				"_shopprice": "10",
+				"_maxcharges": "30",
+				"_chargetype": "timed"
+			},
+			{
+				"_id": "605",
+				"_gfx": "Collectibles_605_TheScooper.png",
+				"_name": "#THE_SCOOPER_NAME",
+				"_description": "#THE_SCOOPER_DESCRIPTION",
+				"_maxcharges": "3",
+				"_cache": "familiars"
+			},
+			{
+				"_id": "609",
+				"_achievement": "448",
+				"_gfx": "Collectibles_609_FloriansD6.png",
+				"_name": "#ETERNAL_D6_NAME",
+				"_description": "#ETERNAL_D6_DESCRIPTION",
+				"_maxcharges": "2"
+			},
+			{
+				"_id": "611",
+				"_achievement": "497",
+				"_gfx": "Collectibles_611_Larynx.png",
+				"_name": "#LARYNX_NAME",
+				"_description": "#LARYNX_DESCRIPTION",
+				"_maxcharges": "12",
+				"_initcharge": "1",
+				"_cooldown": "12"
+			},
+			{
+				"_id": "622",
+				"_achievement": "436",
+				"_gfx": "Collectibles_622_Genesis.png",
+				"_name": "#GENESIS_NAME",
+				"_description": "#GENESIS_DESCRIPTION"
+			},
+			{
+				"_id": "623",
+				"_gfx": "Collectibles_623_SharpKey.png",
+				"_name": "#SHARP_KEY_NAME",
+				"_description": "#SHARP_KEY_DESCRIPTION",
+				"_keys": "5",
+				"_maxcharges": "0"
+			},
+			{
+				"_id": "625",
+				"_achievement": "547",
+				"_gfx": "Collectibles_625_MegaMush.png",
+				"_name": "#MEGA_MUSH_NAME",
+				"_description": "#MEGA_MUSH_DESCRIPTION",
+				"_maxcharges": "12",
+				"_cooldown": "900",
+				"_persistent": "true",
+				"_cache": "all"
+			},
+			{
+				"_id": "628",
+				"_achievement": "636",
+				"_gfx": "Collectibles_628_DeathCertificate.png",
+				"_name": "#DEATH_CERTIFICATE_NAME",
+				"_description": "#DEATH_CERTIFICATE_DESCRIPTION",
+				"_maxcharges": "0"
+			},
+			{
+				"_id": "631",
+				"_achievement": "440",
+				"_gfx": "Collectibles_631_MeatCleaver.png",
+				"_name": "#MEAT_CLEAVER_NAME",
+				"_description": "#MEAT_CLEAVER_DESCRIPTION",
+				"_maxcharges": "2"
+			},
+			{
+				"_id": "635",
+				"_gfx": "Collectibles_635_Stitches.png",
+				"_name": "#STITCHES_NAME",
+				"_description": "#STITCHES_DESCRIPTION",
+				"_maxcharges": "90",
+				"_cache": "familiars",
+				"_chargetype": "timed",
+				"_passivecache": "true"
+			},
+			{
+				"_id": "636",
+				"_gfx": "Collectibles_636_RKey.png",
+				"_name": "#R_KEY_NAME",
+				"_description": "#R_KEY_DESCRIPTION",
+				"_shopprice": "99",
+				"_devilprice": "2"
+			},
+			{
+				"_id": "638",
+				"_gfx": "Collectibles_638_Eraser.png",
+				"_name": "#ERASER_NAME",
+				"_description": "#ERASER_DESCRIPTION",
+				"_maxcharges": "1",
+				"_chargetype": "special"
+			},
+			{
+				"_id": "639",
+				"_achievement": "442",
+				"_gfx": "Collectibles_639_YuckHeart.png",
+				"_name": "#YUCK_HEART_NAME",
+				"_description": "#YUCK_HEART_DESCRIPTION",
+				"_maxcharges": "4"
+			},
+			{
+				"_id": "640",
+				"_achievement": "418",
+				"_gfx": "Collectibles_640_UrnOfSouls.png",
+				"_name": "#URN_OF_SOULS_NAME",
+				"_description": "#URN_OF_SOULS_DESCRIPTION",
+				"_maxcharges": "0",
+				"_persistent": "true"
+			},
+			{
+				"_id": "642",
+				"_achievement": "472",
+				"_gfx": "Collectibles_642_MagicSkin.png",
+				"_name": "#MAGIC_SKIN_NAME",
+				"_description": "#MAGIC_SKIN_DESCRIPTION",
+				"_maxcharges": "6"
+			},
+			{
+				"_id": "650",
+				"_achievement": "410",
+				"_gfx": "Collectibles_650_PlumFlute.png",
+				"_name": "#PLUM_FLUTE_NAME",
+				"_description": "#PLUM_FLUTE_DESCRIPTION",
+				"_maxcharges": "4"
+			},
+			{
+				"_id": "653",
+				"_achievement": "424",
+				"_gfx": "Collectibles_653_VadeRetro.png",
+				"_name": "#VADE_RETRO_NAME",
+				"_description": "#VADE_RETRO_DESCRIPTION"
+			},
+			{
+				"_id": "655",
+				"_gfx": "Collectibles_655_SpinToWin.png",
+				"_name": "#SPIN_TO_WIN_NAME",
+				"_description": "#SPIN_TO_WIN_DESCRIPTION",
+				"_maxcharges": "90",
+				"_cache": "familiars",
+				"_chargetype": "timed",
+				"_passivecache": "true"
+			},
+			{
+				"_id": "685",
+				"_achievement": "471",
+				"_gfx": "Collectibles_685_JarOfWisps.png",
+				"_name": "#JAR_OF_WISPS_NAME",
+				"_description": "#JAR_OF_WISPS_DESCRIPTION",
+				"_maxcharges": "6"
+			},
+			{
+				"_id": "687",
+				"_achievement": "473",
+				"_gfx": "Collectibles_687_FriendFinder.png",
+				"_name": "#FRIEND_FINDER_NAME",
+				"_description": "#FRIEND_FINDER_DESCRIPTION",
+				"_maxcharges": "4"
+			},
+			{
+				"_id": "703",
+				"_achievement": "507",
+				"_gfx": "Collectibles_703_EsauJr.png",
+				"_name": "#ESAU_JR_NAME",
+				"_description": "#ESAU_JR_DESCRIPTION",
+				"_maxcharges": "1"
+			},
+			{
+				"_id": "704",
+				"_achievement": "590",
+				"_gfx": "Collectibles_704_Berserk.png",
+				"_name": "#BERSERK_NAME",
+				"_description": "#BERSERK_DESCRIPTION",
+				"_maxcharges": "100000",
+				"_chargetype": "special",
+				"_initcharge": "50000",
+				"_cache": "all",
+				"_cooldown": "150",
+				"_persistent": "true"
+			},
+			{
+				"_id": "705",
+				"_achievement": "587",
+				"_gfx": "Collectibles_705_DarkArts.png",
+				"_name": "#DARK_ARTS_NAME",
+				"_description": "#DARK_ARTS_DESCRIPTION",
+				"_maxcharges": "180",
+				"_chargetype": "timed",
+				"_cooldown": "30",
+				"_cache": "speed"
+			},
+			{
+				"_id": "706",
+				"_achievement": "597",
+				"_gfx": "Collectibles_706_Abyss.png",
+				"_name": "#ABYSS_NAME",
+				"_description": "#ABYSS_DESCRIPTION",
+				"_maxcharges": "4"
+			},
+			{
+				"_id": "709",
+				"_achievement": "437",
+				"_gfx": "Collectibles_709_Suplex.png",
+				"_name": "#SUPLEX_NAME",
+				"_description": "#SUPLEX_DESCRIPTION",
+				"_maxcharges": "200",
+				"_chargetype": "timed"
+			},
+			{
+				"_id": "710",
+				"_achievement": "586",
+				"_gfx": "Collectibles_710_BagOfCrafting.png",
+				"_name": "#BAG_OF_CRAFTING_NAME",
+				"_description": "#BAG_OF_CRAFTING_DESCRIPTION"
+			},
+			{
+				"_id": "711",
+				"_achievement": "592",
+				"_gfx": "Collectibles_711_Flip.png",
+				"_name": "#FLIP_NAME",
+				"_description": "#FLIP_DESCRIPTION",
+				"_maxcharges": "6"
+			},
+			{
+				"_id": "712",
+				"_achievement": "599",
+				"_gfx": "Collectibles_712_Lemegeton.png",
+				"_name": "#LEMEGETON_NAME",
+				"_description": "#LEMEGETON_DESCRIPTION",
+				"_maxcharges": "6"
+			},
+			{
+				"_id": "713",
+				"_achievement": "589",
+				"_gfx": "Collectibles_713_Sumptorium.png",
+				"_name": "#SUMPTORIUM_NAME",
+				"_description": "#SUMPTORIUM_DESCRIPTION",
+				"_maxcharges": "300",
+				"_chargetype": "timed",
+				"_cooldown": "60"
+			},
+			{
+				"_id": "714",
+				"_gfx": "Collectibles_714_Recall.png",
+				"_name": "#RECALL_NAME",
+				"_description": "#RECALL_DESCRIPTION",
+				"_maxcharges": "90",
+				"_chargetype": "timed",
+				"_cache": "flying",
+				"_cooldown": "150",
+				"_hidden": "true"
+			},
+			{
+				"_id": "715",
+				"_gfx": "Collectibles_715_Hold.png",
+				"_name": "#HOLD_NAME",
+				"_description": "#HOLD_DESCRIPTION",
+				"_maxcharges": "0",
+				"_hidden": "true"
+			},
+			{
+				"_id": "719",
+				"_achievement": "465",
+				"_gfx": "Collectibles_719_KeepersBox.png",
+				"_name": "#KEEPERS_BOX_NAME",
+				"_description": "#KEEPERS_BOX_DESCRIPTION",
+				"_maxcharges": "4"
+			},
+			{
+				"_id": "720",
+				"_achievement": "459",
+				"_gfx": "Collectibles_720_EverythingJar.png",
+				"_name": "#EVERYTHING_JAR_NAME",
+				"_description": "#EVERYTHING_JAR_DESCRIPTION",
+				"_maxcharges": "12",
+				"_initcharge": "1"
+			},
+			{
+				"_id": "722",
+				"_achievement": "600",
+				"_gfx": "Collectibles_722_AnimaSola.png",
+				"_name": "#ANIMA_SOLA_NAME",
+				"_description": "#ANIMA_SOLA_DESCRIPTION",
+				"_maxcharges": "450",
+				"_chargetype": "timed"
+			},
+			{
+				"_id": "723",
+				"_achievement": "584",
+				"_gfx": "Collectibles_723_SpindownDice.png",
+				"_name": "#SPINDOWN_DICE_NAME",
+				"_description": "#SPINDOWN_DICE_DESCRIPTION",
+				"_maxcharges": "6"
+			},
+			{
+				"_id": "728",
+				"_achievement": "595",
+				"_gfx": "Collectibles_728_Gello.png",
+				"_name": "#GELLO_NAME",
+				"_description": "#GELLO_DESCRIPTION",
+				"_maxcharges": "2"
+			},
+			{
+				"_id": "729",
+				"_achievement": "598",
+				"_gfx": "Collectibles_729_DecapAttack.png",
+				"_name": "#DECAP_ATTACK_NAME",
+				"_description": "#DECAP_ATTACK_DESCRIPTION",
+				"_maxcharges": "110",
+				"_chargetype": "timed",
+				"_cache": "damage firedelay"
+			}
+		],
+		"trinket": [
+			{
+				"_achievement": "101",
+				"_description": "#SWALLOWED_PENNY_DESCRIPTION",
+				"_gfx": "trinket_001_swallowedpenny.png",
+				"_id": "1",
+				"_name": "#SWALLOWED_PENNY_NAME"
+			},
+			{
+				"_description": "#PETRIFIED_POOP_DESCRIPTION",
+				"_gfx": "trinket_002_petrifiedpoop.png",
+				"_id": "2",
+				"_name": "#PETRIFIED_POOP_NAME"
+			},
+			{
+				"_description": "#AAA_BATTERY_DESCRIPTION",
+				"_gfx": "trinket_003_aaabattery.png",
+				"_id": "3",
+				"_name": "#AAA_BATTERY_NAME"
+			},
+			{
+				"_description": "#BROKEN_REMOTE_DESCRIPTION",
+				"_gfx": "trinket_004_brokenremote.png",
+				"_id": "4",
+				"_name": "#BROKEN_REMOTE_NAME"
+			},
+			{
+				"_description": "#PURPLE_HEART_DESCRIPTION",
+				"_gfx": "trinket_005_purpleheart.png",
+				"_id": "5",
+				"_name": "#PURPLE_HEART_NAME"
+			},
+			{
+				"_description": "#BROKEN_MAGNET_DESCRIPTION",
+				"_gfx": "trinket_006_brokenmagnet.png",
+				"_id": "6",
+				"_name": "#BROKEN_MAGNET_NAME"
+			},
+			{
+				"_description": "#ROSARY_BEAD_DESCRIPTION",
+				"_gfx": "trinket_007_rosarybead.png",
+				"_id": "7",
+				"_name": "#ROSARY_BEAD_NAME"
+			},
+			{
+				"_description": "#CARTRIDGE_DESCRIPTION",
+				"_gfx": "trinket_008_cartridge.png",
+				"_id": "8",
+				"_name": "#CARTRIDGE_NAME"
+			},
+			{
+				"_cache": "tearflag",
+				"_description": "#PULSE_WORM_DESCRIPTION",
+				"_gfx": "trinket_009_pulseworm.png",
+				"_id": "9",
+				"_name": "#PULSE_WORM_NAME"
+			},
+			{
+				"_cache": "tearflag firedelay",
+				"_description": "#WIGGLE_WORM_DESCRIPTION",
+				"_gfx": "trinket_010_wiggleworm.png",
+				"_id": "10",
+				"_name": "#WIGGLE_WORM_NAME"
+			},
+			{
+				"_cache": "tearflag firedelay",
+				"_description": "#RING_WORM_DESCRIPTION",
+				"_gfx": "trinket_011_ringworm.png",
+				"_id": "11",
+				"_name": "#RING_WORM_NAME"
+			},
+			{
+				"_cache": "tearflag",
+				"_description": "#FLAT_WORM_DESCRIPTION",
+				"_gfx": "trinket_012_flatworm.png",
+				"_id": "12",
+				"_name": "#FLAT_WORM_NAME"
+			},
+			{
+				"_achievement": "118",
+				"_description": "#STORE_CREDIT_DESCRIPTION",
+				"_gfx": "trinket_013_storecredit.png",
+				"_id": "13",
+				"_name": "#STORE_CREDIT_NAME"
+			},
+			{
+				"_description": "#CALLUS_DESCRIPTION",
+				"_gfx": "trinket_014_callus.png",
+				"_id": "14",
+				"_name": "#CALLUS_NAME"
+			},
+			{
+				"_achievement": "85",
+				"_description": "#LUCKY_ROCK_DESCRIPTION",
+				"_gfx": "trinket_015_luckyrock.png",
+				"_id": "15",
+				"_name": "#LUCKY_ROCK_NAME"
+			},
+			{
+				"_description": "#MOMS_TOENAIL_DESCRIPTION",
+				"_gfx": "trinket_016_momstoenail.png",
+				"_id": "16",
+				"_name": "#MOMS_TOENAIL_NAME"
+			},
+			{
+				"_cache": "damage",
+				"_achievement": "111",
+				"_description": "#BLACK_LIPSTICK_DESCRIPTION",
+				"_gfx": "trinket_017_blacklipstick.png",
+				"_id": "17",
+				"_name": "#BLACK_LIPSTICK_NAME"
+			},
+			{
+				"_description": "#BIBLE_TRACT_DESCRIPTION",
+				"_gfx": "trinket_018_bibletract.png",
+				"_id": "18",
+				"_name": "#BIBLE_TRACT_NAME"
+			},
+			{
+				"_description": "#PAPER_CLIP_DESCRIPTION",
+				"_gfx": "trinket_019_paperclip.png",
+				"_id": "19",
+				"_name": "#PAPER_CLIP_NAME"
+			},
+			{
+				"_description": "#MONKEY_PAW_DESCRIPTION",
+				"_gfx": "trinket_020_monkeypaw.png",
+				"_id": "20",
+				"_name": "#MONKEY_PAW_NAME"
+			},
+			{
+				"_achievement": "123",
+				"_description": "#MYSTERIOUS_PAPER_DESCRIPTION",
+				"_gfx": "trinket_021_mysteriouspaper.png",
+				"_id": "21",
+				"_name": "#MYSTERIOUS_PAPER_NAME"
+			},
+			{
+				"_cache": "damage pickupvision",
+				"_achievement": "127",
+				"_description": "#DAEMONS_TAIL_DESCRIPTION",
+				"_gfx": "trinket_022_daemonstail.png",
+				"_id": "22",
+				"_name": "#DAEMONS_TAIL_NAME"
+			},
+			{
+				"_achievement": "149",
+				"_description": "#MISSING_POSTER_DESCRIPTION",
+				"_gfx": "trinket_023_missingposter.png",
+				"_id": "23",
+				"_name": "#MISSING_POSTER_NAME"
+			},
+			{
+				"_description": "#BUTT_PENNY_DESCRIPTION",
+				"_gfx": "trinket_024_buttpenny.png",
+				"_id": "24",
+				"_name": "#BUTT_PENNY_NAME"
+			},
+			{
+				"_description": "#MYSTERIOUS_CANDY_DESCRIPTION",
+				"_gfx": "trinket_025_mysteriouscandy.png",
+				"_id": "25",
+				"_name": "#MYSTERIOUS_CANDY_NAME"
+			},
+			{
+				"_cache": "tearflag range firedelay",
+				"_description": "#HOOK_WORM_DESCRIPTION",
+				"_gfx": "trinket_026_hookworm.png",
+				"_id": "26",
+				"_name": "#HOOK_WORM_NAME"
+			},
+			{
+				"_cache": "shotspeed",
+				"_description": "#WHIP_WORM_DESCRIPTION",
+				"_gfx": "trinket_027_whipworm.png",
+				"_id": "27",
+				"_name": "#WHIP_WORM_NAME"
+			},
+			{
+				"_achievement": "117",
+				"_description": "#BROKEN_ANKH_DESCRIPTION",
+				"_gfx": "trinket_028_brokenankh.png",
+				"_id": "28",
+				"_name": "#BROKEN_ANKH_NAME"
+			},
+			{
+				"_description": "#FISH_HEAD_DESCRIPTION",
+				"_gfx": "trinket_029_fishhead.png",
+				"_id": "29",
+				"_name": "#FISH_HEAD_NAME"
+			},
+			{
+				"_description": "#PINKY_EYE_DESCRIPTION",
+				"_gfx": "trinket_030_pinkyeye.png",
+				"_id": "30",
+				"_name": "#PINKY_EYE_NAME"
+			},
+			{
+				"_description": "#PUSH_PIN_DESCRIPTION",
+				"_gfx": "trinket_031_pushpin.png",
+				"_id": "31",
+				"_name": "#PUSH_PIN_NAME"
+			},
+			{
+				"_description": "#LIBERTY_CAP_DESCRIPTION",
+				"_gfx": "trinket_032_libertycap.png",
+				"_id": "32",
+				"_name": "#LIBERTY_CAP_NAME"
+			},
+			{
+				"_description": "#UMBILICAL_CORD_DESCRIPTION",
+				"_gfx": "trinket_033_umbilicalcord.png",
+				"_id": "33",
+				"_name": "#UMBILICAL_CORD_NAME"
+			},
+			{
+				"_description": "#CHILDS_HEART_DESCRIPTION",
+				"_gfx": "trinket_034_childsheart.png",
+				"_id": "34",
+				"_name": "#CHILDS_HEART_NAME",
+				"_cache": "pickupvision"
+			},
+			{
+				"_achievement": "52",
+				"_cache": "damage",
+				"_description": "#CURVED_HORN_DESCRIPTION",
+				"_gfx": "trinket_035_curvedhorn.png",
+				"_id": "35",
+				"_name": "#CURVED_HORN_NAME"
+			},
+			{
+				"_description": "#RUSTED_KEY_DESCRIPTION",
+				"_gfx": "trinket_036_rustedkey.png",
+				"_id": "36",
+				"_name": "#RUSTED_KEY_NAME",
+				"_cache": "pickupvision"
+			},
+			{
+				"_cache": "speed",
+				"_description": "#GOAT_HOOF_DESCRIPTION",
+				"_gfx": "trinket_037_goathoof.png",
+				"_id": "37",
+				"_name": "#GOAT_HOOF_NAME"
+			},
+			{
+				"_description": "#MOMS_PEARL_DESCRIPTION",
+				"_gfx": "trinket_038_momspearl.png",
+				"_id": "38",
+				"_name": "#MOMS_PEARL_NAME"
+			},
+			{
+				"_cache": "firedelay",
+				"_description": "#CANCER_TRINKET_DESCRIPTION",
+				"_gfx": "trinket_039_cancer.png",
+				"_id": "39",
+				"_name": "#CANCER_TRINKET_NAME"
+			},
+			{
+				"_cache": "damage",
+				"_description": "#RED_PATCH_DESCRIPTION",
+				"_gfx": "trinket_040_redpatch.png",
+				"_id": "40",
+				"_name": "#RED_PATCH_NAME",
+				"_addcostumeonpickup": "false"
+			},
+			{
+				"_description": "#MATCH_STICK_DESCRIPTION",
+				"_gfx": "trinket_041_matchstick.png",
+				"_id": "41",
+				"_name": "#MATCH_STICK_NAME",
+				"_cache": "pickupvision"
+			},
+			{
+				"_achievement": "61",
+				"_cache": "luck pickupvision",
+				"_description": "#LUCKY_TOE_DESCRIPTION",
+				"_gfx": "trinket_042_luckytoe.png",
+				"_id": "42",
+				"_name": "#LUCKY_TOE_NAME"
+			},
+			{
+				"_description": "#CURSED_SKULL_DESCRIPTION",
+				"_gfx": "trinket_043_cursedskull.png",
+				"_id": "43",
+				"_name": "#CURSED_SKULL_NAME"
+			},
+			{
+				"_description": "#SAFETY_CAP_DESCRIPTION",
+				"_gfx": "trinket_044_safetycap.png",
+				"_id": "44",
+				"_name": "#SAFETY_CAP_NAME",
+				"_cache": "pickupvision"
+			},
+			{
+				"_description": "#ACE_OF_SPADES_DESCRIPTION",
+				"_gfx": "trinket_045_aceofspades.png",
+				"_id": "45",
+				"_name": "#ACE_OF_SPADES_NAME",
+				"_cache": "pickupvision"
+			},
+			{
+				"_description": "#ISAACS_FORK_DESCRIPTION",
+				"_gfx": "trinket_046_isaacsfork.png",
+				"_id": "46",
+				"_name": "#ISAACS_FORK_NAME"
+			},
+			{
+				"_description": "#A_MISSING_PAGE_DESCRIPTION",
+				"_gfx": "trinket_048_amissingpage.png",
+				"_id": "48",
+				"_name": "#A_MISSING_PAGE_NAME"
+			},
+			{
+				"_achievement": "55",
+				"_description": "#BLOODY_PENNY_DESCRIPTION",
+				"_gfx": "trinket_049_bloodypenny.png",
+				"_id": "49",
+				"_name": "#BLOODY_PENNY_NAME"
+			},
+			{
+				"_achievement": "60",
+				"_description": "#BURNT_PENNY_DESCRIPTION",
+				"_gfx": "trinket_050_burntpenny.png",
+				"_id": "50",
+				"_name": "#BURNT_PENNY_NAME"
+			},
+			{
+				"_description": "#FLAT_PENNY_DESCRIPTION",
+				"_gfx": "trinket_051_flatpenny.png",
+				"_id": "51",
+				"_name": "#FLAT_PENNY_NAME"
+			},
+			{
+				"_achievement": "64",
+				"_description": "#COUNTERFEIT_PENNY_DESCRIPTION",
+				"_gfx": "trinket_052_counterfeitpenny.png",
+				"_id": "52",
+				"_name": "#COUNTERFEIT_PENNY_NAME"
+			},
+			{
+				"_description": "#TICK_DESCRIPTION",
+				"_gfx": "trinket_053_tick.png",
+				"_id": "53",
+				"_name": "#TICK_NAME"
+			},
+			{
+				"_achievement": "70",
+				"_cache": "familiars",
+				"_description": "#ISAACS_HEAD_DESCRIPTION",
+				"_gfx": "trinket_054_isaacshead.png",
+				"_id": "54",
+				"_name": "#ISAACS_HEAD_NAME"
+			},
+			{
+				"_achievement": "71",
+				"_description": "#MAGGYS_FAITH_DESCRIPTION",
+				"_gfx": "trinket_055_maggysfaith.png",
+				"_id": "55",
+				"_name": "#MAGGYS_FAITH_NAME"
+			},
+			{
+				"_achievement": "72",
+				"_description": "#JUDAS_TONGUE_DESCRIPTION",
+				"_gfx": "trinket_056_judastongue.png",
+				"_id": "56",
+				"_name": "#JUDAS_TONGUE_NAME"
+			},
+			{
+				"_achievement": "73",
+				"_cache": "familiars",
+				"_description": "#S_SOUL_DESCRIPTION",
+				"_gfx": "trinket_057_qmarkssoul.png",
+				"_id": "57",
+				"_name": "#S_SOUL_NAME"
+			},
+			{
+				"_achievement": "74",
+				"_cache": "damage",
+				"_description": "#SAMSONS_LOCK_DESCRIPTION",
+				"_gfx": "trinket_058_samsonslock.png",
+				"_id": "58",
+				"_name": "#SAMSONS_LOCK_NAME"
+			},
+			{
+				"_achievement": "75",
+				"_description": "#CAINS_EYE_DESCRIPTION",
+				"_gfx": "trinket_059_cainseye.png",
+				"_id": "59",
+				"_name": "#CAINS_EYE_NAME"
+			},
+			{
+				"_achievement": "76",
+				"_cache": "familiars",
+				"_description": "#EVES_BIRD_FOOT_DESCRIPTION",
+				"_gfx": "trinket_060_evesbirdfoot.png",
+				"_id": "60",
+				"_name": "#EVES_BIRD_FOOT_NAME"
+			},
+			{
+				"_achievement": "77",
+				"_description": "#THE_LEFT_HAND_DESCRIPTION",
+				"_gfx": "trinket_061_thelefthand.png",
+				"_id": "61",
+				"_name": "#THE_LEFT_HAND_NAME"
+			},
+			{
+				"_description": "#SHINY_ROCK_DESCRIPTION",
+				"_gfx": "trinket_062_ShinyRock.png",
+				"_id": "62",
+				"_name": "#SHINY_ROCK_NAME"
+			},
+			{
+				"_description": "#SAFETY_SCISSORS_DESCRIPTION",
+				"_gfx": "trinket_063_SafetyScissors.png",
+				"_id": "63",
+				"_name": "#SAFETY_SCISSORS_NAME"
+			},
+			{
+				"_description": "#RAINBOW_WORM_DESCRIPTION",
+				"_gfx": "trinket_064_RainbowWorm.png",
+				"_id": "64",
+				"_name": "#RAINBOW_WORM_NAME",
+				"_cache": "range shotspeed tearflag firedelay"
+			},
+			{
+				"_description": "#TAPE_WORM_DESCRIPTION",
+				"_gfx": "trinket_065_TapeWorm.png",
+				"_id": "65",
+				"_name": "#TAPE_WORM_NAME",
+				"_cache": "range"
+			},
+			{
+				"_description": "#LAZY_WORM_DESCRIPTION",
+				"_gfx": "trinket_066_LazyWorm.png",
+				"_id": "66",
+				"_name": "#LAZY_WORM_NAME",
+				"_cache": "range shotspeed"
+			},
+			{
+				"_achievement": "196",
+				"_description": "#CRACKED_DICE_DESCRIPTION",
+				"_gfx": "trinket_067_CrackedDice.png",
+				"_id": "67",
+				"_name": "#CRACKED_DICE_NAME"
+			},
+			{
+				"_description": "#SUPER_MAGNET_DESCRIPTION",
+				"_gfx": "trinket_068_SuperMagnet.png",
+				"_id": "68",
+				"_name": "#SUPER_MAGNET_NAME"
+			},
+			{
+				"_description": "#FADED_POLAROID_DESCRIPTION",
+				"_gfx": "trinket_069_FadedPolaroid.png",
+				"_id": "69",
+				"_name": "#FADED_POLAROID_NAME"
+			},
+			{
+				"_description": "#LOUSE_DESCRIPTION",
+				"_gfx": "trinket_070_Louse.png",
+				"_id": "70",
+				"_name": "#LOUSE_NAME"
+			},
+			{
+				"_description": "#BOBS_BLADDER_DESCRIPTION",
+				"_gfx": "trinket_071_BobsBladder.png",
+				"_id": "71",
+				"_name": "#BOBS_BLADDER_NAME"
+			},
+			{
+				"_description": "#WATCH_BATTERY_DESCRIPTION",
+				"_gfx": "trinket_072_WatchBattery.png",
+				"_id": "72",
+				"_name": "#WATCH_BATTERY_NAME"
+			},
+			{
+				"_description": "#BLASTING_CAP_DESCRIPTION",
+				"_gfx": "trinket_073_BlastingCap.png",
+				"_id": "73",
+				"_name": "#BLASTING_CAP_NAME"
+			},
+			{
+				"_achievement": "230",
+				"_description": "#STUD_FINDER_DESCRIPTION",
+				"_gfx": "trinket_074_StudFinder.png",
+				"_id": "74",
+				"_name": "#STUD_FINDER_NAME"
+			},
+			{
+				"_description": "#ERROR_DESCRIPTION",
+				"_gfx": "trinket_075_Error.png",
+				"_id": "75",
+				"_name": "#ERROR_NAME",
+				"_cache": "all"
+			},
+			{
+				"_achievement": "229",
+				"_description": "#POKER_CHIP_DESCRIPTION",
+				"_gfx": "trinket_076_PokerChip.png",
+				"_id": "76",
+				"_name": "#POKER_CHIP_NAME"
+			},
+			{
+				"_description": "#BLISTER_DESCRIPTION",
+				"_gfx": "trinket_077_Blister.png",
+				"_id": "77",
+				"_name": "#BLISTER_NAME",
+				"_cache": "tearflag"
+			},
+			{
+				"_description": "#SECOND_HAND_DESCRIPTION",
+				"_gfx": "trinket_078_SecondHand.png",
+				"_id": "78",
+				"_name": "#SECOND_HAND_NAME"
+			},
+			{
+				"_description": "#ENDLESS_NAMELESS_DESCRIPTION",
+				"_gfx": "trinket_079_EndlessNameless.png",
+				"_id": "79",
+				"_name": "#ENDLESS_NAMELESS_NAME"
+			},
+			{
+				"_achievement": "197",
+				"_description": "#BLACK_FEATHER_DESCRIPTION",
+				"_gfx": "trinket_080_BlackFeather.png",
+				"_id": "80",
+				"_name": "#BLACK_FEATHER_NAME",
+				"_cache": "damage"
+			},
+			{
+				"_achievement": "185",
+				"_description": "#BLIND_RAGE_DESCRIPTION",
+				"_gfx": "trinket_081_BlindRage.png",
+				"_id": "81",
+				"_name": "#BLIND_RAGE_NAME"
+			},
+			{
+				"_description": "#GOLDEN_HORSE_SHOE_DESCRIPTION",
+				"_gfx": "trinket_082_GoldenHorseShoe.png",
+				"_id": "82",
+				"_name": "#GOLDEN_HORSE_SHOE_NAME"
+			},
+			{
+				"_achievement": "249",
+				"_description": "#STORE_KEY_DESCRIPTION",
+				"_gfx": "trinket_083_storekey.png",
+				"_id": "83",
+				"_name": "#STORE_KEY_NAME"
+			},
+			{
+				"_achievement": "204",
+				"_description": "#RIB_OF_GREED_DESCRIPTION",
+				"_gfx": "trinket_084_ribofgreed.png",
+				"_id": "84",
+				"_name": "#RIB_OF_GREED_NAME"
+			},
+			{
+				"_achievement": "239",
+				"_description": "#KARMA_DESCRIPTION",
+				"_gfx": "trinket_085_karma.png",
+				"_id": "85",
+				"_name": "#KARMA_NAME"
+			},
+			{
+				"_description": "#LIL_LARVA_DESCRIPTION",
+				"_gfx": "Trinket_086_LilLarva.png",
+				"_id": "86",
+				"_name": "#LIL_LARVA_NAME"
+			},
+			{
+				"_description": "#MOMS_LOCKET_DESCRIPTION",
+				"_gfx": "Trinket_087_MomsLocket.png",
+				"_id": "87",
+				"_name": "#MOMS_LOCKET_NAME"
+			},
+			{
+				"_description": "#NO_DESCRIPTION",
+				"_gfx": "Trinket_088_NO.png",
+				"_id": "88",
+				"_name": "#NO_NAME"
+			},
+			{
+				"_description": "#CHILD_LEASH_DESCRIPTION",
+				"_gfx": "Trinket_089_ChildLeash.png",
+				"_id": "89",
+				"_name": "#CHILD_LEASH_NAME"
+			},
+			{
+				"_description": "#BROWN_CAP_DESCRIPTION",
+				"_gfx": "Trinket_090_BrownCap.png",
+				"_id": "90",
+				"_name": "#BROWN_CAP_NAME"
+			},
+			{
+				"_achievement": "300",
+				"_description": "#MECONIUM_DESCRIPTION",
+				"_gfx": "Trinket_091_Meconium.png",
+				"_id": "91",
+				"_name": "#MECONIUM_NAME"
+			},
+			{
+				"_achievement": "336",
+				"_description": "#CRACKED_CROWN_DESCRIPTION",
+				"_gfx": "Trinket_092_CrackedCrown.png",
+				"_id": "92",
+				"_name": "#CRACKED_CROWN_NAME",
+				"_cache": "all"
+			},
+			{
+				"_description": "#USED_DIAPER_DESCRIPTION",
+				"_gfx": "Trinket_093_UsedDiaper.png",
+				"_id": "93",
+				"_name": "#USED_DIAPER_NAME"
+			},
+			{
+				"_description": "#FISH_TAIL_DESCRIPTION",
+				"_gfx": "Trinket_094_FishTail.png",
+				"_id": "94",
+				"_name": "#FISH_TAIL_NAME"
+			},
+			{
+				"_description": "#BLACK_TOOTH_DESCRIPTION",
+				"_gfx": "Trinket_095_BlackTooth.png",
+				"_id": "95",
+				"_name": "#BLACK_TOOTH_NAME"
+			},
+			{
+				"_description": "#OUROBOROS_WORM_DESCRIPTION",
+				"_gfx": "Trinket_096_OuroborosWorm.png",
+				"_id": "96",
+				"_name": "#OUROBOROS_WORM_NAME",
+				"_cache": "tearflag range firedelay"
+			},
+			{
+				"_description": "#TONSIL_DESCRIPTION",
+				"_gfx": "Trinket_097_Tonsil.png",
+				"_id": "97",
+				"_name": "#TONSIL_NAME"
+			},
+			{
+				"_description": "#NOSE_GOBLIN_DESCRIPTION",
+				"_gfx": "Trinket_098_NoseGoblin.png",
+				"_id": "98",
+				"_name": "#NOSE_GOBLIN_NAME"
+			},
+			{
+				"_description": "#SUPER_BALL_DESCRIPTION",
+				"_gfx": "Trinket_099_SuperBall.png",
+				"_id": "99",
+				"_name": "#SUPER_BALL_NAME"
+			},
+			{
+				"_description": "#VIBRANT_BULB_DESCRIPTION",
+				"_gfx": "Trinket_100_VibrantBulb.png",
+				"_id": "100",
+				"_name": "#VIBRANT_BULB_NAME",
+				"_cache": "all"
+			},
+			{
+				"_description": "#DIM_BULB_DESCRIPTION",
+				"_gfx": "Trinket_101_DimBulb.png",
+				"_id": "101",
+				"_name": "#DIM_BULB_NAME",
+				"_cache": "all"
+			},
+			{
+				"_description": "#FRAGMENTED_CARD_DESCRIPTION",
+				"_gfx": "Trinket_102_FragmentedCard.png",
+				"_id": "102",
+				"_name": "#FRAGMENTED_CARD_NAME"
+			},
+			{
+				"_description": "#EQUALITY_DESCRIPTION",
+				"_gfx": "Trinket_103_Equality.png",
+				"_id": "103",
+				"_name": "#EQUALITY_NAME"
+			},
+			{
+				"_description": "#WISH_BONE_DESCRIPTION",
+				"_gfx": "trinket_104_wishbone.png",
+				"_id": "104",
+				"_name": "#WISH_BONE_NAME"
+			},
+			{
+				"_description": "#BAG_LUNCH_DESCRIPTION",
+				"_gfx": "trinket_105_baglunch.png",
+				"_id": "105",
+				"_name": "#BAG_LUNCH_NAME"
+			},
+			{
+				"_description": "#LOST_CORK_DESCRIPTION",
+				"_gfx": "trinket_106_lostcork.png",
+				"_id": "106",
+				"_name": "#LOST_CORK_NAME"
+			},
+			{
+				"_achievement": "302",
+				"_description": "#CROW_HEART_DESCRIPTION",
+				"_gfx": "trinket_107_crowheart.png",
+				"_id": "107",
+				"_name": "#CROW_HEART_NAME"
+			},
+			{
+				"_description": "#WALNUT_DESCRIPTION",
+				"_gfx": "trinket_108_walnut.png",
+				"_id": "108",
+				"_name": "#WALNUT_NAME"
+			},
+			{
+				"_description": "#DUCT_TAPE_DESCRIPTION",
+				"_gfx": "trinket_109_ducttape.png",
+				"_id": "109",
+				"_name": "#DUCT_TAPE_NAME"
+			},
+			{
+				"_achievement": "284",
+				"_description": "#SILVER_DOLLAR_DESCRIPTION",
+				"_gfx": "trinket_110_silverdollar.png",
+				"_id": "110",
+				"_name": "#SILVER_DOLLAR_NAME"
+			},
+			{
+				"_achievement": "287",
+				"_description": "#BLOODY_CROWN_DESCRIPTION",
+				"_gfx": "trinket_111_bloodycrown.png",
+				"_id": "111",
+				"_name": "#BLOODY_CROWN_NAME"
+			},
+			{
+				"_description": "#PAY_TO_WIN_DESCRIPTION",
+				"_gfx": "trinket_112_paytowin.png",
+				"_id": "112",
+				"_name": "#PAY_TO_WIN_NAME"
+			},
+			{
+				"_achievement": "310",
+				"_description": "#LOCUST_OF_WAR_DESCRIPTION",
+				"_gfx": "trinket_113_LocustOfWrath.png",
+				"_id": "113",
+				"_name": "#LOCUST_OF_WAR_NAME"
+			},
+			{
+				"_achievement": "311",
+				"_description": "#LOCUST_OF_PESTILENCE_DESCRIPTION",
+				"_gfx": "trinket_114_LocustOfPestilence.png",
+				"_id": "114",
+				"_name": "#LOCUST_OF_PESTILENCE_NAME"
+			},
+			{
+				"_achievement": "312",
+				"_description": "#LOCUST_OF_FAMINE_DESCRIPTION",
+				"_gfx": "trinket_115_LocustOfFamine.png",
+				"_id": "115",
+				"_name": "#LOCUST_OF_FAMINE_NAME"
+			},
+			{
+				"_achievement": "313",
+				"_description": "#LOCUST_OF_DEATH_DESCRIPTION",
+				"_gfx": "trinket_116_LocustOfDeath.png",
+				"_id": "116",
+				"_name": "#LOCUST_OF_DEATH_NAME"
+			},
+			{
+				"_achievement": "314",
+				"_description": "#LOCUST_OF_CONQUEST_DESCRIPTION",
+				"_gfx": "trinket_117_LocustOfConquest.png",
+				"_id": "117",
+				"_name": "#LOCUST_OF_CONQUEST_NAME"
+			},
+			{
+				"_achievement": "304",
+				"_description": "#BAT_WING_DESCRIPTION",
+				"_gfx": "trinket_118_BatWing.png",
+				"_id": "118",
+				"_name": "#BAT_WING_NAME",
+				"_cache": "flying"
+			},
+			{
+				"_achievement": "301",
+				"_description": "#STEM_CELL_DESCRIPTION",
+				"_gfx": "trinket_119_StemCell.png",
+				"_id": "119",
+				"_name": "#STEM_CELL_NAME"
+			},
+			{
+				"_achievement": "358",
+				"_description": "#HAIRPIN_DESCRIPTION",
+				"_gfx": "trinket_120_Hairpin.png",
+				"_id": "120",
+				"_name": "#HAIRPIN_NAME"
+			},
+			{
+				"_achievement": "359",
+				"_description": "#WOODEN_CROSS_DESCRIPTION",
+				"_gfx": "trinket_121_WoodenCross.png",
+				"_id": "121",
+				"_name": "#WOODEN_CROSS_NAME"
+			},
+			{
+				"_achievement": "360",
+				"_description": "#BUTTER_DESCRIPTION",
+				"_gfx": "trinket_122_Butter.png",
+				"_id": "122",
+				"_name": "#BUTTER_NAME"
+			},
+			{
+				"_achievement": "370",
+				"_description": "#FILIGREE_FEATHER_DESCRIPTION",
+				"_gfx": "Trinket_123_FiligreeFeather.png",
+				"_id": "123",
+				"_name": "#FILIGREE_FEATHER_NAME"
+			},
+			{
+				"_achievement": "375",
+				"_description": "#DOOR_STOP_DESCRIPTION",
+				"_gfx": "trinket_124_woodendoorstop.png",
+				"_id": "124",
+				"_name": "#DOOR_STOP_NAME"
+			},
+			{
+				"_achievement": "381",
+				"_description": "#EXTENSION_CORD_DESCRIPTION",
+				"_gfx": "trinket_125_Extensioncord.png",
+				"_id": "125",
+				"_name": "#EXTENSION_CORD_NAME"
+			},
+			{
+				"_achievement": "388",
+				"_description": "#ROTTEN_PENNY_DESCRIPTION",
+				"_gfx": "trinket_126_RottenPenny.png",
+				"_id": "126",
+				"_name": "#ROTTEN_PENNY_NAME"
+			},
+			{
+				"_achievement": "389",
+				"_description": "#BABYBENDER_DESCRIPTION",
+				"_gfx": "trinket_127_BabyBender.png",
+				"_id": "127",
+				"_name": "#BABYBENDER_NAME"
+			},
+			{
+				"_achievement": "399",
+				"_description": "#FINGER_BONE_DESCRIPTION",
+				"_gfx": "trinket_128_FingerBone.png",
+				"_id": "128",
+				"_name": "#FINGER_BONE_NAME"
+			},
+			{
+				"_id": "129",
+				"_gfx": "trinket_129_Jawbreaker.png",
+				"_name": "#JAWBREAKER_NAME",
+				"_description": "#JAWBREAKER_DESCRIPTION"
+			},
+			{
+				"_id": "130",
+				"_gfx": "trinket_130_ChewedPen.png",
+				"_name": "#CHEWED_PEN_NAME",
+				"_description": "#CHEWED_PEN_DESCRIPTION"
+			},
+			{
+				"_id": "131",
+				"_achievement": "419",
+				"_gfx": "trinket_131_BlessedPenny.png",
+				"_name": "#BLESSED_PENNY_NAME",
+				"_description": "#BLESSED_PENNY_DESCRIPTION"
+			},
+			{
+				"_id": "132",
+				"_gfx": "trinket_132_BrokenSyringe.png",
+				"_name": "#BROKEN_SYRINGE_NAME",
+				"_description": "#BROKEN_SYRINGE_DESCRIPTION"
+			},
+			{
+				"_id": "133",
+				"_gfx": "trinket_133_ExplodedFirecracker.png",
+				"_name": "#SHORT_FUSE_NAME",
+				"_description": "#SHORT_FUSE_DESCRIPTION"
+			},
+			{
+				"_id": "134",
+				"_gfx": "trinket_134_GiantBean.png",
+				"_name": "#GIGANTE_BEAN_NAME",
+				"_description": "#GIGANTE_BEAN_DESCRIPTION"
+			},
+			{
+				"_id": "135",
+				"_gfx": "trinket_135_Lighter.png",
+				"_name": "#A_LIGHTER_NAME",
+				"_description": "#A_LIGHTER_DESCRIPTION"
+			},
+			{
+				"_id": "136",
+				"_gfx": "trinket_136_BrokenPadlock.png",
+				"_name": "#BROKEN_PADLOCK_NAME",
+				"_description": "#BROKEN_PADLOCK_DESCRIPTION"
+			},
+			{
+				"_id": "137",
+				"_gfx": "trinket_137_Myosotis.png",
+				"_name": "#MYOSOTIS_NAME",
+				"_description": "#MYOSOTIS_DESCRIPTION"
+			},
+			{
+				"_id": "138",
+				"_achievement": "458",
+				"_gfx": "trinket_138_M.png",
+				"_name": "#M_NAME",
+				"_description": "#M_DESCRIPTION"
+			},
+			{
+				"_id": "139",
+				"_gfx": "trinket_139_TeardropCharm.png",
+				"_name": "#TEARDROP_CHARM_NAME",
+				"_description": "#TEARDROP_CHARM_DESCRIPTION"
+			},
+			{
+				"_id": "140",
+				"_gfx": "trinket_140_AppleOfSodom.png",
+				"_name": "#APPLE_OF_SODOM_NAME",
+				"_description": "#APPLE_OF_SODOM_DESCRIPTION"
+			},
+			{
+				"_id": "141",
+				"_achievement": "408",
+				"_gfx": "trinket_141_SongOfTheSiren.png",
+				"_name": "#FORGOTTEN_LULLABY_NAME",
+				"_description": "#FORGOTTEN_LULLABY_DESCRIPTION"
+			},
+			{
+				"_id": "142",
+				"_achievement": "421",
+				"_gfx": "trinket_142_BethsFaith.png",
+				"_name": "#BETHS_FAITH_NAME",
+				"_description": "#BETHS_FAITH_DESCRIPTION"
+			},
+			{
+				"_id": "143",
+				"_achievement": "545",
+				"_gfx": "trinket_143_OldCapacitor.png",
+				"_name": "#OLD_CAPACITOR_NAME",
+				"_description": "#OLD_CAPACITOR_DESCRIPTION"
+			},
+			{
+				"_id": "144",
+				"_gfx": "trinket_144_BrainWorm.png",
+				"_name": "#BRAIN_WORM_NAME",
+				"_description": "#BRAIN_WORM_DESCRIPTION",
+				"_cache": "tearflag"
+			},
+			{
+				"_id": "145",
+				"_gfx": "trinket_145_Perfection.png",
+				"_name": "#PERFECTION_NAME",
+				"_description": "#PERFECTION_DESCRIPTION",
+				"_cache": "luck"
+			},
+			{
+				"_id": "146",
+				"_achievement": "454",
+				"_gfx": "trinket_146_DevilsCrown.png",
+				"_name": "#DEVILS_CROWN_NAME",
+				"_description": "#DEVILS_CROWN_DESCRIPTION"
+			},
+			{
+				"_id": "147",
+				"_achievement": "523",
+				"_gfx": "trinket_147_ChargedPenny.png",
+				"_name": "#CHARGED_PENNY_NAME",
+				"_description": "#CHARGED_PENNY_DESCRIPTION"
+			},
+			{
+				"_id": "148",
+				"_gfx": "trinket_148_FriendshipNecklace.png",
+				"_name": "#FRIENDSHIP_NECKLACE_NAME",
+				"_description": "#FRIENDSHIP_NECKLACE_DESCRIPTION"
+			},
+			{
+				"_id": "149",
+				"_gfx": "trinket_149_PanicButton.png",
+				"_name": "#PANIC_BUTTON_NAME",
+				"_description": "#PANIC_BUTTON_DESCRIPTION"
+			},
+			{
+				"_id": "150",
+				"_achievement": "493",
+				"_gfx": "trinket_150_BlueKey.png",
+				"_name": "#BLUE_KEY_NAME",
+				"_description": "#BLUE_KEY_DESCRIPTION"
+			},
+			{
+				"_id": "151",
+				"_gfx": "trinket_151_FlatFile.png",
+				"_name": "#FLAT_FILE_NAME",
+				"_description": "#FLAT_FILE_DESCRIPTION"
+			},
+			{
+				"_id": "152",
+				"_achievement": "406",
+				"_gfx": "trinket_152_TelescopeLens.png",
+				"_name": "#TELESCOPE_LENS_NAME",
+				"_description": "#TELESCOPE_LENS_DESCRIPTION"
+			},
+			{
+				"_id": "153",
+				"_achievement": "548",
+				"_gfx": "trinket_153_MomsLock.png",
+				"_name": "#MOMS_LOCK_NAME",
+				"_description": "#MOMS_LOCK_DESCRIPTION"
+			},
+			{
+				"_id": "154",
+				"_achievement": "549",
+				"_gfx": "trinket_154_DiceBag.png",
+				"_name": "#DICE_BAG_NAME",
+				"_description": "#DICE_BAG_DESCRIPTION"
+			},
+			{
+				"_id": "155",
+				"_achievement": "550",
+				"_gfx": "trinket_155_HolyCrown.png",
+				"_name": "#HOLY_CROWN_NAME",
+				"_description": "#HOLY_CROWN_DESCRIPTION"
+			},
+			{
+				"_id": "156",
+				"_achievement": "551",
+				"_gfx": "trinket_156_MothersKiss.png",
+				"_name": "#MOTHERS_KISS_NAME",
+				"_description": "#MOTHERS_KISS_DESCRIPTION"
+			},
+			{
+				"_id": "157",
+				"_achievement": "565",
+				"_gfx": "trinket_157_TornCard.png",
+				"_name": "#TORN_CARD_NAME",
+				"_description": "#TORN_CARD_DESCRIPTION"
+			},
+			{
+				"_id": "158",
+				"_achievement": "564",
+				"_gfx": "trinket_158_TornPocket.png",
+				"_name": "#TORN_POCKET_NAME",
+				"_description": "#TORN_POCKET_DESCRIPTION"
+			},
+			{
+				"_id": "159",
+				"_achievement": "552",
+				"_gfx": "trinket_159_GildedKey.png",
+				"_name": "#GILDED_KEY_NAME",
+				"_description": "#GILDED_KEY_DESCRIPTION",
+				"_cache": "pickupvision"
+			},
+			{
+				"_id": "160",
+				"_achievement": "553",
+				"_gfx": "trinket_160_LuckySack.png",
+				"_name": "#LUCKY_SACK_NAME",
+				"_description": "#LUCKY_SACK_DESCRIPTION"
+			},
+			{
+				"_id": "161",
+				"_achievement": "562",
+				"_gfx": "trinket_161_WickedCrown.png",
+				"_name": "#WICKED_CROWN_NAME",
+				"_description": "#WICKED_CROWN_DESCRIPTION"
+			},
+			{
+				"_id": "162",
+				"_achievement": "563",
+				"_gfx": "trinket_162_AzazelsStump.png",
+				"_name": "#AZAZELS_STUMP_NAME",
+				"_description": "#AZAZELS_STUMP_DESCRIPTION",
+				"_cache": "all",
+				"_addcostumeonpickup": "false",
+				"_persistent": "true"
+			},
+			{
+				"_id": "163",
+				"_achievement": "556",
+				"_gfx": "trinket_163_DingleBerry.png",
+				"_name": "#DINGLE_BERRY_NAME",
+				"_description": "#DINGLE_BERRY_DESCRIPTION"
+			},
+			{
+				"_id": "164",
+				"_achievement": "557",
+				"_gfx": "trinket_164_RingCap.png",
+				"_name": "#RING_CAP_NAME",
+				"_description": "#RING_CAP_DESCRIPTION"
+			},
+			{
+				"_id": "165",
+				"_achievement": "566",
+				"_gfx": "trinket_165_NuhUh.png",
+				"_name": "#NUH_UH_NAME",
+				"_description": "#NUH_UH_DESCRIPTION"
+			},
+			{
+				"_id": "166",
+				"_achievement": "567",
+				"_gfx": "trinket_166_ModelingClay.png",
+				"_name": "#MODELING_CLAY_NAME",
+				"_description": "#MODELING_CLAY_DESCRIPTION"
+			},
+			{
+				"_id": "167",
+				"_achievement": "576",
+				"_gfx": "trinket_167_PolishedBone.png",
+				"_name": "#POLISHED_BONE_NAME",
+				"_description": "#POLISHED_BONE_DESCRIPTION"
+			},
+			{
+				"_id": "168",
+				"_achievement": "577",
+				"_gfx": "trinket_168_HollowHeart.png",
+				"_name": "#HOLLOW_HEART_NAME",
+				"_description": "#HOLLOW_HEART_DESCRIPTION"
+			},
+			{
+				"_id": "169",
+				"_achievement": "568",
+				"_gfx": "trinket_169_KidsDrawing.png",
+				"_name": "#KIDS_DRAWING_NAME",
+				"_description": "#KIDS_DRAWING_DESCRIPTION",
+				"_cache": "flying"
+			},
+			{
+				"_id": "170",
+				"_achievement": "569",
+				"_gfx": "trinket_170_CrystalKey.png",
+				"_name": "#CRYSTAL_KEY_NAME",
+				"_description": "#CRYSTAL_KEY_DESCRIPTION"
+			},
+			{
+				"_id": "171",
+				"_achievement": "572",
+				"_gfx": "trinket_171_KeepersBargain.png",
+				"_name": "#KEEPERS_BARGAIN_NAME",
+				"_description": "#KEEPERS_BARGAIN_DESCRIPTION"
+			},
+			{
+				"_id": "172",
+				"_achievement": "573",
+				"_gfx": "trinket_172_CursedPenny.png",
+				"_name": "#CURSED_PENNY_NAME",
+				"_description": "#CURSED_PENNY_DESCRIPTION"
+			},
+			{
+				"_id": "173",
+				"_achievement": "554",
+				"_gfx": "trinket_173_YourSoul.png",
+				"_name": "#YOUR_SOUL_NAME",
+				"_description": "#YOUR_SOUL_DESCRIPTION"
+			},
+			{
+				"_id": "174",
+				"_achievement": "555",
+				"_gfx": "trinket_174_NumberMagnet.png",
+				"_name": "#NUMBER_MAGNET_NAME",
+				"_description": "#NUMBER_MAGNET_DESCRIPTION"
+			},
+			{
+				"_id": "175",
+				"_achievement": "558",
+				"_gfx": "trinket_175_StrangeKey.png",
+				"_name": "#STRANGE_KEY_NAME",
+				"_description": "#STRANGE_KEY_DESCRIPTION"
+			},
+			{
+				"_id": "176",
+				"_achievement": "559",
+				"_gfx": "trinket_176_LilClot.png",
+				"_name": "#LIL_CLOT_NAME",
+				"_description": "#LIL_CLOT_DESCRIPTION"
+			},
+			{
+				"_id": "177",
+				"_achievement": "560",
+				"_gfx": "trinket_177_TemporaryTattoo.png",
+				"_name": "#TEMPORARY_TATTOO_NAME",
+				"_description": "#TEMPORARY_TATTOO_DESCRIPTION"
+			},
+			{
+				"_id": "178",
+				"_achievement": "561",
+				"_gfx": "trinket_178_SwallowedM80.png",
+				"_name": "#SWALLOWED_M80_NAME",
+				"_description": "#SWALLOWED_M80_DESCRIPTION"
+			},
+			{
+				"_id": "179",
+				"_achievement": "580",
+				"_gfx": "trinket_179_RCRemote.png",
+				"_name": "#RC_REMOTE_NAME",
+				"_description": "#RC_REMOTE_DESCRIPTION"
+			},
+			{
+				"_id": "180",
+				"_achievement": "581",
+				"_gfx": "trinket_180_FoundSoul.png",
+				"_name": "#FOUND_SOUL_NAME",
+				"_description": "#FOUND_SOUL_DESCRIPTION",
+				"_persistent": "true",
+				"_cache": "familiars"
+			},
+			{
+				"_id": "181",
+				"_achievement": "578",
+				"_gfx": "trinket_181_ExpansionPack.png",
+				"_name": "#EXPANSION_PACK_NAME",
+				"_description": "#EXPANSION_PACK_DESCRIPTION"
+			},
+			{
+				"_id": "182",
+				"_achievement": "579",
+				"_gfx": "trinket_182_BethsEssence.png",
+				"_name": "#BETHS_ESSENCE_NAME",
+				"_description": "#BETHS_ESSENCE_DESCRIPTION"
+			},
+			{
+				"_id": "183",
+				"_achievement": "570",
+				"_gfx": "trinket_183_TheTwins.png",
+				"_name": "#THE_TWINS_NAME",
+				"_description": "#THE_TWINS_DESCRIPTION"
+			},
+			{
+				"_id": "184",
+				"_achievement": "571",
+				"_gfx": "trinket_184_AdoptionPapers.png",
+				"_name": "#ADOPTION_PAPERS_NAME",
+				"_description": "#ADOPTION_PAPERS_DESCRIPTION"
+			},
+			{
+				"_id": "185",
+				"_achievement": "574",
+				"_gfx": "trinket_185_CricketLeg.png",
+				"_name": "#CRICKET_LEG_NAME",
+				"_description": "#CRICKET_LEG_DESCRIPTION"
+			},
+			{
+				"_id": "186",
+				"_achievement": "575",
+				"_gfx": "trinket_186_ApollyonsBestFriend.png",
+				"_name": "#APOLLYONS_BEST_FRIEND_NAME",
+				"_description": "#APOLLYONS_BEST_FRIEND_DESCRIPTION",
+				"_cache": "familiars"
+			},
+			{
+				"_id": "187",
+				"_achievement": "521",
+				"_gfx": "trinket_187_BrokenGlasses.png",
+				"_name": "#BROKEN_GLASSES_NAME",
+				"_description": "#BROKEN_GLASSES_DESCRIPTION"
+			},
+			{
+				"_id": "188",
+				"_achievement": "522",
+				"_gfx": "trinket_188_IceCube.png",
+				"_name": "#ICE_CUBE_NAME",
+				"_description": "#ICE_CUBE_DESCRIPTION"
+			},
+			{
+				"_id": "189",
+				"_achievement": "518",
+				"_gfx": "trinket_189_SigilOfBaphomet.png",
+				"_name": "#SIGIL_OF_BAPHOMET_NAME",
+				"_description": "#SIGIL_OF_BAPHOMET_DESCRIPTION"
+			}
+		],
+		"null": [
+			{
+				"_id": "41",
+				"_name": "huge growth",
+				"_cache": "damage range size"
+			},
+			{
+				"_id": "42",
+				"_name": "era walk",
+				"_cache": "speed shotspeed"
+			},
+			{
+				"_id": "46",
+				"_name": "holy card",
+				"_persistent": "true"
+			},
+			{
+				"_id": "48",
+				"_name": "camo boost",
+				"_cache": "damage firedelay"
+			},
+			{
+				"_id": "49",
+				"_name": "lazarus boost",
+				"_cache": "damage",
+				"_persistent": "true"
+			},
+			{
+				"_id": "50",
+				"_name": "spin to win secondary",
+				"_cache": "speed"
+			},
+			{
+				"_id": "54",
+				"_name": "blood oath secondary",
+				"_cache": "damage speed"
+			},
+			{
+				"_id": "55",
+				"_name": "intruder secondary"
+			},
+			{
+				"_id": "56",
+				"_name": "sol secondary",
+				"_cache": "damage luck"
+			},
+			{
+				"_id": "57",
+				"_name": "it hurts secondary",
+				"_cache": "firedelay"
+			},
+			{
+				"_id": "59",
+				"_name": "tooth and nail statue",
+				"_cache": "speed"
+			},
+			{
+				"_id": "60",
+				"_name": "reverse magician",
+				"_cooldown": "1800",
+				"_persistent": "true"
+			},
+			{
+				"_id": "61",
+				"_name": "reverse high priestess",
+				"_cooldown": "1800",
+				"_persistent": "true"
+			},
+			{
+				"_id": "62",
+				"_name": "reverse empress",
+				"_cooldown": "1800",
+				"_cache": "firedelay speed",
+				"_persistent": "true"
+			},
+			{
+				"_id": "63",
+				"_name": "reverse chariot",
+				"_cooldown": "300",
+				"_cache": "damage firedelay speed",
+				"_persistent": "true"
+			},
+			{
+				"_id": "64",
+				"_name": "reverse strength",
+				"_cooldown": "900"
+			},
+			{
+				"_id": "65",
+				"_name": "reverse hanged man",
+				"_cooldown": "900",
+				"_cache": "firedelay speed",
+				"_persistent": "true"
+			},
+			{
+				"_id": "66",
+				"_name": "reverse sun",
+				"_cache": "damage flying tearflag tearcolor",
+				"_persistent": "true"
+			},
+			{
+				"_id": "67",
+				"_name": "reverse devil",
+				"_cooldown": "900",
+				"_cache": "flying familiars",
+				"_persistent": "true"
+			},
+			{
+				"_id": "69",
+				"_name": "reverse temperance",
+				"_persistent": "true"
+			},
+			{
+				"_id": "70",
+				"_name": "reverse stars",
+				"_cooldown": "15"
+			},
+			{
+				"_id": "71",
+				"_name": "wavy cap L1",
+				"_cache": "firedelay speed",
+				"_persistent": "true"
+			},
+			{
+				"_id": "72",
+				"_name": "wavy cap L2"
+			},
+			{
+				"_id": "73",
+				"_name": "wavy cap L3"
+			},
+			{
+				"_id": "74",
+				"_name": "luna secondary",
+				"_cache": "firedelay",
+				"_persistent": "true"
+			},
+			{
+				"_id": "100",
+				"_name": "esau jr",
+				"_cache": "flying damage",
+				"_persistent": "true"
+			},
+			{
+				"_id": "101",
+				"_name": "spirit shackles soul",
+				"_cooldown": "300",
+				"_cache": "flying damage tearflag color",
+				"_persistent": "true"
+			},
+			{
+				"_id": "102",
+				"_name": "spirit shackles disabled",
+				"_persistent": "true"
+			},
+			{
+				"_id": "107",
+				"_name": "extra big fan",
+				"_persistent": "true",
+				"_cache": "familiars"
+			},
+			{
+				"_id": "109",
+				"_name": "jacob's curse",
+				"_persistent": "true"
+			},
+			{
+				"_id": "110",
+				"_name": "bloody babylon",
+				"_persistent": "true",
+				"_cache": "all"
+			},
+			{
+				"_id": "111",
+				"_name": "dark arts secondary",
+				"_persistent": "true",
+				"_cache": "damage"
+			},
+			{
+				"_id": "112",
+				"_name": "lost curse",
+				"_persistent": "true",
+				"_cache": "flying tearflag tearcolor"
+			},
+			{
+				"_id": "113",
+				"_name": "lazarus soul revive",
+				"_persistent": "true"
+			},
+			{
+				"_id": "114",
+				"_name": "soul of magdalene"
+			},
+			{
+				"_id": "115",
+				"_name": "soul of ???",
+				"_cooldown": "120"
+			},
+			{
+				"_id": "116",
+				"_name": "mirror death",
+				"_persistent": "true",
+				"_cooldown": "30"
+			},
+			{
+				"_id": "117",
+				"_name": "hemoptysis",
+				"_cooldown": "12"
+			},
+			{
+				"_id": "120",
+				"_name": "soul of the forgotten",
+				"_persistent": "true"
+			},
+			{
+				"_id": "121",
+				"_name": "soul of jacob",
+				"_persistent": "true"
+			},
+			{
+				"_id": "122",
+				"_name": "bethany b birthright",
+				"_persistent": "true"
+			},
+			{
+				"_id": "123",
+				"_name": "judas birthright",
+				"_cache": "damage"
+			},
+			{
+				"_id": "124",
+				"_name": "judas birthright timed",
+				"_cache": "damage"
+			},
+			{
+				"_id": "127",
+				"_name": "hemoptysis boost",
+				"_cooldown": "30",
+				"_persistent": "true"
+			},
+			{
+				"_id": "128",
+				"_name": "judas birthright timed",
+				"_cache": "damage"
+			},
+			{
+				"_id": "124",
+				"_name": "judas birthright timed",
+				"_cache": "damage"
+			},
+			{
+				"_id": "129",
+				"_name": "judas birthright stage",
+				"_cache": "damage",
+				"_persistent": "true"
+			},
+			{
+				"_id": "130",
+				"_name": "judas birthright permanent",
+				"_cache": "damage",
+				"_persistent": "true"
+			},
+			{
+				"_id": "131",
+				"_name": "esau jr familiar",
+				"_cache": "familiars",
+				"_persistent": "true"
+			}
+		],
+		"_gfxroot": "gfx/items/",
+		"_version": "1"
+	}
+}

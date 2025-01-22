@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import '../../src/globals.css'
 import SiteSettingsProvider from "@/context/SiteSettings/SiteSettingsProvider";
+import { Analytics } from "@vercel/analytics/react"
 
 
 const geistSans = Geist({
@@ -32,6 +33,7 @@ export default function RootLayout({
         <SiteSettingsProvider>
             {children}
         </SiteSettingsProvider>
+        <Analytics />
       </body>
     </html>
   );

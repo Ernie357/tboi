@@ -7,7 +7,7 @@ import SlidableSiteOptions from "@/components/SlidableSiteOptions";
 
 export default function Home() {
 	return (
-		<div className="2xl:pl-10 flex justify-center items-center min-h-screen w-screen bg-main-menu-color sm:shadow-vignette-sm">
+		<div className="2xl:pl-10 flex justify-center items-center min-h-screen max-h-screen w-screen bg-main-menu-color sm:shadow-vignette-sm">
     		<MusicPlayer src='/music/main-menu.ogg' />
 			<div className="bg-logo bg-center sm:bg-left-top bg-no-repeat bg-cover w-[300px] h-40 absolute top-4 sm:left-4" />
 			<div className="gap-0 sm:gap-12 sm:flex items-center h-[60%] sm:h-[90vh] md:h-[50vh] lg:h-screen w-full bg-main-menu bg-center bg-cover sm:bg-contain bg-no-repeat shadow-none">

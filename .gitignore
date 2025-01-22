@@ -19,10 +19,12 @@
 
 # production
 /build
+/public/videos/*
 
 # misc
 .DS_Store
 *.pem
+bfg.jar
 
 # debug
 npm-debug.log*

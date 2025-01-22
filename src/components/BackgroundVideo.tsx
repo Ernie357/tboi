@@ -92,9 +92,7 @@ export default function BackgroundVideo(props: { src?: string, className?: strin
             });
         }
     }, [siteSettings.theme, props.src]);
-
-    console.log(siteSettings.theme);
-
+    
     return (
         <video 
             ref={videoRef}

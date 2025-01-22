@@ -2,6 +2,7 @@ import Item from "@/types/item";
 import getItemMetadataFromId from "./getItemMetadataFromId";
 import getStringtableValue from "./getStringtableValue";
 import getItemDataFromKey from "./getItemDataFromKey";
+import getProperImageName from "./getProperImageName";
 
 export default function(key: string, value: string, itemDataJSON: any, itemMetaDataJSON: any, itemStringDataJSON: any): Item | null {
     try {
@@ -9,7 +10,7 @@ export default function(key: string, value: string, itemDataJSON: any, itemMetaD
         const id = itemData["_id"];
         const nameKey = itemData["_name"].replace("#", "");
         const descriptionKey = itemData["_description"].replace("#", "");
-        const itemImageName = "c" + itemData["_gfx"].substring(1, itemData["_gfx"].length);
+        const itemImageName = getProperImageName(itemData["_gfx"]);
         const itemName = getStringtableValue(nameKey, itemStringDataJSON);
         const itemDescription = getStringtableValue(descriptionKey, itemStringDataJSON);
         const itemMetadata = getItemMetadataFromId(id, itemMetaDataJSON);

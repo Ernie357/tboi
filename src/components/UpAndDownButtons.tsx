@@ -1,3 +1,23 @@
+/*
+    File: UpAndDownButtons.tsx
+
+    Purpose: Reusable Component that displays two buttons, each having the purpose of going up
+             or going down, respectively.
+
+    Props: downText - An optional string that displays that text on the down button. If not provided,
+                      a left arrow will appear instead.
+           upText - An optional string that displays that text on up button. If not provided,
+                    a right arrow will appear instead.
+           clickFunction - A function that is passed true or false based on the button clicked.
+                           Down = true and Up = false. This function is called when either button
+                           is clicked.
+           className - Optional string for additional tailwind classes.
+           isMuted - Optional boolean that defaults to false if not provided that defines if the 
+                     buttons will make noise when clicked on or not.
+    
+    Notes: This component only currently supports "up" and "down" as directions.
+*/
+
 "use client";
 
 import useSiteSettings from "@/context/SiteSettings/useSiteSettings";

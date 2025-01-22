@@ -1,3 +1,15 @@
+/*
+    File: SiteOptions.tsx
+
+    Purpose: Displays the global site options like sfx and music volume and theme
+
+    Props: className - Optional string that defines additional tailwind classes.
+           type - Optional string that can either be 'big' or 'small' in value. 
+                  Defines general size of menu. Defaults to 'small' if not provided.
+                  The big site options is generally more suited for desktop while
+                  the small the is more suited for mobile.
+*/
+
 "use client";
 
 import useSiteSettings from "@/context/SiteSettings/useSiteSettings";

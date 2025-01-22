@@ -1,3 +1,5 @@
+// Page for displaying information for the item Pandora's Box
+
 "use client";
 
 import BackgroundVideo from "@/components/BackgroundVideo";

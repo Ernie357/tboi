@@ -1,3 +1,18 @@
+/*
+    File: SearchBar.tsx
+
+    Purpose: Provides a reusable search bar that can show suggestions while typing
+
+    Props: className - An optional string to define or override styling on the overall component.
+           searchFunction - A function that takes in the text input of the search when called.
+                            This function is called when the search button is clicked.
+           showSuggestions - An optional boolean that defines whether or not suggestions will be shown
+                             under the searchbar while typing, defaults to false if not provided.
+           suggestionFunction - An optional function that takes what is currently in the search value
+                                as parameter and returns a list of any type. If showSuggestions is false,
+                                this function will not do anything.
+*/
+
 "use client";
 import { useState } from "react";
 import SearchSuggestion from "./SearchSuggestion";
@@ -5,7 +20,7 @@ import { FaSearch } from "react-icons/fa";
 import useSound from 'use-sound';
 import useSiteSettings from "@/context/SiteSettings/useSiteSettings";
 
-export default function SearchBar(props: { className?: string, searchFunction: (value: string) => boolean, showSuggestions?: boolean, suggestionFunction?: (input: string) => void }) {
+export default function SearchBar(props: { className?: string, searchFunction: (value: string) => boolean, showSuggestions?: boolean, suggestionFunction?: (input: string) => any[] }) {
     const { siteSettings } = useSiteSettings();
 
     const [errorSound] = useSound('/sfx/error-buzz.wav');

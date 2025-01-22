@@ -1,3 +1,13 @@
+/*
+    File: HomeLink.tsx
+
+    Purpose: Reusable Link that directs the user back to the root / 
+
+    Props: className - An optional string to define or override styling on the overall component.
+           isMuted - An optional boolean to define whether or not the page sound will play
+                     when the link is clicked, defaults to false if not provided.
+*/
+
 "use client";
 import useSiteSettings from "@/context/SiteSettings/useSiteSettings";
 import Link from "next/link";

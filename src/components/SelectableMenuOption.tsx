@@ -1,3 +1,17 @@
+/*
+    File: SelectableMenuOption.tsx
+
+    Purpose: Displays clickable text in the site's ui font and color
+
+    Props: children - A string that represents the text to be displayed
+           action - If action is a string, the text will be a Link that has that string as href.
+                    If action is a function, the text will be a button that calls that function on click.
+                    The displayed text is the argument passed to this function as string.
+           className - Optional string to define additional tailwind classes
+           disableCursor - Optional boolean to define if the cursor should be shown to the left
+                           of the text or not, defaults to false if not provided.
+*/
+
 "use client";
 import useSiteSettings from "@/context/SiteSettings/useSiteSettings";
 import Image from "next/image";
@@ -5,7 +19,7 @@ import Link from "next/link";
 import { useState } from "react";
 import useSound from "use-sound";
 
-export default function SelectableMenuOption(props: { children: string, action: string | ((item: string) => void), className?: string, disableCursor?: boolean, hoverText?: string }) {
+export default function SelectableMenuOption(props: { children: string, action: string | ((item: string) => void), className?: string, disableCursor?: boolean }) {
     const { siteSettings } = useSiteSettings();
 
     const [isSelected, setIsSelected] = useState<boolean>(false);

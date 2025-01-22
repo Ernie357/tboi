@@ -1,3 +1,16 @@
+/*
+    File: SearchSuggestion.tsx
+
+    Purpose: Displays a clickable suggestion for a search bar
+
+    Props: itemName - A string that represents the name of the item searched, Example: The Sad Onion
+           itemImageName - A string that represents the name of the image searched, Example: "collectibles_001_thesadonion.png"
+           clickFunction - A function that takes will be passed the value of the suggestion name when clicked
+                           as a string, this function is called when the suggestion is clicked on.
+
+    Notes: This component only works with searches related to Items.
+*/
+
 "use client";
 
 import useSiteSettings from "@/context/SiteSettings/useSiteSettings";

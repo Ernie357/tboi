@@ -1,3 +1,13 @@
+/*
+    File: SlidableSiteOptions.tsx
+
+    Purpose: Wrapper for SiteOptions to make it slideable. This component will display a "small"
+             SiteOptions that will stick out from the bottom right of the screen and will expand
+             when clicked on.
+
+    Props: className - Optional string for additional tailwind classes.
+*/
+
 import Slidable from "./Slidable";
 import SiteOptions from "./SiteOptions";
 

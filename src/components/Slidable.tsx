@@ -1,3 +1,24 @@
+/*
+    File: Slidable.tsx
+
+    Purpose: Makes the child component able to be clicked on to slide fully onto the page.
+             Initially, the child component will be mostly off the page with the top or bottom
+             sticking out.
+
+    Props: title - An optional string that displays a bold title header on the visible part of the component.
+           defaultHeightClassName - A string that represents the tailwind height utility class when the component
+                                    is off the page, essentially defines how far the component sticks out when
+                                    not expanded, Example: h-[10vh]
+           defaultHeightClassName - A string that represents the tailwind height utility class when the component
+                                    is on the page, essentially defines how far the component sticks out when
+                                    expanded, Example: h-[10vh]
+           direction - A string that defines what direction the component will move when clicked on.
+           children - The React component to be made slidable.
+           className - Optional string for additional tailwind classes.
+    
+    Notes: This component only currently supports "up" and "down" as directions.
+*/
+
 "use client";
 
 import useSound from "use-sound";

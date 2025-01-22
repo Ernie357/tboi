@@ -1,3 +1,5 @@
+// Page for displaying information for the item Birthright
+
 "use client";
 
 import BackgroundVideo from "@/components/BackgroundVideo";
@@ -24,6 +26,7 @@ export default function Birthright() {
 		"Samson": { subtitle: "Rage up", description: "Bloody Lust can grant 4 more Damage boosts at +0.2 intervals, for a new maximum total of +14.0." },
 		"Azazel": { subtitle: "Wide breath", description: "Azazel's Brimstone beam becomes much wider like Mega Blast, with 2× larger collision area. No effect on damage." },
 		"Lazarus": { subtitle: "Come back stronger", description: "No direct effect. The item is triggered if Lazarus dies and becomes Lazarus Risen." },
+		"Lazarus Risen": { subtitle: "Temporary DMG up", description: "Grants a +7.2 Damage bonus that fades by 0.12 per second. Until the effect completely fades, killing an enemy restores 0.07 damage to the bonus." },
 		"Eden": { subtitle: "???", description: "Creates 3 random items from random item pools. Only one can be taken. Ignores item weight and can spawn items that have already been taken during the run. Can also spawn multiples of the same item, if they exist in multiple item pools." },
 		"The Lost": { subtitle: "Better destiny", description: "Prevents items with the nolostbr item tag from appearing. This automatically re-rolls most items that aren't beneficial to The Lost, namely ones that only give health, flight, and/or spectral tears or activate upon taking damage." },
 		"Lilith": { subtitle: "Offensive Formation", description: "Most familiars that normally follow Lilith, including Lilith's innate Incubus, will always be positioned in front of Lilith, creating a stack, facing whatever direction she was shooting. Non-attacking familiars (The Relic, Farting Baby, etc.) will follow Lilith's most recently acquired attacking familiar instead; if the most recent familiar is throwable like Holy Water, familiars following it will also be launched with it. If Lilith has King Baby, it will always be positioned directly in front of Lilith with all other affected familiars forming a semi-circle around it, and will behave normally otherwise. Dry Baby is considered an 'attacking familiar' and will be within the stack. Lil Portal and Jaw Bone are exempt and behave normally." },
@@ -80,6 +83,7 @@ export default function Birthright() {
 			}
 		}
 	}
+
 	const handleInfoChange = (item: string) => {
 		for(let idx = 0; idx < keys.length; idx++) {
 			if(keys[idx] === item) {

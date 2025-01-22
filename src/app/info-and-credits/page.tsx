@@ -1,3 +1,5 @@
+// Page for displaying the site's general information and credits
+
 "use client";
 
 import HomeLink from "@/components/HomeLink";

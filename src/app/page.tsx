@@ -1,3 +1,5 @@
+// Index Page for general navigation
+
 import SelectableMenuOption from "../components/SelectableMenuOption";
 import SiteOptions from "../components/SiteOptions";
 import MusicPlayer from "../components/MusicPlayer";
@@ -21,7 +23,7 @@ export default function Home() {
 					xl:gap-8 xl:text-4xl xl:h-[60%] \
 					2xl:h-[60%] 2xl:pl-10 2xl:gap-12 2xl:text-5xl"
 				>
-					<SelectableMenuOption action="/spindown" hoverText="Search for items and see what they spindown into.">Spindown Calc</SelectableMenuOption>
+					<SelectableMenuOption action="/spindown">Spindown Calc</SelectableMenuOption>
 					<SelectableMenuOption action="/pandoras-box">Pandora's Box</SelectableMenuOption>
 					<SelectableMenuOption action="/birthright">Birthright</SelectableMenuOption>
 					<SelectableMenuOption action="https://www.tboi.com/sacrifice-rooms">Sacrifice Rewards</SelectableMenuOption>

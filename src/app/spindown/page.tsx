@@ -73,7 +73,6 @@ export default function Spindown() {
 			<MusicPlayer />
 			<SearchBar searchFunction={handleSearch} showSuggestions suggestionFunction={getSuggestions} />
 			<HomeLink />
-			<SlidableSiteOptions />
 			<ItemTitle className="absolute top-[38vh] sm:top-[27vh] md:top-[21vh] lg:top-[13vh] xl:top-[8vh]" subtitle={item.description}>{item.name}</ItemTitle>
 			<FloatingItem imageFileName={item.imagePath} className="absolute scale-[50%] sm:scale-100 top-[-2vw]" />
 			<UpAndDownButtons 
@@ -87,6 +86,7 @@ export default function Spindown() {
 				<p className="rotate-[-12deg] relative top-6 left-6 xl:top-12 xl:left-12"><b>ID: </b>{item.id}</p>
 				<p className="rotate-[-12deg] relative top-6 left-6 xl:top-12 xl:left-12"><b>Quality: </b>{item.quality}</p>
 			</div>
+			<SlidableSiteOptions />
 		</div>
 	);
 }

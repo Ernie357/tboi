@@ -26,6 +26,7 @@ export default function Home() {
 					<SelectableMenuOption action="/spindown">Spindown Calc</SelectableMenuOption>
 					<SelectableMenuOption action="/pandoras-box">Pandora's Box</SelectableMenuOption>
 					<SelectableMenuOption action="/birthright">Birthright</SelectableMenuOption>
+					<SelectableMenuOption action="/dice-rooms">Dice Rooms</SelectableMenuOption>
 					<SelectableMenuOption action="https://www.tboi.com/sacrifice-rooms" openInNewTab>Sacrifice Rewards</SelectableMenuOption>
 					<SelectableMenuOption action="https://www.tboi.com/transformations" openInNewTab>Transformations</SelectableMenuOption>
 					<SelectableMenuOption action="https://www.tboi.com/tarot-cloth" openInNewTab>Tarot Cloth</SelectableMenuOption>

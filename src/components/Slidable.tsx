@@ -50,7 +50,7 @@ export default function Slidable(props: { title?: string, defaultHeightClassName
         >
             <div 
                 onClick={handleExpand} 
-                className={`flex items-center justify-center z-50 cursor-pointer w-full h-[8vh] absolute top-0`} 
+                className={`flex items-center justify-center z-50 pointer w-full h-[8vh] absolute top-0`} 
             >
                 {props.title && <p className={`title font-Menu ${props.direction === 'down' && 'rotate-[180deg]'}`}><b>{props.title}</b></p>}
             </div>

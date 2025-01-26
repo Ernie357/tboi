@@ -12,3 +12,13 @@
 .slidable > div > div {
   transform: rotate(180deg); 
 }
+
+body {
+  cursor: url("/images/misc/cursor.cur"), auto;
+}
+
+button, a, select, option, .cursor-pointer {
+  cursor: url("/images/misc/mouse-cursor.png") 20 10, auto;
+}
+
+/* collectibles_467_finger.png */

@@ -10,6 +10,8 @@
            className - Optional string to define additional tailwind classes
            disableCursor - Optional boolean to define if the cursor should be shown to the left
                            of the text or not, defaults to false if not provided.
+           openInNewTab - Optional boolean, opens link in new tab if true, defaults to false.
+                          This will not do anything if props.action is a function.
 */
 
 "use client";
@@ -19,7 +21,7 @@ import Link from "next/link";
 import { useState } from "react";
 import useSound from "use-sound";
 
-export default function SelectableMenuOption(props: { children: string, action: string | ((item: string) => void), className?: string, disableCursor?: boolean }) {
+export default function SelectableMenuOption(props: { children: string, action: string | ((item: string) => void), className?: string, disableCursor?: boolean, openInNewTab?: boolean }) {
     const { siteSettings } = useSiteSettings();
 
     const [isSelected, setIsSelected] = useState<boolean>(false);
@@ -44,6 +46,8 @@ export default function SelectableMenuOption(props: { children: string, action: 
                 (!props.disableCursor ? <div className="hidden md:block w-[25px] h-[25px] rotate-[3deg] relative 2xl:left-[10px]"></div> : <></>)
             }
             {typeof props.action === 'string' ? <Link 
+                rel={props.openInNewTab ? "noopener noreferrer" : ""} 
+                target={props.openInNewTab ? "_blank" : ""}
                 href={props.action} 
                 className="font-Menu text-ui w-full"
                 onMouseEnter={handleSelect}

@@ -26,11 +26,11 @@ export default function Home() {
 					<SelectableMenuOption action="/spindown">Spindown Calc</SelectableMenuOption>
 					<SelectableMenuOption action="/pandoras-box">Pandora's Box</SelectableMenuOption>
 					<SelectableMenuOption action="/birthright">Birthright</SelectableMenuOption>
-					<SelectableMenuOption action="https://www.tboi.com/sacrifice-rooms">Sacrifice Rewards</SelectableMenuOption>
-					<SelectableMenuOption action="https://www.tboi.com/transformations">Transformations</SelectableMenuOption>
-					<SelectableMenuOption action="https://www.tboi.com/tarot-cloth">Tarot Cloth</SelectableMenuOption>
-					<SelectableMenuOption action="https://www.tboi.com/bag-of-crafting/index.html">Bag of Crafting</SelectableMenuOption>
-					<SelectableMenuOption action="https://www.tboi.com/">Platinum God (tboi.com)</SelectableMenuOption>
+					<SelectableMenuOption action="https://www.tboi.com/sacrifice-rooms" openInNewTab>Sacrifice Rewards</SelectableMenuOption>
+					<SelectableMenuOption action="https://www.tboi.com/transformations" openInNewTab>Transformations</SelectableMenuOption>
+					<SelectableMenuOption action="https://www.tboi.com/tarot-cloth" openInNewTab>Tarot Cloth</SelectableMenuOption>
+					<SelectableMenuOption action="https://www.tboi.com/bag-of-crafting/index.html" openInNewTab>Bag of Crafting</SelectableMenuOption>
+					<SelectableMenuOption action="https://isaacguru.com/" openInNewTab>Item Gallery</SelectableMenuOption>
 				</div>
 				<div className="flex justify-center items-center relative top-28 sm:top-0 min-h-[150px] sm:h-[50%] lg:h-[65%] w-full bg-daily-challenge-main-menu bg-center sm:bg-top bg-contain bg-no-repeat">
 				    <div 

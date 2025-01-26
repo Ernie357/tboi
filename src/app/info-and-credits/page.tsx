@@ -15,16 +15,22 @@ export default function InfoAndCredits() {
             </p>
             <p>
                 For anything this site does not offer, visit&nbsp; 
-                <a href="https://www.tboi.com/">
-                    <u>Platinum God (tboi.com)</u>
+                <a 
+                    href="https://isaacguru.com/"                     
+                    rel="noopener noreferrer" 
+                    target="_blank"
+                >
+                    <u>isaacguru.com</u>
                 </a> 
                 &nbsp;instead; it has a fantastic interface for item searching, seeing how to unlock
-                things, transformations, sacrifice rooms, etc.
+                things, transformations, etc.
             </p>
             <p>
                 Team Meat UI font from user Ottomated on&nbsp;
                 <a 
                     href="https://moddingofisaac.com/mod/1701/team-meat-font"
+                    rel="noopener noreferrer" 
+                    target="_blank"
                 >
                     <u>The Modding of Isaac</u>
                 </a>
@@ -33,16 +39,22 @@ export default function InfoAndCredits() {
                 Info for Pandora's Box and Birthright from&nbsp;
                 <a 
                     href="https://bindingofisaacrebirth.fandom.com/wiki/Binding_of_Isaac:_Rebirth_Wiki"
+                    rel="noopener noreferrer" 
+                    target="_blank"
                 >
                     <u>The Binding of Isaac Wiki</u>
                 </a>&nbsp;at&nbsp; 
                 <a 
                     href="https://www.fandom.com/"
+                    rel="noopener noreferrer" 
+                    target="_blank"
                 >
                     <u>Fandom</u>
                 </a>&nbsp;and is licensed under the&nbsp; 
                 <a 
                     href="https://creativecommons.org/licenses/by-sa/3.0/"
+                    rel="noopener noreferrer" 
+                    target="_blank"
                 >
                     <u>Creative Commons Attribution-Share Alike License</u>
                 </a>
@@ -51,13 +63,19 @@ export default function InfoAndCredits() {
                 All other assets belong to&nbsp;
                 <a
                     href="https://store.steampowered.com/app/1426300/The_Binding_of_Isaac_Repentance/"
+                    rel="noopener noreferrer" 
+                    target="_blank"
                 >
                     <u>The Binding of Isaac: Repentance</u>
                 </a>, Nicalis, Inc., and Edmund McMillen
             </p>
             <p>
                 Full game credits can be found&nbsp;
-                <a href="https://www.mobygames.com/game/161590/the-binding-of-isaac-repentance/credits/windows/">
+                <a 
+                    href="https://www.mobygames.com/game/161590/the-binding-of-isaac-repentance/credits/windows/"
+                    rel="noopener noreferrer" 
+                    target="_blank"
+                >
                     <u>here</u>
                 </a>
             </p>

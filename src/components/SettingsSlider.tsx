@@ -7,11 +7,14 @@
                     with the number placement, left to right, 0 to 10, of the clicked on tick of the slider.
            defaultSliderValue - A number 0-10 that defines how many ticks should be highlighted by default.
            className - Optional string that defines additional tailwind classes.
+
+    // Note: Tailwind should not and cannot by default generate dynamic class names, such as
+             'bg-slider-${sliderValue}', thus the classNameMap is necessary in this case.
 */
 
 "use client";
 
-import { useMemo, useState } from "react";
+import { useState } from "react";
 
 export default function SettingsSlider(props: { action: (input: number) => void, defaultSliderValue: number, className?: string }) {
     const [sliderValue, setSliderValue] = useState<number>(props.defaultSliderValue);

@@ -9,7 +9,9 @@ import MusicPlayer from "@/components/MusicPlayer";
 import Slidable from "@/components/Slidable";
 import SlidableSiteOptions from "@/components/SlidableSiteOptions";
 import UpAndDownButtons from "@/components/UpAndDownButtons";
+import useSiteSettings from "@/context/SiteSettings/useSiteSettings";
 import defaultPandoraInfo from "@/defaultObjects/defaultPandoraInfo";
+import useSFX from "@/hooks/useSFX";
 import { useEffect, useMemo, useState } from "react";
 
 interface PandoraInfo {
@@ -18,6 +20,8 @@ interface PandoraInfo {
 }
 
 export default function PandorasBox() {
+	const { siteSettings } = useSiteSettings();
+
 	const normalInfoJSON: { [key: string]: string } = {
 		"Basement / Cellar / Burning Basement / Downpour / Dross I": "2 Soul Hearts",
 		"Basement / Cellar / Burning Basement / Downpour / Dross II": "2 Bombs & 2 Keys",
@@ -52,6 +56,9 @@ export default function PandorasBox() {
 		"The Shop / Ultra Greed": "Nothing!"
 	}
 
+	const leftSelectSound = useSFX('/sfx/left-select.wav');
+	const rightSelectSound = useSFX('/sfx/right-select.wav');
+
 	const [selectIdx, setSelectIdx] = useState<number>(0);
 	const [info, setInfo] = useState<PandoraInfo>(defaultPandoraInfo);
 	const [relevantJSON, setRelevantJSON] = useState<{name: string, JSON: { [key: string]: string }}>({ name: 'normal', JSON: normalInfoJSON });
@@ -60,12 +67,18 @@ export default function PandorasBox() {
 
 	const handleUpOrDown = (isDown: boolean) => {
 		if(isDown) {
+			if(siteSettings.sfxVolume > 0) {
+				leftSelectSound();
+			}
 			if(selectIdx === 0) {
 				setSelectIdx(keys.length - 1);
 			} else {
 				setSelectIdx(prev => prev - 1);
 			}
 		} else {
+			if(siteSettings.sfxVolume > 0) {
+				rightSelectSound();
+			}
 			if(selectIdx === keys.length - 1) {
 				setSelectIdx(0);
 			} else {
@@ -126,6 +139,7 @@ export default function PandorasBox() {
 			<HomeLink />
 			<UpAndDownButtons 
 				clickFunction={handleUpOrDown} 
+				muted 
 				className={`
 					z-[100] absolute
 					bottom-[15vh] ml-0 gap-[20vw]

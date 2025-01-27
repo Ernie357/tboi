@@ -11,10 +11,24 @@
 
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 
 export default function SettingsSlider(props: { action: (input: number) => void, defaultSliderValue: number, className?: string }) {
     const [sliderValue, setSliderValue] = useState<number>(props.defaultSliderValue);
+
+    const classNameMap: { [key: number]: string } = {
+            0: 'bg-slider-0',
+            1: 'bg-slider-1',
+            2: 'bg-slider-2',
+            3: 'bg-slider-3',
+            4: 'bg-slider-4',
+            5: 'bg-slider-5',
+            6: 'bg-slider-6',
+            7: 'bg-slider-7',
+            8: 'bg-slider-8',
+            9: 'bg-slider-9',
+            10: 'bg-slider-10',
+    };
 
     const reset = () => {
         setSliderValue(0);
@@ -49,11 +63,11 @@ export default function SettingsSlider(props: { action: (input: number) => void,
     });
 
     return (
-        <div 
+        <div
             onMouseLeave={resetToDefault}
-            className={`bg-slider-${sliderValue} bg-center bg-no-repeat bg-contain flex cursor-pointer ${props.className}`} 
+            className={`${classNameMap[sliderValue] || 'bg-slider-0'} bg-center bg-no-repeat bg-contain flex cursor-pointer ${props.className}`}
         >
-            {tickElements}
+        {tickElements}
         </div>
     );
 }

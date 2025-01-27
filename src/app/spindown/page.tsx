@@ -14,17 +14,10 @@ import getItemSuggestionsFromName from "@/inspectors/getItemSuggestionsFromName"
 import MusicPlayer from "../../components/MusicPlayer";
 import BackgroundVideo from "@/components/BackgroundVideo";
 import UpAndDownButtons from "@/components/UpAndDownButtons";
-import useSound from "use-sound";
-import useSiteSettings from "@/context/SiteSettings/useSiteSettings";
 import SlidableSiteOptions from "@/components/SlidableSiteOptions";
 
 export default function Spindown() {
-	const { siteSettings } = useSiteSettings();
-	
 	const missingItemIds = ["43", "61", "235", "587", "613", "620", "630", "648", "662", "666", "718"];
-
-	const [leftSelectSound] = useSound('/sfx/left-select.wav');
-	const [rightSelectSound] = useSound('/sfx/right-select.wav');
 
 	const [item, setItem] = useState<Item>(defaultItem);
 	const [itemDataJSON, setItemDataJSON] = useState<any>(null);
@@ -39,9 +32,6 @@ export default function Spindown() {
 
 	const handleSpin = (isDown: boolean) => {
 		if((+item.id <= 1 && isDown) || (+item.id >= 732 && !isDown)) { return; }
-		if(siteSettings.sfxVolume > 0) {
-			isDown ? leftSelectSound() : rightSelectSound();
-		}
 		let nextId = isDown ? (+item.id - 1).toString() : (+item.id + 1).toString();
 		if(missingItemIds.includes(nextId)) {
 			nextId = isDown ? (+nextId - 1).toString() : (+nextId + 1).toString()
@@ -79,7 +69,6 @@ export default function Spindown() {
 				downText="Spindown" 
 				upText="Spinback" 
 				clickFunction={handleSpin}
-				muted
 				className="md:flex-col xl:flex-row gap-8 sm:gap-36 md:gap-0 xl:gap-72 absolute max-sm:top-[15vh] sm:bottom-[35vh] md:bottom-[20vh] md:bottom-[37vh] md:left-[20vw] xl:left-auto xl:bottom-[20vh]"
 			/>
 			<div className="absolute bottom-[12%] sm:bottom-10 sm:left-[10vw] md:left-auto md:bottom-[40%] md:right-[20vw] w-36 h-36 xl:w-72 xl:h-72 text-xl xl:text-4xl font-Menu bg-menu-paper-2 bg-contain bg-center bg-no-repeat flex flex-col">

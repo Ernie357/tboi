@@ -13,24 +13,25 @@
 "use client";
 
 import useSiteSettings from "@/context/SiteSettings/useSiteSettings";
+import SettingsSlider from "./SettingsSlider";
 
 export default function SiteOptions({ className, type = 'small' }: { className?: string, type?: 'big' | 'small' }) {
     const { siteSettings, setSiteSettings } = useSiteSettings();
 
-    const handleMusicChange = () => {
+    const handleMusicChange = (value: number) => {
         setSiteSettings(prev => {
             return {
                 ...prev, 
-                musicVolume: prev.musicVolume > 0 ? 0 : 1
+                musicVolume: value / 10
             }
         });
     }
 
-    const handleSfxChange = () => {
+    const handleSfxChange = (value: number) => {
         setSiteSettings(prev => {
             return {
                 ...prev,
-                sfxVolume: prev.sfxVolume > 0 ? 0 : 1
+                sfxVolume: value / 10
             }
         });
     }
@@ -49,11 +50,19 @@ export default function SiteOptions({ className, type = 'small' }: { className?:
         ${type === 'big' ? 'h-[30vw] gap-[2vw] text-[2vw]' : 'gap-4 text-3xl h-[40vh] absolute top-0 left-0'} `}>
             <div className={`flex items-center justify-between ${type === 'big' ? 'w-[18vw] mt-[8vw]' : 'w-[50%] mt-20'}`}>
                 <p className="font-Menu">SFX</p>
-                <div onClick={handleSfxChange} className={`${siteSettings.sfxVolume ? 'bg-slider-full' : 'bg-slider-empty'} cursor-pointer relative ${type === 'big' ? 'bottom-[0.8vh] w-[8vw] h-[4vw]' : 'bottom-[0.6vh] w-16 h-12'} bg-center bg-no-repeat bg-contain`} />
+                <SettingsSlider 
+                    action={handleSfxChange} 
+                    defaultSliderValue={siteSettings.sfxVolume * 10} 
+                    className={`relative bottom-[0.8vh] ${type === 'big' ? 'w-[8vw] h-[4vw]' : 'w-16 h-12'}`}
+                />
             </div>
             <div className={`flex items-center justify-between ${type === 'big' ? 'w-[18vw]' : 'w-[50%]'}`}>
                 <p className="font-Menu">Music</p>
-                <div onClick={handleMusicChange} className={`${siteSettings.musicVolume > 0 ? 'bg-slider-full' : 'bg-slider-empty'} cursor-pointer bg-center bg-no-repeat bg-contain ${type === 'big' ? 'w-[8vw] h-[4vw]' : 'w-16 h-12'}`} />
+                <SettingsSlider 
+                    action={handleMusicChange} 
+                    defaultSliderValue={siteSettings.musicVolume * 10}
+                    className={`${type === 'big' ? 'w-[8vw] h-[4vw]' : 'w-16 h-12'}`} 
+                />
             </div>
             <div className={`flex items-center justify-between ${type === 'big' ? 'w-[18vw]' : 'w-[60%]'}`}>
                 <p className="font-Menu">Theme</p>

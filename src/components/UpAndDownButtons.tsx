@@ -21,14 +21,14 @@
 "use client";
 
 import useSiteSettings from "@/context/SiteSettings/useSiteSettings";
+import useSFX from "@/hooks/useSFX";
 import Image from "next/image";
-import useSound from "use-sound";
 
 export default function UpAndDownButtons(props: { downText?: string, upText?: string, clickFunction: (isDown: boolean) => void, className?: string, muted?: boolean }) {
     const { siteSettings } = useSiteSettings();
 
-	const [leftSelectSound] = useSound('/sfx/left-select.wav');
-	const [rightSelectSound] = useSound('/sfx/right-select.wav');
+	const leftSelectSound = useSFX('/sfx/left-select.wav');
+	const rightSelectSound = useSFX('/sfx/right-select.wav');
 
     const handleClick = (isDown: boolean) => {
         if(siteSettings.sfxVolume > 0 && !props.muted) {

@@ -21,15 +21,15 @@
 
 "use client";
 
-import useSound from "use-sound";
 import useSiteSettings from "@/context/SiteSettings/useSiteSettings";
 import { useState } from "react";
+import useSFX from "@/hooks/useSFX";
 
 export default function Slidable(props: { title?: string, defaultHeightClassName: string, expandedHeightClassName: string, direction: string, children: React.ReactNode, className?: string }) {
     const { siteSettings } = useSiteSettings();
 
-    const [paperInSound] = useSound('/sfx/paper-in.wav');
-    const [paperOutSound] = useSound('/sfx/paper-out.wav');
+    const paperInSound = useSFX('/sfx/paper-in.wav');
+    const paperOutSound = useSFX('/sfx/paper-out.wav');
 
     const [expanded, setExpanded] = useState<boolean>(false);
 

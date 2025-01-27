@@ -9,13 +9,9 @@ import MusicPlayer from "@/components/MusicPlayer";
 import Slidable from "@/components/Slidable";
 import SlidableSiteOptions from "@/components/SlidableSiteOptions";
 import UpAndDownButtons from "@/components/UpAndDownButtons";
-import useSiteSettings from "@/context/SiteSettings/useSiteSettings";
 import { useEffect, useMemo, useState } from "react";
-import useSound from "use-sound";
 
 export default function Birthright() {
-	const { siteSettings } = useSiteSettings();
-
 	const infoJSON: { [key: string]: { subtitle: string; description: string } } = {
 		"Isaac": { subtitle: "More options", description: "All new item pedestals cycle between two options. Previously-seen items are unaffected." },
 		"Maggy": { subtitle: "Limit breaker + HP up", description: "Adds 1 full red Heart Container. Increases the maximum heart limit to 18." },
@@ -54,9 +50,6 @@ export default function Birthright() {
 		"Tainted Jacob": { subtitle: "It's not yours", description: "Dark Esau splits into two. Both Esaus will always charge at the same time, and one will not charge if the other is not in position. Using Anima Sola chains both Dark Esaus at once and forces them together into one spot. Subsequent uses release each Dark Esau one at a time. Anima Sola's recharge time is reduced to 10 seconds, and chain duration is increased to 6.67 seconds." }
 	  };
 
-	const [leftSelectSound] = useSound('/sfx/left-select.wav');
-	const [rightSelectSound] = useSound('/sfx/right-select.wav');
-
 	const [selectIdx, setSelectIdx] = useState<number>(0);
 	const [info, setInfo] = useState<{ name: string, subtitle: string, description: string }>({ name: 'Isaac', subtitle: infoJSON["Isaac"].subtitle, description: infoJSON["Isaac"].description });
 
@@ -64,18 +57,12 @@ export default function Birthright() {
 
 	const handleUpOrDown = (isDown: boolean) => {
 		if(isDown) {
-			if(siteSettings.sfxVolume > 0) {
-				leftSelectSound();
-			}
 			if(selectIdx === 0) {
 				setSelectIdx(keys.length - 1);
 			} else {
 				setSelectIdx(prev => prev - 1);
 			}
 		} else {
-			if(siteSettings.sfxVolume > 0) {
-				rightSelectSound();
-			}
 			if(selectIdx === keys.length - 1) {
 				setSelectIdx(0);
 			} else {
@@ -119,7 +106,6 @@ export default function Birthright() {
 			<HomeLink />
 			<UpAndDownButtons 
 				clickFunction={handleUpOrDown} 
-				muted 
 				className={`
 					z-[100] absolute
 					bottom-[15vh] ml-0 gap-[20vw]

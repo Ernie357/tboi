@@ -16,17 +16,17 @@
 
 "use client";
 import useSiteSettings from "@/context/SiteSettings/useSiteSettings";
+import useSFX from "@/hooks/useSFX";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import useSound from "use-sound";
 
 export default function SelectableMenuOption(props: { children: string, action: string | ((item: string) => void), className?: string, disableCursor?: boolean, openInNewTab?: boolean }) {
     const { siteSettings } = useSiteSettings();
 
     const [isSelected, setIsSelected] = useState<boolean>(false);
     
-    const [paperSound] = useSound('/sfx/paper-in.wav');
+    const paperSound = useSFX('/sfx/paper-in.wav');
 
     const handleSelect = () => {
         setIsSelected(prev => !prev);

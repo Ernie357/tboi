@@ -10,12 +10,12 @@
 
 "use client";
 import useSiteSettings from "@/context/SiteSettings/useSiteSettings";
+import useSFX from "@/hooks/useSFX";
 import Link from "next/link";
-import useSound from "use-sound";
 
 export default function HomeLink(props: { className?: string, isMuted?: boolean }) {
     const { siteSettings } = useSiteSettings();
-    const [paperSound] = useSound('/sfx/paper-out.wav');
+    const paperSound = useSFX('/sfx/paper-out.wav');
 
     return (
         <div className={`z-[500] absolute top-1 right-1 flex flex-col items-center justify-center w-24 h-24 sm:w-36 sm:h-40 bg-menu-paper-5 bg-center bg-contain bg-no-repeat ${props.className}`}>

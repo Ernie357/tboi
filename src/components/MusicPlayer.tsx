@@ -27,9 +27,10 @@ export default function MusicPlayer(props: { src?: string }) {
 
     const [prevTheme, setPrevTheme] = useState<string>(siteSettings.theme);
 
-    const [music, { stop }] = useSound(props.src ? props.src : `/music/${getFileNameFromTheme(siteSettings.theme, '.ogg')}`, { loop: true, volume: 0.4 });
+    const [music, { stop }] = useSound(props.src ? props.src : `/music/${getFileNameFromTheme(siteSettings.theme, '.ogg')}`, { loop: true, volume: siteSettings.musicVolume });
 
     useEffect(() => {
+        stop();
         if(prevTheme === siteSettings.theme && siteSettings.musicVolume > 0 && props.src) {
             music();
         } else if(!props.src && siteSettings.musicVolume > 0) {

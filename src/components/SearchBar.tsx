@@ -17,14 +17,14 @@
 import { useState } from "react";
 import SearchSuggestion from "./SearchSuggestion";
 import { FaSearch } from "react-icons/fa";
-import useSound from 'use-sound';
 import useSiteSettings from "@/context/SiteSettings/useSiteSettings";
+import useSFX from "@/hooks/useSFX";
 
 export default function SearchBar(props: { className?: string, searchFunction: (value: string) => boolean, showSuggestions?: boolean, suggestionFunction?: (input: string) => any[] }) {
     const { siteSettings } = useSiteSettings();
 
-    const [errorSound] = useSound('/sfx/error-buzz.wav');
-    const [summonSound] = useSound('/sfx/summon-sound.wav');
+    const errorSound = useSFX('/sfx/error-buzz.wav');
+    const summonSound = useSFX('/sfx/summon-sound.wav');
 
     const [searchInput, setSearchInput] = useState<string>('');
     const [searchSuggestions, setSearchSuggestions] = useState<any>([]);

@@ -70,6 +70,12 @@ export default {
         'slider-8': "url('/images/ui/bg-slider-8.png')",
         'slider-9': "url('/images/ui/bg-slider-9.png')",
         'slider-10': "url('/images/ui/bg-slider-10.png')",
+        'dice-room-1': "url('/images/floors/dice-room-1.png')",
+        'dice-room-2': "url('/images/floors/dice-room-2.png')",
+        'dice-room-3': "url('/images/floors/dice-room-3.png')",
+        'dice-room-4': "url('/images/floors/dice-room-4.png')",
+        'dice-room-5': "url('/images/floors/dice-room-5.png')",
+        'dice-room-6': "url('/images/floors/dice-room-6.png')",
       },
       colors: {
         background: "var(--background)",

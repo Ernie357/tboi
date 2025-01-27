@@ -80,7 +80,13 @@ export default function Spindown() {
 				upText="Spinback" 
 				clickFunction={handleSpin}
 				muted
-				className="md:flex-col xl:flex-row gap-8 sm:gap-36 md:gap-0 xl:gap-72 absolute max-sm:top-[15vh] sm:bottom-[35vh] md:bottom-[20vh] md:bottom-[37vh] md:left-[20vw] xl:left-auto xl:bottom-[20vh]"
+				className={`
+                    absolute 
+                    max-sm:top-[15vh]
+                    sm:gap-36 sm:bottom-[35vh]
+                    md:flex-col md:gap-0 md:bottom-[20vh] md:bottom-[37vh] md:left-[20vw]
+                    xl:flex-row gap-8 xl:gap-72 xl:left-auto xl:bottom-[20vh]
+                `}
 			/>
 			<div className="absolute bottom-[12%] sm:bottom-10 sm:left-[10vw] md:left-auto md:bottom-[40%] md:right-[20vw] w-36 h-36 xl:w-72 xl:h-72 text-xl xl:text-4xl font-Menu bg-menu-paper-2 bg-contain bg-center bg-no-repeat flex flex-col">
 				<p className="rotate-[-12deg] relative top-6 left-6 xl:top-12 xl:left-12"><b>ID: </b>{item.id}</p>

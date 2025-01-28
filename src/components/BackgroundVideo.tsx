@@ -15,6 +15,7 @@
 
 "use client";
 import useSiteSettings from "@/context/SiteSettings/useSiteSettings";
+import getFileNameFromTheme from "@/inspectors/getFileNameFromTheme";
 import { useEffect, useRef } from "react";
 
 export default function BackgroundVideo(props: { src?: string, className?: string }) {
@@ -83,7 +84,7 @@ export default function BackgroundVideo(props: { src?: string, className?: strin
 
     useEffect(() => {
         if (videoRef.current) {
-            const newSrc = props.src ? props.src : videoLinkMap[siteSettings.theme];
+            const newSrc = props.src ? props.src : `/videos/${getFileNameFromTheme(siteSettings.theme, '.mp4')}`;
             videoRef.current.pause(); 
             videoRef.current.src = newSrc; 
             videoRef.current.load(); 

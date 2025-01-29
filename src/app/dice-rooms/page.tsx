@@ -66,15 +66,16 @@ export default function DiceRooms() {
             } else if(event.key === 'ArrowRight') {
                 handleUpOrDown(false);
             }
-        }} className={`${infoJSON[diceNumber].bg} relative bg-black bg-center bg-no-repeat bg-contain min-h-screen min-w-screen flex justify-center items-center`}>
+        }} className={`relative bg-black bg-center bg-no-repeat bg-contain min-h-screen min-w-screen flex justify-center items-center`}>
+            <BackgroundVideo src={`/videos/dice-room-${diceNumber}.mp4`} />
             <MusicPlayer />
             <HomeLink />
             <UpAndDownButtons 
                 clickFunction={handleUpOrDown} 
                 muted 
                 className={`
-                    absolute 
-                    max-sm:top-[15vh]
+                    absolute max-sm:[&>button]:min-w-[40vw] max-sm:[&>button]:h-[10vh]
+                    max-sm:top-[20vh]
                     sm:gap-[40vw] sm:bottom-[40vh]             
                     2xl:flex-row gap-8 2xl:gap-72 2xl:left-auto 2xl:bottom-[20vh]
                 `}
@@ -92,11 +93,11 @@ export default function DiceRooms() {
             <InfoPaper 
                 description={infoJSON[diceNumber].description}
                 className={`
-                    absolute bottom-[15vw] [&>.info-text-container]:h-[75%] [&>.info-text-container]:justify-start w-[75vw] h-[30vh]
+                    absolute bottom-[100px] [&>.info-text-container]:h-[75%] [&>.info-text-container]:justify-start w-[75vw] h-[20vh]
                     sm:bottom-[10vw] sm:w-[75vw] sm:h-[30vh]
                     md:bottom-0 md:left-0 md:w-[60vw] md:h-[30vh]
                     lg:w-[50vw]
-                    2xl:w-[30vw] 2xl:h-[15vw] 2xl:bottom-auto 2xl:left-auto 2xl:right-10
+                    2xl:w-[30vw] 2xl:h-[30vw] 2xl:bottom-auto 2xl:left-auto 2xl:right-10
                 `}
             />
             <SlidableSiteOptions className="z-[100]"/>

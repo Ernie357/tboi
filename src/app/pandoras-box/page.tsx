@@ -4,6 +4,7 @@
 
 import BackgroundVideo from "@/components/BackgroundVideo";
 import HomeLink from "@/components/HomeLink";
+import InfoPaper from "@/components/InfoPaper";
 import LongList from "@/components/LongList";
 import MusicPlayer from "@/components/MusicPlayer";
 import Slidable from "@/components/Slidable";
@@ -208,25 +209,16 @@ export default function PandorasBox() {
 						<button onClick={handleTypeChange} className={`cursor-pointer ${relevantJSON.name === 'greed' && 'underline'} hover:text-black`}>Greed</button>
 					</div>
 				</div>
-				<div 
+				<InfoPaper 
+					title={info.floor} 
+					description={info.reward} 
 					className={`
-						z-10 relative flex items-center justify-center
-						w-[75vw] h-[30vh]
+						relative w-[75vw] h-[30vh]
 						sm:w-[75vw] sm:h-[30vh]
 						md:w-[60vw] md:h-[30vh] md:mb-32
 						lg:w-[50vw]
 					`}
-				>
-					<img 
-						src="/images/ui/menu-paper-6.png" 
-						alt="paper background" 
-						className="z-0 absolute w-full h-full" 
-					/>
-					<div className="flex flex-col justify-center items-center gap-5 w-[90%] h-full z-10 text-center font-Menu">
-						<p className="sm:text-[3.5vw] md:text-[2.5vw] lg:text-[2vw]"><b><u>{info.floor}</u></b></p>
-						<p className="sm:text-[3vw] md:text-[2vw] lg:text-[1.5vw]">{info.reward}</p>
-					</div>
-				</div>
+				/>
 			</div>
 			<SlidableSiteOptions className="z-[100]"/>
 		</div>

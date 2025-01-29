@@ -4,6 +4,7 @@
 
 import BackgroundVideo from "@/components/BackgroundVideo";
 import HomeLink from "@/components/HomeLink";
+import InfoPaper from "@/components/InfoPaper";
 import LongList from "@/components/LongList";
 import MusicPlayer from "@/components/MusicPlayer";
 import Slidable from "@/components/Slidable";
@@ -170,9 +171,13 @@ export default function Birthright() {
 					title="Characters"
 			/>
 			<SlidableSiteOptions className="z-[100]"/>
-			<div 
+			<InfoPaper 
+				title={info.name}
+				description={info.description}
+				titleClassName="sm:text-[4vw] md:text-[3vw] lg:text-[2.5vw]"
+				descriptionClassName="sm:text-[3.5vw] md:text-[2.5vw] lg:text-[2vw]"
 				className={`
-					z-10 relative flex justify-center items-center
+					relative [&>.info-text-container]:justify-start [&>.info-text-container]:h-[75%] [&>.info-text-container]:gap-0  
 					w-[75vw] h-[30vh] mb-[30vh]
 					sm:w-[75vw] sm:h-[30vh]
 					md:w-[60vw] md:h-[30vh] md:mb-44
@@ -180,17 +185,7 @@ export default function Birthright() {
 					xl:ml-[25vw]
 					2xl:h-[50vh] 2xl:ml-[25vw]
 				`}
-			>
-				<img 
-					src="/images/ui/menu-paper-6.png" 
-					alt="paper background" 
-					className="z-0 absolute w-full h-full" 
-				/>
-				<div className="flex flex-col p-3 w-[90%] h-[75%] z-10 text-center font-Menu overflow-scroll [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
-					<p className="sm:text-[4vw] md:text-[3vw] lg:text-[2.5vw]"><u><b>{info.name}:&nbsp;{info.subtitle}</b></u></p>
-					<p className="sm:text-[3.5vw] md:text-[2.5vw] lg:text-[2vw]">{info.description}</p>
-				</div>
-			</div>
+			/>
 		</div>
 	);
 }

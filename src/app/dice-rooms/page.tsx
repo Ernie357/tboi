@@ -4,6 +4,7 @@
 
 import BackgroundVideo from "@/components/BackgroundVideo";
 import HomeLink from "@/components/HomeLink";
+import InfoPaper from "@/components/InfoPaper";
 import LongList from "@/components/LongList";
 import MusicPlayer from "@/components/MusicPlayer";
 import Slidable from "@/components/Slidable";
@@ -74,9 +75,28 @@ export default function DiceRooms() {
                 className={`
                     absolute 
                     max-sm:top-[15vh]
-                    sm:gap-36 sm:bottom-[35vh]
-                    md:flex-col md:gap-0 md:bottom-[20vh] md:bottom-[37vh] md:left-[20vw]
-                    xl:flex-row gap-8 xl:gap-72 xl:left-auto xl:bottom-[20vh]
+                    sm:gap-[40vw] sm:bottom-[40vh]             
+                    2xl:flex-row gap-8 2xl:gap-72 2xl:left-auto 2xl:bottom-[20vh]
+                `}
+            />
+            <InfoPaper 
+                title={infoJSON[diceNumber].name}  
+                className={`
+                    absolute top-0 left-0 w-[60vw] h-[14vh]
+                    sm:w-[75vw] sm:h-[20vh]
+                    md:w-[75vw] md:h-[20vh] 
+                    lg:w-[50vw]
+                    2xl:w-[30vw] 2xl:h-[15vw] 2xl:top-auto 2xl:left-10
+                `}
+            />
+            <InfoPaper 
+                description={infoJSON[diceNumber].description}
+                className={`
+                    absolute bottom-[15vw] [&>.info-text-container]:h-[75%] [&>.info-text-container]:justify-start w-[75vw] h-[30vh]
+                    sm:bottom-[10vw] sm:w-[75vw] sm:h-[30vh]
+                    md:bottom-0 md:left-0 md:w-[60vw] md:h-[30vh]
+                    lg:w-[50vw]
+                    2xl:w-[30vw] 2xl:h-[15vw] 2xl:bottom-auto 2xl:left-auto 2xl:right-10
                 `}
             />
             <SlidableSiteOptions className="z-[100]"/>

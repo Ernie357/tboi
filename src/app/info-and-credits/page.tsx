@@ -23,7 +23,7 @@ export default function InfoAndCredits() {
                     <u>isaacguru.com</u>
                 </a> 
                 &nbsp;instead; it has a fantastic interface for item searching, seeing how to unlock
-                things, transformations, etc.
+                things, etc.
             </p>
             <p>
                 Team Meat UI font from user Ottomated on&nbsp;
@@ -60,7 +60,7 @@ export default function InfoAndCredits() {
                 </a>
             </p>
             <p>
-                Custom Brimstone cursor from SerenaNugget on&nbps;
+                Custom Brimstone cursor from SerenaNugget on&nbsp;
                 <a
                     href="https://www.cursor.cc/?action=icon&file_id=35705"
                     rel="noopener noreferrer" 

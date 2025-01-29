@@ -1,8 +1,7 @@
 /*
-    File: LongList.tsx
+    File: InfoPaper.tsx
 
-    Purpose: Displays a list of SelectableMenuOption components on a longer Binding of Isaac
-             todo list background asset
+    Purpose: Optionally displays a title and a scrollable description on a paper image asset.
 
     Props: title - An optional string that displays a bold, underlined header for a title at the top of the paper if provided.
            description - An optional string that displays the string when provided in the middle of the paper, can scroll.

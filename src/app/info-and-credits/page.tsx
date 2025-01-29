@@ -60,8 +60,7 @@ export default function InfoAndCredits() {
                 </a>
             </p>
             <p>
-            <p>
-                Custom Brimstone cursor from SerenaNugget on
+                Custom Brimstone cursor from SerenaNugget on&nbps;
                 <a
                     href="https://www.cursor.cc/?action=icon&file_id=35705"
                     rel="noopener noreferrer" 
@@ -70,6 +69,7 @@ export default function InfoAndCredits() {
                     <u>Cursor.cc</u>
                 </a>
             </p>
+            <p>
                 All other assets belong to&nbsp;
                 <a
                     href="https://store.steampowered.com/app/1426300/The_Binding_of_Isaac_Repentance/"

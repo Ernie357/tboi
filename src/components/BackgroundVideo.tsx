@@ -19,7 +19,7 @@ import getFileNameFromTheme from "@/inspectors/getFileNameFromTheme";
 import { useEffect, useRef } from "react";
 
 export default function BackgroundVideo(props: { src?: string, className?: string }) {
-    // Unoptimized:
+    /* Unoptimized:
     const videoLinkMap: { [key: string]: string } = {
         "Basement": "https://res.cloudinary.com/dcf1kxfqb/video/upload/v1737540809/tboi/h8uoaxwgmwfyq0krecq0.mp4",
         "Cellar": "https://res.cloudinary.com/dcf1kxfqb/video/upload/v1737540833/tboi/jcnfww1wjwl7fcis0rok.mp4",
@@ -47,6 +47,7 @@ export default function BackgroundVideo(props: { src?: string, className?: strin
         "Corpse": "https://res.cloudinary.com/dcf1kxfqb/video/upload/v1737540865/tboi/ayirkoeuyb3z9cbmrbqy.mp4",
         "Home": "https://res.cloudinary.com/dcf1kxfqb/video/upload/v1737540752/tboi/cc82qs9n3xy2pw337mqf.mp4"
     };
+    */
 
     /* Optimized:
     const videoLinkMap: { [key: string]: string } = {

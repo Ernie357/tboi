@@ -15,16 +15,23 @@
            will have that same href.
 */
 
+"use client";
+
+import useSFX from "@/hooks/useSFX";
 import SelectableMenuOption from "./SelectableMenuOption";
 
 export default function LongList(props: { title?: string, items: string[], className?: string, action: string | ((item: string) => void) }) {
+    const paperSound = useSFX('/sfx/paper-in.wav');
 
     const listElements = props.items.map((item: string) => {
         return (
             <SelectableMenuOption 
                 key={item} 
                 action={props.action} 
-                disableCursor>{item}
+                clickSound={paperSound}
+                disableCursor
+            >
+                {item}
             </SelectableMenuOption>
         );
     });

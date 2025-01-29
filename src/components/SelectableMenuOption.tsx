@@ -12,28 +12,28 @@
                            of the text or not, defaults to false if not provided.
            openInNewTab - Optional boolean, opens link in new tab if true, defaults to false.
                           This will not do anything if props.action is a function.
+           clickSound - Optional play function from the useSound hook, won't make noise if
+                        not provided, plays specified audio function when option is clicked.
+                        This is necessary to not load the same audio file multiple times.
 */
 
 "use client";
 import useSiteSettings from "@/context/SiteSettings/useSiteSettings";
-import useSFX from "@/hooks/useSFX";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
-export default function SelectableMenuOption(props: { children: string, action: string | ((item: string) => void), className?: string, disableCursor?: boolean, openInNewTab?: boolean }) {
+export default function SelectableMenuOption(props: { children: string, action: string | ((item: string) => void), className?: string, disableCursor?: boolean, openInNewTab?: boolean, clickSound?: () => void }) {
     const { siteSettings } = useSiteSettings();
 
     const [isSelected, setIsSelected] = useState<boolean>(false);
-    
-    const paperSound = useSFX('/sfx/paper-in.wav');
 
     const handleSelect = () => {
         setIsSelected(prev => !prev);
     }
 
     const handleClick = (event: React.MouseEvent<HTMLAnchorElement> | React.MouseEvent<HTMLButtonElement>) => {
-        siteSettings.sfxVolume && paperSound();
+        siteSettings.sfxVolume > 0 && props.clickSound && props.clickSound();
         event.currentTarget instanceof HTMLButtonElement && typeof props.action === "function" && props.action(props.children);
     }
 

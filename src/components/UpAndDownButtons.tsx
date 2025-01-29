@@ -27,11 +27,11 @@ import Image from "next/image";
 export default function UpAndDownButtons(props: { downText?: string, upText?: string, clickFunction: (isDown: boolean) => void, className?: string, muted?: boolean }) {
     const { siteSettings } = useSiteSettings();
 
-	const leftSelectSound = useSFX('/sfx/left-select.wav');
-	const rightSelectSound = useSFX('/sfx/right-select.wav');
+	const leftSelectSound = props.muted ? null : useSFX('/sfx/left-select.wav');
+	const rightSelectSound = props.muted ? null : useSFX('/sfx/right-select.wav');
 
     const handleClick = (isDown: boolean) => {
-        if(siteSettings.sfxVolume > 0 && !props.muted) {
+        if(siteSettings.sfxVolume > 0 && !props.muted && leftSelectSound && rightSelectSound) {
 			isDown ? leftSelectSound() : rightSelectSound();
 		}
         props.clickFunction(isDown);

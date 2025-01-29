@@ -1,11 +1,16 @@
 // Index Page for general navigation
 
+"use client";
+
 import SelectableMenuOption from "../components/SelectableMenuOption";
 import SiteOptions from "../components/SiteOptions";
 import MusicPlayer from "../components/MusicPlayer";
 import SlidableSiteOptions from "@/components/SlidableSiteOptions";
+import useSFX from "@/hooks/useSFX";
 
 export default function Home() {
+	const paperSound = useSFX('/sfx/paper-in.wav');
+
 	return (
 		<div className="relative 2xl:pl-10 flex justify-center items-center min-h-screen max-h-screen w-screen bg-main-menu-color sm:shadow-vignette-sm">
     		<MusicPlayer src='/music/main-menu.ogg' />
@@ -23,15 +28,15 @@ export default function Home() {
 					xl:gap-8 xl:text-4xl xl:h-[60%] \
 					2xl:h-[60%] 2xl:pl-10 2xl:gap-12 2xl:text-5xl"
 				>
-					<SelectableMenuOption action="/spindown">Spindown Calc</SelectableMenuOption>
-					<SelectableMenuOption action="/pandoras-box">Pandora's Box</SelectableMenuOption>
-					<SelectableMenuOption action="/birthright">Birthright</SelectableMenuOption>
-					<SelectableMenuOption action="/dice-rooms">Dice Rooms</SelectableMenuOption>
-					<SelectableMenuOption action="https://www.tboi.com/sacrifice-rooms" openInNewTab>Sacrifice Rewards</SelectableMenuOption>
-					<SelectableMenuOption action="https://www.tboi.com/transformations" openInNewTab>Transformations</SelectableMenuOption>
-					<SelectableMenuOption action="https://www.tboi.com/tarot-cloth" openInNewTab>Tarot Cloth</SelectableMenuOption>
-					<SelectableMenuOption action="https://www.tboi.com/bag-of-crafting/index.html" openInNewTab>Bag of Crafting</SelectableMenuOption>
-					<SelectableMenuOption action="https://isaacguru.com/" openInNewTab>Item Gallery</SelectableMenuOption>
+					<SelectableMenuOption action="/spindown" clickSound={paperSound}>Spindown Calc</SelectableMenuOption>
+					<SelectableMenuOption action="/pandoras-box" clickSound={paperSound}>Pandora's Box</SelectableMenuOption>
+					<SelectableMenuOption action="/birthright" clickSound={paperSound}>Birthright</SelectableMenuOption>
+					<SelectableMenuOption action="/dice-rooms" clickSound={paperSound}>Dice Rooms</SelectableMenuOption>
+					<SelectableMenuOption action="https://www.tboi.com/sacrifice-rooms" clickSound={paperSound} openInNewTab>Sacrifice Rewards</SelectableMenuOption>
+					<SelectableMenuOption action="https://www.tboi.com/transformations" clickSound={paperSound} openInNewTab>Transformations</SelectableMenuOption>
+					<SelectableMenuOption action="https://www.tboi.com/tarot-cloth" clickSound={paperSound} openInNewTab>Tarot Cloth</SelectableMenuOption>
+					<SelectableMenuOption action="https://www.tboi.com/bag-of-crafting/index.html" clickSound={paperSound} openInNewTab>Bag of Crafting</SelectableMenuOption>
+					<SelectableMenuOption action="https://isaacguru.com/" clickSound={paperSound} openInNewTab>Item Gallery</SelectableMenuOption>
 				</div>
 				<div className="flex justify-center items-center relative top-28 sm:top-0 min-h-[150px] sm:h-[50%] lg:h-[65%] w-full bg-daily-challenge-main-menu bg-center sm:bg-top bg-contain bg-no-repeat">
 				    <div 
@@ -44,7 +49,7 @@ export default function Home() {
 						xl:text-4xl xl:w-[75%] xl:top-[8vh] xl:left-8 \
 						2xl:w-[80%] 2xl:text-5xl 2xl:top-[10vh]"
 					>
-						<SelectableMenuOption action='info-and-credits' disableCursor>View Site Info and Credits</SelectableMenuOption>
+						<SelectableMenuOption action='info-and-credits' clickSound={paperSound} disableCursor>View Site Info and Credits</SelectableMenuOption>
 					</div>
 				</div>
 			</div>

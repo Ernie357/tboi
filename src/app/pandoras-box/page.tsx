@@ -189,7 +189,6 @@ export default function PandorasBox() {
 					className="[&>img]:w-[90%] hidden lg:flex z-[100] text-2xl w-[55vh] h-[90vh] absolute left-0"
 					title="Floors"
 			/>
-			<SlidableSiteOptions className="z-[100]"/>
 			<div 
 				className={`
 					flex flex-col items-center h-[75%] absolute top-[15vh]
@@ -229,6 +228,7 @@ export default function PandorasBox() {
 					</div>
 				</div>
 			</div>
+			<SlidableSiteOptions className="z-[100]"/>
 		</div>
 	);
 }

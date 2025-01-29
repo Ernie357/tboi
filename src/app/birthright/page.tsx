@@ -113,7 +113,6 @@ export default function Birthright() {
 				handleUpOrDown(false);
 			}
 		}} className="relative bg-black bg-center bg-no-repeat bg-contain min-h-screen min-w-screen flex justify-center items-center">
-			<SlidableSiteOptions />
 			<MusicPlayer />
 			<BackgroundVideo className="lg:left-[12vw]" />
 			<HomeLink />

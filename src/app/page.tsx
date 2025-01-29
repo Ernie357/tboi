@@ -16,17 +16,17 @@ export default function Home() {
     		<MusicPlayer src='/music/main-menu.ogg' />
 			<SlidableSiteOptions className="sm:hidden z-[100]" />
 			<div className="bg-logo bg-center sm:bg-left-top bg-no-repeat bg-cover w-[300px] h-40 absolute top-4 sm:left-4" />
-			<div className="gap-0 sm:gap-12 sm:flex items-center h-[60%] sm:h-[90vh] md:h-[50vh] lg:h-screen w-full bg-main-menu bg-center bg-cover sm:bg-contain bg-no-repeat shadow-none">
+			<div className="gap-0 sm:gap-12 flex flex-col sm:flex-row items-center justify-center h-[60%] sm:h-[90vh] md:h-[50vh] lg:h-screen w-full bg-main-menu bg-center bg-cover sm:bg-contain bg-no-repeat shadow-none">
 				<SiteOptions type="big" className="hidden sm:flex" />
 				<div className=
-					"text-center sm:text-left relative overflow-scroll rotate-[-5deg] flex flex-col items-center \
+					"text-center sm:text-left relative overflow-y-auto overflow-x-hidden rotate-[-5deg] flex flex-col items-center \
 					[&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] \
-					left-[20vw] top-[8vh] gap-4 w-[60vw] h-[40vh] text-xl pt-[2vh] \
-					sm:min-h-0 sm:left-0 sm:top-0 sm:pl-10 sm:w-full sm:h-[30%] sm:pt-1 sm:gap-4 sm:text-base \
-					md:pl-0 md:h-[60%] md:pt-0 md:gap-4 md:text-xl \
-					lg:pl-5 lg:h-[50%] lg:gap-6 lg:text-4xl \
+					top-[9vh] gap-4 w-[230px] h-[35vh] text-xl \
+					sm:min-h-0 sm:left-0 sm:top-0 sm:pl-10 sm:w-[80%] sm:h-[30%] sm:pt-1 sm:gap-4 sm:text-base \
+					md:pl-0 md:h-[60%] md:pt-0 md:gap-4 md:text-xl md:w-[700px] \
+					lg:h-[50%] lg:gap-6 lg:text-4xl lg:w-[80%] \
 					xl:gap-8 xl:text-4xl xl:h-[60%] \
-					2xl:h-[60%] 2xl:pl-10 2xl:gap-12 2xl:text-5xl"
+					2xl:h-[60%] 2xl:gap-12 2xl:text-5xl"
 				>
 					<SelectableMenuOption action="/spindown" clickSound={paperSound}>Spindown Calc</SelectableMenuOption>
 					<SelectableMenuOption action="/pandoras-box" clickSound={paperSound}>Pandora's Box</SelectableMenuOption>

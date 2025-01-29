@@ -19,15 +19,36 @@ import { useEffect, useMemo, useState } from "react";
 export default function Transformations() {
     const { siteSettings } = useSiteSettings();
 
-    const infoJSON: { [key: string]: { subtitle: string; description: string } } = {
-
+    const infoJSON: { [key: string]: { items: string[], description: string } } = {
+        "": { items: [''], description: '' },
+        "": { items: [''], description: '' },
+        "": { items: [''], description: '' },
+        "": { items: [''], description: '' },
+        "": { items: [''], description: '' },
+        "": { items: [''], description: '' },
+        "": { items: [''], description: '' },
+        "": { items: [''], description: '' },
+        "": { items: [''], description: '' },
+        "": { items: [''], description: '' },
+        "": { items: [''], description: '' },
+        "": { items: [''], description: '' },
+        "": { items: [''], description: '' },
+        "": { items: [''], description: '' },
+        "": { items: [''], description: '' },
+        "": { items: [''], description: '' },
+        "": { items: [''], description: '' },
+        "": { items: [''], description: '' },
+        "": { items: [''], description: '' },
+        "": { items: [''], description: '' },
+        "": { items: [''], description: '' },
+        "": { items: [''], description: '' },
     };
 
         const leftSelectSound = useSFX('/sfx/left-select.wav');
         const rightSelectSound = useSFX('/sfx/right-select.wav');
 
     const [selectIdx, setSelectIdx] = useState<number>(0);
-    const [info, setInfo] = useState<any>();
+    const [info, setInfo] = useState<{ name: string, items: string[], description: string }>({ name: 'Conjoined', items: [], description: 'Conjoined Descripton.' });
 
     const keys = useMemo(() => Object.keys(infoJSON), []);
 
@@ -46,7 +67,7 @@ export default function Transformations() {
         }
         setInfo({
             name: key,
-            subtitle: infoJSON[key].subtitle,
+            items: infoJSON[key].items,
             description: infoJSON[key].description
         });
     }, [selectIdx]);

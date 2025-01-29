@@ -100,8 +100,8 @@ export default function Birthright() {
 				clickFunction={handleUpOrDown} 
 				muted 
 				className={`
-					z-[100] absolute
-					bottom-[15vh] ml-0 gap-[20vw]
+					z-[100] absolute max-sm:[&>button]:min-w-[40vw] max-sm:[&>button]:h-[10vh]
+					bottom-[15vh] ml-0 gap-[5vw]
 					sm:bottom-[30vh] sm:ml-0 sm:gap-[20vw]
 					lg:bottom-[25vh] lg:ml-[25vw] lg:gap-[15vw]
 					xl:bottom-[20vh] xl:ml-0 xl:gap-[20vw] xl:ml-[25vw]
@@ -125,6 +125,7 @@ export default function Birthright() {
 					action={handleInfoChange} 
 					items={Object.keys(infoJSON)} 
 					className="[&>img]:w-full [&>img]:top-0 [&>img]:left-0 text-2xl w-full h-[90vh]"
+					selectedItem={info.name}
 				/>
 			</Slidable>
 			<Slidable
@@ -141,12 +142,14 @@ export default function Birthright() {
 					action={handleInfoChange} 
 					items={Object.keys(infoJSON)} 
 					className="[&>img]:w-full [&>img]:top-0 [&>img]:left-0 text-2xl w-full h-[90vh]"
+					selectedItem={info.name}
 				/>
 			</Slidable>
 			<LongList 
 					action={handleInfoChange} 
 					items={Object.keys(infoJSON)} 
 					className="[&>img]:w-[90%] hidden lg:flex z-[100] text-2xl w-[55vh] h-[90vh] absolute left-0"
+					selectedItem={info.name}
 					title="Characters"
 			/>
 			<SlidableSiteOptions className="z-[100]"/>
@@ -157,7 +160,7 @@ export default function Birthright() {
 				descriptionClassName="sm:text-[3.5vw] md:text-[2.5vw] lg:text-[2vw]"
 				className={`
 					relative [&>.info-text-container]:justify-start [&>.info-text-container]:h-[75%] [&>.info-text-container]:gap-0  
-					w-[75vw] h-[30vh] mb-[30vh]
+					w-[75vw] h-[23vh] mb-[30vh]
 					sm:w-[75vw] sm:h-[30vh]
 					md:w-[60vw] md:h-[30vh] md:mb-44
 					lg:w-[50vw] lg:ml-[25vw]

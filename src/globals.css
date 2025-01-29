@@ -21,4 +21,27 @@ button, a, select, option, .cursor-pointer {
   cursor: url("/images/misc/mouse-cursor.png") 20 10, auto;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ccbebb;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #372b2d;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 /* collectibles_467_finger.png */

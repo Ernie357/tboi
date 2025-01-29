@@ -20,7 +20,7 @@ export default function InfoPaper(props: { title?: string, description?: string,
                 alt="paper background" 
                 className="z-0 absolute w-full h-full" 
             />
-            <div className="info-text-container flex flex-col justify-center items-center gap-5 w-[90%] h-full z-10 text-center font-Menu overflow-scroll [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+            <div className="info-text-container flex flex-col justify-center items-center gap-5 w-[90%] h-full z-10 text-center font-Menu overflow-y-auto overflow-x-hidden">
                 {props.title && <p className={`${props.titleClassName || 'sm:text-[3.5vw] md:text-[2.5vw] lg:text-[2vw]'}`}><b><u>{props.title}</u></b></p>}
                 {props.description && <p className={`${props.descriptionClassName || 'sm:text-[3vw] md:text-[2vw] lg:text-[1.5vw]'}`}>{props.description}</p>}
             </div>

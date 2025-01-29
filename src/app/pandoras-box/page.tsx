@@ -121,8 +121,8 @@ export default function PandorasBox() {
 				clickFunction={handleUpOrDown} 
 				muted 
 				className={`
-					z-[100] absolute
-					bottom-[15vh] ml-0 gap-[20vw]
+					z-[100] absolute max-sm:[&>button]:min-w-[40vw] max-sm:[&>button]:h-[10vh]
+					bottom-[15vh] ml-0 gap-[5vw]
 					sm:bottom-[30vh] sm:ml-0 sm:gap-[20vw]
 					lg:bottom-[25vh] lg:ml-[25vw] lg:gap-[15vw]
 					xl:bottom-[20vh] 
@@ -145,6 +145,7 @@ export default function PandorasBox() {
 					action={handleInfoChange} 
 					items={Object.keys(relevantJSON.JSON)} 
 					className="[&>img]:w-full [&>img]:top-0 [&>img]:left-0 text-2xl w-full h-[90vh]"
+					selectedItem={info.floor}
 				/>
 			</Slidable>
 			<Slidable
@@ -161,6 +162,7 @@ export default function PandorasBox() {
 					action={handleInfoChange} 
 					items={Object.keys(relevantJSON.JSON)} 
 					className="[&>img]:w-full [&>img]:top-0 [&>img]:left-0 text-2xl w-full h-[90vh]"
+					selectedItem={info.floor}
 				/>
 			</Slidable>
 			<LongList 
@@ -168,6 +170,7 @@ export default function PandorasBox() {
 					items={Object.keys(relevantJSON.JSON)} 
 					className="[&>img]:w-[90%] hidden lg:flex z-[100] text-2xl w-[55vh] h-[90vh] absolute left-0"
 					title="Floors"
+					selectedItem={info.floor}
 			/>
 			<div 
 				className={`
@@ -192,7 +195,7 @@ export default function PandorasBox() {
 					title={info.floor} 
 					description={info.reward} 
 					className={`
-						relative w-[75vw] h-[30vh]
+						relative w-[75vw] h-[23vh]
 						sm:w-[75vw] sm:h-[30vh]
 						md:w-[60vw] md:h-[30vh] md:mb-32
 						lg:w-[50vw]

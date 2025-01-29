@@ -12,6 +12,8 @@ import SlidableSiteOptions from "@/components/SlidableSiteOptions";
 import UpAndDownButtons from "@/components/UpAndDownButtons";
 import useSiteSettings from "@/context/SiteSettings/useSiteSettings";
 import defaultPandoraInfo from "@/defaultObjects/defaultPandoraInfo";
+import defaultHandleInfoChange from "@/helpers/defaultHandleInfoChange";
+import defaultHandleUpOrDown from "@/helpers/defaultHandleUpOrDown";
 import useSFX from "@/hooks/useSFX";
 import { useEffect, useMemo, useState } from "react";
 
@@ -67,34 +69,11 @@ export default function PandorasBox() {
 	const keys = useMemo(() => Object.keys(relevantJSON.JSON), [relevantJSON]);
 
 	const handleUpOrDown = (isDown: boolean) => {
-		if(isDown) {
-			if(siteSettings.sfxVolume > 0) {
-				leftSelectSound();
-			}
-			if(selectIdx === 0) {
-				setSelectIdx(keys.length - 1);
-			} else {
-				setSelectIdx(prev => prev - 1);
-			}
-		} else {
-			if(siteSettings.sfxVolume > 0) {
-				rightSelectSound();
-			}
-			if(selectIdx === keys.length - 1) {
-				setSelectIdx(0);
-			} else {
-				setSelectIdx(prev => prev + 1);
-			}
-		}
+		defaultHandleUpOrDown(isDown, selectIdx, setSelectIdx, 0, keys.length - 1, siteSettings.sfxVolume, leftSelectSound, rightSelectSound);
 	}
 
 	const handleInfoChange = (item: string) => {
-		for(let idx = 0; idx < keys.length; idx++) {
-			if(keys[idx] === item) {
-				setSelectIdx(idx);
-				break;
-			}
-		}
+		defaultHandleInfoChange(item, keys, setSelectIdx);
 	}
 
 	const handleTypeChange = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -125,7 +104,7 @@ export default function PandorasBox() {
 			floor: floor,
 			reward: relevantJSON.JSON[floor]
 		});
-	}, [selectIdx]);
+	}, [selectIdx, relevantJSON]);
 
 	return (
 		<div tabIndex={0} onKeyDown={(event: any) => {

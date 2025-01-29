@@ -11,6 +11,8 @@ import Slidable from "@/components/Slidable";
 import SlidableSiteOptions from "@/components/SlidableSiteOptions";
 import UpAndDownButtons from "@/components/UpAndDownButtons";
 import useSiteSettings from "@/context/SiteSettings/useSiteSettings";
+import defaultHandleInfoChange from "@/helpers/defaultHandleInfoChange";
+import defaultHandleUpOrDown from "@/helpers/defaultHandleUpOrDown";
 import useSFX from "@/hooks/useSFX";
 import { useEffect, useMemo, useState } from "react";
 
@@ -53,7 +55,7 @@ export default function Birthright() {
 		"Tainted The Forgotten": { subtitle: "Recall", description: "Tainted Soul is given Recall, an unlimited-use active item, in their pocket active slot. When used, Recall pulls Tainted Forgotten into Tainted Soul's hands automatically from a distance, dealing damage to enemies as it travels." },
 		"Tainted Bethany": { subtitle: "Artifact", description: "Spawns four Lemegeton wisps of items with a quality of 3 or higher. These wisps are much larger and have much higher HP than normal wisps." },
 		"Tainted Jacob": { subtitle: "It's not yours", description: "Dark Esau splits into two. Both Esaus will always charge at the same time, and one will not charge if the other is not in position. Using Anima Sola chains both Dark Esaus at once and forces them together into one spot. Subsequent uses release each Dark Esau one at a time. Anima Sola's recharge time is reduced to 10 seconds, and chain duration is increased to 6.67 seconds." }
-	  };
+	};
 
 	const leftSelectSound = useSFX('/sfx/left-select.wav');
 	const rightSelectSound = useSFX('/sfx/right-select.wav');
@@ -64,34 +66,11 @@ export default function Birthright() {
 	const keys = useMemo(() => Object.keys(infoJSON), []);
 
 	const handleUpOrDown = (isDown: boolean) => {
-		if(isDown) {
-			if(siteSettings.sfxVolume > 0) {
-				leftSelectSound();
-			}
-			if(selectIdx === 0) {
-				setSelectIdx(keys.length - 1);
-			} else {
-				setSelectIdx(prev => prev - 1);
-			}
-		} else {
-			if(siteSettings.sfxVolume > 0) {
-				rightSelectSound();
-			}
-			if(selectIdx === keys.length - 1) {
-				setSelectIdx(0);
-			} else {
-				setSelectIdx(prev => prev + 1);
-			}
-		}
+		defaultHandleUpOrDown(isDown, selectIdx, setSelectIdx, 0, keys.length - 1, siteSettings.sfxVolume, leftSelectSound, rightSelectSound);
 	}
 
 	const handleInfoChange = (item: string) => {
-		for(let idx = 0; idx < keys.length; idx++) {
-			if(keys[idx] === item) {
-				setSelectIdx(idx);
-				break;
-			}
-		}
+		defaultHandleInfoChange(item, keys, setSelectIdx);
 	}
 
 	useEffect(() => {

@@ -5,14 +5,13 @@
 import BackgroundVideo from "@/components/BackgroundVideo";
 import HomeLink from "@/components/HomeLink";
 import InfoPaper from "@/components/InfoPaper";
-import LongList from "@/components/LongList";
 import MusicPlayer from "@/components/MusicPlayer";
-import Slidable from "@/components/Slidable";
 import SlidableSiteOptions from "@/components/SlidableSiteOptions";
 import UpAndDownButtons from "@/components/UpAndDownButtons";
 import useSiteSettings from "@/context/SiteSettings/useSiteSettings";
+import defaultHandleUpOrDown from "@/helpers/defaultHandleUpOrDown";
 import useSFX from "@/hooks/useSFX";
-import { useEffect, useMemo, useState } from "react";
+import { useState } from "react";
 
 export default function DiceRooms() {
 	const { siteSettings } = useSiteSettings();
@@ -30,7 +29,7 @@ export default function DiceRooms() {
         4: { name: "Dice Room 4", bg: "bg-dice-room-4", description: "Rerolls any item pedestals on the floor, like The D6 would. Does not reroll item pedestals in the Devil Room, Angel Room, Black Market, or Crawl Space." },
         5: { name: "Dice Room 5", bg: "bg-dice-room-5", description: "Rerolls and restarts the current floor, which is the same effect as Forget Me Now." },
         6: { name: "Dice Room 6", bg: "bg-dice-room-6", description: "Combines the effects of the 1-, 3-, and 4-pip rooms. (Rerolls all held items (including active), pickups, trinkets, and pedestal items like the D100.) Rerolls all held items for all characters in co-op." },
-      };
+    };
 
 	const leftSelectSound = useSFX('/sfx/left-select.wav');
 	const rightSelectSound = useSFX('/sfx/right-select.wav');
@@ -38,25 +37,7 @@ export default function DiceRooms() {
 	const [diceNumber, setDiceNumber] = useState<number>(1);
 
 	const handleUpOrDown = (isDown: boolean) => {
-		if(isDown) {
-			if(siteSettings.sfxVolume > 0) {
-				leftSelectSound();
-			}
-			if(diceNumber === 1) {
-				setDiceNumber(6);
-			} else {
-				setDiceNumber(prev => prev - 1);
-			}
-		} else {
-			if(siteSettings.sfxVolume > 0) {
-				rightSelectSound();
-			}
-			if(diceNumber === 6) {
-				setDiceNumber(1);
-			} else {
-				setDiceNumber(prev => prev + 1);
-			}
-		}
+        defaultHandleUpOrDown(isDown, diceNumber, setDiceNumber, 1, 6, siteSettings.sfxVolume, leftSelectSound, rightSelectSound);
 	}
 
     return (
@@ -82,12 +63,13 @@ export default function DiceRooms() {
             />
             <InfoPaper 
                 title={infoJSON[diceNumber].name}  
+                titleClassName="text-[7vw] sm:text-[8vw] md:text-[7vw] lg:text-[5vw] xl:text-[3vw]"
                 className={`
                     absolute top-0 left-0 w-[60vw] h-[14vh]
                     sm:w-[75vw] sm:h-[20vh]
                     md:w-[75vw] md:h-[20vh] 
                     lg:w-[50vw]
-                    2xl:w-[30vw] 2xl:h-[15vw] 2xl:top-auto 2xl:left-10
+                    2xl:w-[30vw] 2xl:h-[15vw] 2xl:top-10 2xl:left-10
                 `}
             />
             <InfoPaper 
@@ -97,7 +79,7 @@ export default function DiceRooms() {
                     sm:bottom-[10vw] sm:w-[75vw] sm:h-[30vh]
                     md:bottom-0 md:left-0 md:w-[60vw] md:h-[30vh]
                     lg:w-[50vw]
-                    2xl:w-[30vw] 2xl:h-[30vw] 2xl:bottom-auto 2xl:left-auto 2xl:right-10
+                    2xl:w-[30vw] 2xl:h-[20vw] 2xl:bottom-auto 2xl:top-96 2xl:left-10
                 `}
             />
             <SlidableSiteOptions className="z-[100]"/>

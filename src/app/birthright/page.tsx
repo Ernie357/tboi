@@ -117,10 +117,6 @@ export default function Birthright() {
 			/>
 			<SlidableSiteOptions className="z-[100]"/>
 			<InfoPaper 
-				title={info.name}
-				description={info.description}
-				titleClassName="sm:text-[4vw] md:text-[3vw] lg:text-[2.5vw]"
-				descriptionClassName="sm:text-[3.5vw] md:text-[2.5vw] lg:text-[2vw]"
 				className={`
 					relative [&>.info-text-container]:justify-start [&>.info-text-container]:h-[75%] [&>.info-text-container]:gap-0  
 					w-[75vw] h-[23vh] mb-[30vh]
@@ -130,7 +126,10 @@ export default function Birthright() {
 					xl:ml-[25vw]
 					2xl:h-[50vh] 2xl:ml-[25vw]
 				`}
-			/>
+			>
+				<p className={`sm:text-[4vw] md:text-[3vw] lg:text-[2.5vw]`}><b><u>{info.name}</u></b></p>
+				<p className={`sm:text-[3.5vw] md:text-[2.5vw] lg:text-[2vw]`}>{info.description}</p>
+			</InfoPaper>
 		</div>
 	);
 }

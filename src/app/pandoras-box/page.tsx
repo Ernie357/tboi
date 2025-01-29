@@ -153,15 +153,16 @@ export default function PandorasBox() {
 					</div>
 				</div>
 				<InfoPaper 
-					title={info.floor} 
-					description={info.reward} 
 					className={`
 						relative w-[75vw] h-[23vh]
 						sm:w-[75vw] sm:h-[30vh]
 						md:w-[60vw] md:h-[30vh] md:mb-32
 						lg:w-[50vw]
 					`}
-				/>
+				>
+					<p className={`sm:text-[3.5vw] md:text-[2.5vw] lg:text-[2vw]`}><b><u>{info.floor}</u></b></p>
+					<p className={`sm:text-[3vw] md:text-[2vw] lg:text-[1.5vw]`}>{info.reward}</p>
+				</InfoPaper>
 			</div>
 			<SlidableSiteOptions className="z-[100]"/>
 		</div>

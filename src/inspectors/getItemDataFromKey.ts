@@ -18,6 +18,18 @@ export default function(key: string, value: string, itemDataJSON: any): any {
                 return currentItem;
             }
         }
+        for(let idx = 0; idx < itemDataJSON.items.familiar.length; idx++) {
+            const currentItem = itemDataJSON.items.familiar[idx];
+            if(currentItem[key] === value) {
+                return currentItem;
+            }
+        }
+        for(let idx = 0; idx < itemDataJSON.items.trinket.length; idx++) {
+            const currentItem = itemDataJSON.items.trinket[idx];
+            if(currentItem[key] === value) {
+                return currentItem;
+            }
+        }
         return null;
     } catch(err) {
         return null;

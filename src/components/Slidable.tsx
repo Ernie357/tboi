@@ -17,6 +17,8 @@
            className - Optional string for additional tailwind classes.
     
     Notes: This component only currently supports "up" and "down" as directions.
+           ! IMPORTANT ! - Use className 'hide-before-slide' on any element that should be hidden
+                           before the slider has expanded, usually any kind of text.
 */
 
 "use client";

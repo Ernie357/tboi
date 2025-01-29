@@ -62,8 +62,6 @@ export default function DiceRooms() {
                 `}
             />
             <InfoPaper 
-                title={infoJSON[diceNumber].name}  
-                titleClassName="text-[7vw] sm:text-[8vw] md:text-[7vw] lg:text-[5vw] xl:text-[3vw]"
                 className={`
                     absolute top-0 left-0 w-[60vw] h-[14vh]
                     sm:w-[75vw] sm:h-[20vh]
@@ -71,9 +69,10 @@ export default function DiceRooms() {
                     lg:w-[50vw]
                     2xl:w-[30vw] 2xl:h-[15vw] 2xl:top-10 2xl:left-10
                 `}
-            />
+            >
+                <p className={`sm:text-[3.5vw] md:text-[2.5vw] lg:text-[2vw]`}><b><u>{infoJSON[diceNumber].name}</u></b></p>
+            </InfoPaper>
             <InfoPaper 
-                description={infoJSON[diceNumber].description}
                 className={`
                     absolute bottom-[100px] [&>.info-text-container]:h-[75%] [&>.info-text-container]:justify-start w-[75vw] h-[20vh]
                     sm:bottom-[10vw] sm:w-[75vw] sm:h-[30vh]
@@ -81,7 +80,9 @@ export default function DiceRooms() {
                     lg:w-[50vw]
                     2xl:w-[30vw] 2xl:h-[20vw] 2xl:bottom-auto 2xl:top-96 2xl:left-10
                 `}
-            />
+            >
+                <p className={`sm:text-[3vw] md:text-[2vw] lg:text-[1.5vw]`}>{infoJSON[diceNumber].description}</p>
+            </InfoPaper>
             <SlidableSiteOptions className="z-[100]"/>
         </div>
 	);

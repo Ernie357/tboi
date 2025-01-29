@@ -56,7 +56,7 @@ export default function LongList(props: { title?: string, items: string[], class
             />
             {props.title && 
                 <p 
-                    className="title absolute top-[5vh] text-[calc(100%+30px)] font-Menu"
+                    className={`title absolute top-[5vh] ${props.title.length > 12 ? 'text-[calc(100%+20px)]' : 'text-[calc(100%+30px)]'} font-Menu`}
                 >
                     <b><u>{props.title}</u></b>
                 </p>}

@@ -31,9 +31,9 @@ export default function Home() {
 					<SelectableMenuOption action="/spindown" clickSound={paperSound}>Spindown Calc</SelectableMenuOption>
 					<SelectableMenuOption action="/pandoras-box" clickSound={paperSound}>Pandora's Box</SelectableMenuOption>
 					<SelectableMenuOption action="/birthright" clickSound={paperSound}>Birthright</SelectableMenuOption>
+					<SelectableMenuOption action="/transformations" clickSound={paperSound}>Transformations</SelectableMenuOption>
 					<SelectableMenuOption action="/dice-rooms" clickSound={paperSound}>Dice Rooms</SelectableMenuOption>
 					<SelectableMenuOption action="https://www.tboi.com/sacrifice-rooms" clickSound={paperSound} openInNewTab>Sacrifice Rewards</SelectableMenuOption>
-					<SelectableMenuOption action="https://www.tboi.com/transformations" clickSound={paperSound} openInNewTab>Transformations</SelectableMenuOption>
 					<SelectableMenuOption action="https://www.tboi.com/tarot-cloth" clickSound={paperSound} openInNewTab>Tarot Cloth</SelectableMenuOption>
 					<SelectableMenuOption action="https://www.tboi.com/bag-of-crafting/index.html" clickSound={paperSound} openInNewTab>Bag of Crafting</SelectableMenuOption>
 					<SelectableMenuOption action="https://isaacguru.com/" clickSound={paperSound} openInNewTab>Item Gallery</SelectableMenuOption>

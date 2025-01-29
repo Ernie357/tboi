@@ -1,7 +1,7 @@
 // Page that allows for searching for items and spinning them down or up by ID, simulating the item Spindown Dice
 
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import FloatingItem from "../../components/FloatingItem";
 import ItemTitle from "../../components/ItemTitle";
 import Item from "../../types/item";
@@ -17,25 +17,21 @@ import UpAndDownButtons from "@/components/UpAndDownButtons";
 import useSiteSettings from "@/context/SiteSettings/useSiteSettings";
 import SlidableSiteOptions from "@/components/SlidableSiteOptions";
 import useSFX from "@/hooks/useSFX";
+import useFetch from "@/hooks/useFetch";
 
 export default function Spindown() {
 	const { siteSettings } = useSiteSettings();
 	
+	const itemDataJSON = useFetch('/data/items.json');
+	const itemMetaDataJSON = useFetch('/data/items.metadata.json');
+	const itemStringDataJSON = useFetch('/data/stringtable.json');
+
 	const missingItemIds = ["43", "61", "235", "587", "613", "620", "630", "648", "662", "666", "718"];
 
 	const leftSelectSound = useSFX('/sfx/left-select.wav');
 	const rightSelectSound = useSFX('/sfx/right-select.wav');
 
 	const [item, setItem] = useState<Item>(defaultItem);
-	const [itemDataJSON, setItemDataJSON] = useState<any>(null);
-	const [itemMetaDataJSON, setItemMetaDataJSON] = useState<any>(null);
-	const [itemStringDataJSON, setItemStringDataJSON] = useState<any>(null);
-	
-	useEffect(() => {
-		fetch('/data/items.json').then((res: Response) => res.json()).then((data: any) => setItemDataJSON(data));
-		fetch('/data/items.metadata.json').then((res: Response) => res.json()).then((data: any) => setItemMetaDataJSON(data));
-		fetch('/data/stringtable.json').then((res: Response) => res.json()).then((data: any) => setItemStringDataJSON(data));
-	}, []);
 
 	const handleSpin = (isDown: boolean) => {
 		if((+item.id <= 1 && isDown) || (+item.id >= 732 && !isDown)) { return; }

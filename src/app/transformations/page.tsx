@@ -12,6 +12,7 @@ import UpAndDownButtons from "@/components/UpAndDownButtons";
 import useSiteSettings from "@/context/SiteSettings/useSiteSettings";
 import defaultHandleInfoChange from "@/helpers/defaultHandleInfoChange";
 import defaultHandleUpOrDown from "@/helpers/defaultHandleUpOrDown";
+import useFetch from "@/hooks/useFetch";
 import useSFX from "@/hooks/useSFX";
 import getItemsFromTag from "@/inspectors/getItemsFromTag";
 import { useEffect, useMemo, useState } from "react";
@@ -42,9 +43,9 @@ export default function Transformations() {
 
     const [selectIdx, setSelectIdx] = useState<number>(0);
     const [info, setInfo] = useState<{ name: string, tag: string, description: string }>({ name: 'Guppy', tag: 'guppy', description: infoJSON['Guppy'].description });
-    const [itemDataJSON, setItemDataJSON] = useState<any>(null);
-    const [itemMetaDataJSON, setItemMetaDataJSON] = useState<any>(null);
-	const [itemStringDataJSON, setItemStringDataJSON] = useState<any>(null);
+    const itemDataJSON = useFetch('/data/items.json');
+    const itemMetaDataJSON = useFetch('/data/items.metadata.json');
+    const itemStringDataJSON = useFetch('/data/stringtable.json');
 
     const keys = useMemo(() => Object.keys(infoJSON), []);
 
@@ -55,12 +56,6 @@ export default function Transformations() {
     const handleInfoChange = (item: string) => {
         defaultHandleInfoChange(item, keys, setSelectIdx);
     }
-
-    useEffect(() => {
-		fetch('/data/items.json').then((res: Response) => res.json()).then((data: any) => setItemDataJSON(data));
-        fetch('/data/items.metadata.json').then((res: Response) => res.json()).then((data: any) => setItemMetaDataJSON(data));
-        fetch('/data/stringtable.json').then((res: Response) => res.json()).then((data: any) => setItemStringDataJSON(data));
-	}, []);
 
     useEffect(() => {
         const key = keys[selectIdx] ? keys[selectIdx] : keys[0];

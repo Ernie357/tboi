@@ -5,9 +5,8 @@
 import BackgroundVideo from "@/components/BackgroundVideo";
 import HomeLink from "@/components/HomeLink";
 import InfoPaper from "@/components/InfoPaper";
-import LongList from "@/components/LongList";
 import MusicPlayer from "@/components/MusicPlayer";
-import Slidable from "@/components/Slidable";
+import ResponsiveLongList from "@/components/ResponsiveLongList";
 import SlidableSiteOptions from "@/components/SlidableSiteOptions";
 import UpAndDownButtons from "@/components/UpAndDownButtons";
 import useSiteSettings from "@/context/SiteSettings/useSiteSettings";
@@ -128,49 +127,11 @@ export default function PandorasBox() {
 					xl:bottom-[20vh] 
 				`}
 			/>
-			<Slidable
-				direction="up" 
-				defaultHeightClassName="h-12" 
-				expandedHeightClassName="h-[90vh]"
+			<ResponsiveLongList 
 				title="Floors"
-				className={`
-					absolute left-0 bottom-0 w-full z-[100] [&>div>.title]:text-[4vw]
-					sm:w-[50vw]
-					hidden
-					sm:flex
-					lg:hidden
-				`}
-			>
-				<LongList 
-					action={handleInfoChange} 
-					items={Object.keys(relevantJSON.JSON)} 
-					className="[&>img]:w-full [&>img]:top-0 [&>img]:left-0 text-2xl w-full h-[90vh]"
-					selectedItem={info.floor}
-				/>
-			</Slidable>
-			<Slidable
-				direction="down" 
-				defaultHeightClassName="h-[50px]" 
-				expandedHeightClassName="h-[90vh]"
-				title="Floors"
-				className={`
-					absolute left-0 top-0 w-full z-[100] [&>div>.title]:text-[6vw]
-					sm:hidden
-				`}
-			>
-				<LongList 
-					action={handleInfoChange} 
-					items={Object.keys(relevantJSON.JSON)} 
-					className="[&>img]:w-full [&>img]:top-0 [&>img]:left-0 text-2xl w-full h-[90vh]"
-					selectedItem={info.floor}
-				/>
-			</Slidable>
-			<LongList 
-					action={handleInfoChange} 
-					items={Object.keys(relevantJSON.JSON)} 
-					className="[&>img]:w-[90%] hidden lg:flex z-[100] text-2xl w-[55vh] h-[90vh] absolute left-0"
-					title="Floors"
-					selectedItem={info.floor}
+				items={keys}
+				selectedItem={info.floor}
+				action={handleInfoChange}
 			/>
 			<div 
 				className={`

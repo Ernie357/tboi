@@ -54,7 +54,7 @@ export default function Slidable(props: { title?: string, defaultHeightClassName
             >
                 {props.title && <p className={`title font-Menu ${props.direction === 'down' && 'rotate-[180deg]'}`}><b>{props.title}</b></p>}
             </div>
-            <div className={`${props.direction === 'down' && 'slidable'}`}>
+            <div className={`${props.direction === 'down' && 'slidable'} ${!expanded && '[&_.hide-before-slide]:hidden'}`}>
                 {props.children}
             </div>
         </div>

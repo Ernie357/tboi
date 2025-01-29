@@ -7,6 +7,7 @@ import HomeLink from "@/components/HomeLink";
 import InfoPaper from "@/components/InfoPaper";
 import LongList from "@/components/LongList";
 import MusicPlayer from "@/components/MusicPlayer";
+import ResponsiveLongList from "@/components/ResponsiveLongList";
 import Slidable from "@/components/Slidable";
 import SlidableSiteOptions from "@/components/SlidableSiteOptions";
 import UpAndDownButtons from "@/components/UpAndDownButtons";
@@ -52,7 +53,7 @@ export default function Birthright() {
 		"Tainted Lilith": { subtitle: "Conjoined", description: "Familiars that normally follow Tainted Lilith will instead act like and stack on top of her Gello familiar, disappearing inside of her while she's not firing and swinging out when she attacks. The melee attack gains a flat +3 damage bonus per familiar (regardless of damage multipliers) and if those familiars can shoot, they do so along with the Gello familiar. The Gello familiar gains the properties of King Baby, causing attached familiars to automatically aim and shoot at enemies. Familiars like Jaw Bone or Holy Water still function, but they are bound to the Gello familiar rather than their normal means of movement." },
 		"Tainted Keeper": { subtitle: "Money money money", description: "Strongly attracts the coins dropped by killed enemies from a short distance. No effect on other coins." },
 		"Tainted Apollyon": { subtitle: "Torment", description: "Holding down the fire button causes Abyss locusts to continuously damage enemies instead of returning." },
-		"Tainted The Forgotten": { subtitle: "Recall", description: "Tainted Soul is given Recall, an unlimited-use active item, in their pocket active slot. When used, Recall pulls Tainted Forgotten into Tainted Soul's hands automatically from a distance, dealing damage to enemies as it travels." },
+		"Tainted Forgotten": { subtitle: "Recall", description: "Tainted Soul is given Recall, an unlimited-use active item, in their pocket active slot. When used, Recall pulls Tainted Forgotten into Tainted Soul's hands automatically from a distance, dealing damage to enemies as it travels." },
 		"Tainted Bethany": { subtitle: "Artifact", description: "Spawns four Lemegeton wisps of items with a quality of 3 or higher. These wisps are much larger and have much higher HP than normal wisps." },
 		"Tainted Jacob": { subtitle: "It's not yours", description: "Dark Esau splits into two. Both Esaus will always charge at the same time, and one will not charge if the other is not in position. Using Anima Sola chains both Dark Esaus at once and forces them together into one spot. Subsequent uses release each Dark Esau one at a time. Anima Sola's recharge time is reduced to 10 seconds, and chain duration is increased to 6.67 seconds." }
 	};
@@ -108,49 +109,11 @@ export default function Birthright() {
 					2xl:ml-[25vw]
 				`}
 			/>
-			<Slidable
-				direction="up" 
-				defaultHeightClassName="h-12" 
-				expandedHeightClassName="h-[90vh]"
+			<ResponsiveLongList 
 				title="Characters"
-				className={`
-					absolute left-0 bottom-0 w-full z-[100] [&>div>.title]:text-[4vw]
-					sm:w-[50vw]
-					hidden
-					sm:flex
-					lg:hidden
-				`}
-			>
-				<LongList 
-					action={handleInfoChange} 
-					items={Object.keys(infoJSON)} 
-					className="[&>img]:w-full [&>img]:top-0 [&>img]:left-0 text-2xl w-full h-[90vh]"
-					selectedItem={info.name}
-				/>
-			</Slidable>
-			<Slidable
-				direction="down" 
-				defaultHeightClassName="h-[50px]" 
-				expandedHeightClassName="h-[90vh]"
-				title="Characters"
-				className={`
-					absolute left-0 top-0 w-full z-[100] [&>div>.title]:text-[6vw]
-					sm:hidden
-				`}
-			>
-				<LongList 
-					action={handleInfoChange} 
-					items={Object.keys(infoJSON)} 
-					className="[&>img]:w-full [&>img]:top-0 [&>img]:left-0 text-2xl w-full h-[90vh]"
-					selectedItem={info.name}
-				/>
-			</Slidable>
-			<LongList 
-					action={handleInfoChange} 
-					items={Object.keys(infoJSON)} 
-					className="[&>img]:w-[90%] hidden lg:flex z-[100] text-2xl w-[55vh] h-[90vh] absolute left-0"
-					selectedItem={info.name}
-					title="Characters"
+				items={keys}
+				selectedItem={info.name}
+				action={handleInfoChange}
 			/>
 			<SlidableSiteOptions className="z-[100]"/>
 			<InfoPaper 

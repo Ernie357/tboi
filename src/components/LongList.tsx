@@ -20,8 +20,13 @@
 
 import useSFX from "@/hooks/useSFX";
 import SelectableMenuOption from "./SelectableMenuOption";
+import { useMemo } from "react";
 
 export default function LongList(props: { title?: string, items: string[], className?: string, selectedItem?: string, action: string | ((item: string) => void) }) {
+    // If the longest item's length exceeds this value, shrink all items to the shrink classname
+    const lengthToShrink = 25;
+    const shrinkClassName = '[&>*]:text-[0.7em]';
+
     const paperSound = useSFX('/sfx/paper-in.wav');
 
     const listElements = props.items.map((item: string) => {
@@ -38,6 +43,10 @@ export default function LongList(props: { title?: string, items: string[], class
         );
     });
 
+    const longestItem: string = useMemo(() => {
+        return props.items.reduce((longest: string, current: string) => current.length > longest.length ? current : longest, "");
+    }, []);
+
     return (
         <div className={`flex justify-center items-center ${props.className}`}>
             <img 
@@ -45,8 +54,22 @@ export default function LongList(props: { title?: string, items: string[], class
                 alt='paper background' 
                 className="z-0 absolute"
             />
-            {props.title && <p className="title absolute top-[5vh] text-[calc(100%+30px)] font-Menu"><b><u>{props.title}</u></b></p>}
-            <div className={`flex flex-col items-center gap-[10vw] sm:gap-[2vw] w-[70%] ${props.title ? 'h-[70%]' : 'h-[85%]'} z-10 overflow-y-auto overflow-x-hidden`}>
+            {props.title && 
+                <p 
+                    className="title absolute top-[5vh] text-[calc(100%+30px)] font-Menu"
+                >
+                    <b><u>{props.title}</u></b>
+                </p>}
+            <div 
+                className={`
+                    hide-before-slide 
+                    flex flex-col items-center gap-[10vw] sm:gap-[2vw] 
+                    w-[65%] pr-10 
+                    ${props.title ? 'h-[70%]' : 'h-[85%]'} 
+                    ${longestItem.length > lengthToShrink && shrinkClassName} 
+                    z-10 overflow-y-auto overflow-x-hidden
+                `}
+            >
                 {listElements}
             </div>
         </div>

@@ -49,7 +49,7 @@ export default function SelectableMenuOption(props: { children: string, action: 
                 rel={props.openInNewTab ? "noopener noreferrer" : ""} 
                 target={props.openInNewTab ? "_blank" : ""}
                 href={props.action} 
-                className="font-Menu text-ui w-full"
+                className={`font-Menu text-ui w-full`}
                 onMouseEnter={handleSelect}
                 onMouseLeave={handleSelect}
                 onClick={handleClick}
@@ -58,7 +58,7 @@ export default function SelectableMenuOption(props: { children: string, action: 
             </Link>
             :
             <button 
-                className="font-Menu text-ui w-full"
+                className={`font-Menu text-ui w-full`}
                 onMouseEnter={handleSelect}
                 onMouseLeave={handleSelect}
                 onClick={handleClick}

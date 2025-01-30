@@ -21,8 +21,10 @@ export default function InfoPaper(props: { children?: React.ReactNode, className
                 alt="paper background" 
                 className="z-0 absolute w-full h-full" 
             />
-            <div className="info-text-container flex flex-col justify-center items-center gap-5 w-[90%] h-full z-10 text-center font-Menu overflow-y-auto overflow-x-hidden">
-                {props.children}
+            <div className="info-text-container flex flex-col justify-center items-center gap-5 w-[90%] z-10 text-center font-Menu overflow-y-auto">
+                <div className="h-full w-full overflow-x-visible">
+                    {props.children}
+                </div>
             </div>
         </div>
     );

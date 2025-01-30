@@ -5,6 +5,7 @@
 import BackgroundVideo from "@/components/BackgroundVideo";
 import HomeLink from "@/components/HomeLink";
 import InfoPaper from "@/components/InfoPaper";
+import ItemImage from "@/components/ItemImage";
 import MusicPlayer from "@/components/MusicPlayer";
 import ResponsiveLongList from "@/components/ResponsiveLongList";
 import SlidableSiteOptions from "@/components/SlidableSiteOptions";
@@ -78,11 +79,17 @@ export default function Transformations() {
 
     const itemElements = itemsFromTag.map(item => {
         return (
-            <img 
-                src={`${item.name === "Kid's Drawing" ? '/images/trinkets/' : '/images/items/'}${item.imagePath}`}
-                alt={item.name}
-                key={item.id}
-                className="w-[100px]"
+            <ItemImage 
+                item={item} 
+                key={item.id} 
+                className={`
+                    [&>div]:text-[0.8rem] [&>div]:w-full [&>div]:top-[-50px] [&>div]:left-0
+                    sm:[&>div]:text-sm sm:[&>div]:w-[70%] sm:[&>div]:top-[-50px] sm:[&>div]:left-[10px]
+                    md:[&>div]:text-sm md:[&>div]:w-full md:[&>div]:top-[-50px] md:[&>div]:left-0
+                    lg:[&>div]:text-sm lg:[&>div]:w-full lg:[&>div]:top-[-50px] lg:[&>div]:left-0
+                    xl:[&>div]:text-sm xl:[&>div]:w-[70%] xl:[&>div]:top-[-50px] xl:[&>div]:left-0
+                    2xl:[&>div]:text-sm 2xl:[&>div]:w-[40%] 2xl:[&>div]:top-[50px] 2xl:[&>div]:left-[30px]
+                `}
             />
         );
     });
@@ -102,8 +109,8 @@ export default function Transformations() {
                 clickFunction={handleUpOrDown} 
                 muted 
                 className={`
-                    z-[100] absolute
-                    bottom-[15vh] ml-0 gap-[20vw]
+                    z-[100] absolute max-sm:[&>button]:min-w-[40vw] max-sm:[&>button]:h-[10vh]
+                    bottom-[15vh] ml-0 gap-[5vw]
                     sm:bottom-[30vh] sm:ml-0 sm:gap-[20vw]
                     lg:bottom-[25vh] lg:ml-[25vw] lg:gap-[15vw]
                     xl:bottom-[20vh] xl:ml-0 xl:gap-[20vw] xl:ml-[25vw]
@@ -129,7 +136,7 @@ export default function Transformations() {
                 `}
             >
                 <p className={`sm:text-[3.5vw] md:text-[2.5vw] lg:text-[2vw]`}><b><u>{info.name}</u></b></p>
-                <div className={`${'flex flex-wrap justify-center gap-10'}`}>
+                <div className={`${'flex flex-wrap justify-center gap-2 sm:gap-10'}`}>
                     {itemElements}
                 </div>
                 <p className={`sm:text-[3vw] md:text-[2vw] lg:text-[2vw]`}>{info.description}</p>
